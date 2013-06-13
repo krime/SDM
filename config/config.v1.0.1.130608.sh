@@ -54,15 +54,20 @@ function ptp_inst() {
     case ${OS} in
         ubuntu)
             installer='apt-get'
+            openmpi='openmpi-bin'
+            sshapp='openssh-{client,server}'
+            sudo apt-get install systemtap
             ;;
         centos|fedora|redhat)
             installer='yum'
+            openmpi='openmpi'
+            sshapp='openssh'
             ;;
         *)
             installer=
             ;;
     esac
-    soft=('git' 'ssh' 'sshd' 'gcc' 'mpicc' 'java')
+    soft=('git' 'ssh' 'sshd' 'gcc' 'g++' 'mpicc' 'java')
     for i in ${soft[*]}; do
         echo
         echo ${SEP}
@@ -70,21 +75,17 @@ function ptp_inst() {
         type $i &> /dev/null
         if [ $? -eq 1 ]; then
             case $i in
-                'git'|'gcc')
+                'git'|'gcc'|'g++')
                     echo You don"'"t have $i installed
                     sudo ${installer} install -y $i
                     ;;
-                'ssh')
+                'ssh'|'sshd')
                     echo You don"'"t have OpenSSH Client installed
-                    sudo ${installer} install -y openssh-client
-                    ;;
-                'sshd')
-                    echo You don"'"t have OpenSSH Server installed
-                    sudo ${installer} install -y openssh-server
+                    sudo ${installer} install -y ${sshapp}
                     ;;
                 'mpicc')
                     echo You don"'"t have MPI installed
-                    sudo ${installer} install -y openmpi
+                    sudo ${installer} install -y ${openmpi}
                     ;;
                 'java')
                     echo You don"'"t have Java Installed
@@ -118,6 +119,7 @@ function ptp_inst() {
                         *)
                             ;;
                     esac
+                    ;;
                 *)
                     echo I don"'"t know what is it, but you can try it
                     sudo ${installer} install $i
