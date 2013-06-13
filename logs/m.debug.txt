@@ -1,0 +1,302 @@
+Making install in libaif
+make[1]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libaif'
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-conv.o -MD -MP -MF .deps/libaif_a-conv.Tpo -c -o libaif_a-conv.o `test -f 'conv.c' || echo './'`conv.c
+conv.c: In function ‘ArrayToAIF’:
+conv.c:861:6: warning: variable ‘bsize’ set but not used [-Wunused-but-set-variable]
+conv.c: At top level:
+conv.c:435:1: warning: ‘ByteToHex’ defined but not used [-Wunused-function]
+mv -f .deps/libaif_a-conv.Tpo .deps/libaif_a-conv.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-cmp.o -MD -MP -MF .deps/libaif_a-cmp.Tpo -c -o libaif_a-cmp.o `test -f 'cmp.c' || echo './'`cmp.c
+mv -f .deps/libaif_a-cmp.Tpo .deps/libaif_a-cmp.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-print.o -MD -MP -MF .deps/libaif_a-print.Tpo -c -o libaif_a-print.o `test -f 'print.c' || echo './'`print.c
+mv -f .deps/libaif_a-print.Tpo .deps/libaif_a-print.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-error.o -MD -MP -MF .deps/libaif_a-error.Tpo -c -o libaif_a-error.o `test -f 'error.c' || echo './'`error.c
+mv -f .deps/libaif_a-error.Tpo .deps/libaif_a-error.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-io.o -MD -MP -MF .deps/libaif_a-io.Tpo -c -o libaif_a-io.o `test -f 'io.c' || echo './'`io.c
+mv -f .deps/libaif_a-io.Tpo .deps/libaif_a-io.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-aggregate.o -MD -MP -MF .deps/libaif_a-aggregate.Tpo -c -o libaif_a-aggregate.o `test -f 'aggregate.c' || echo './'`aggregate.c
+mv -f .deps/libaif_a-aggregate.Tpo .deps/libaif_a-aggregate.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libaif_a-util.o -MD -MP -MF .deps/libaif_a-util.Tpo -c -o libaif_a-util.o `test -f 'util.c' || echo './'`util.c
+mv -f .deps/libaif_a-util.Tpo .deps/libaif_a-util.Po
+rm -f libaif.a
+ar cru libaif.a libaif_a-aif.o libaif_a-calc.o  libaif_a-fds.o libaif_a-array.o  libaif_a-conv.o libaif_a-cmp.o  libaif_a-print.o libaif_a-error.o  libaif_a-io.o libaif_a-aggregate.o  libaif_a-util.o 
+ranlib libaif.a
+gcc -DHAVE_CONFIG_H -I.    -I.  -g -static -static-libgcc -Wall -MT testaif-testaif.o -MD -MP -MF .deps/testaif-testaif.Tpo -c -o testaif-testaif.o `test -f 'testaif.c' || echo './'`testaif.c
+mv -f .deps/testaif-testaif.Tpo .deps/testaif-testaif.Po
+gcc -I.  -g -static -static-libgcc -Wall -g   -o testaif.exe testaif-testaif.o libaif.a 
+make[2]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libaif'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libaif'
+make[1]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libaif'
+Making install in libmi
+make[1]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libmi'
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-CLICommand.o -MD -MP -MF .deps/libmi_a-CLICommand.Tpo -c -o libmi_a-CLICommand.o `test -f 'CLICommand.c' || echo './'`CLICommand.c
+mv -f .deps/libmi_a-CLICommand.Tpo .deps/libmi_a-CLICommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-CLIOutput.o -MD -MP -MF .deps/libmi_a-CLIOutput.Tpo -c -o libmi_a-CLIOutput.o `test -f 'CLIOutput.c' || echo './'`CLIOutput.c
+CLIOutput.c: In function ‘CLIGetGDBVersion’:
+CLIOutput.c:157:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+CLIOutput.c: In function ‘fix_type’:
+CLIOutput.c:192:2: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+CLIOutput.c:230:2: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+CLIOutput.c: In function ‘CLIGetInfoThreadsInfo’:
+CLIOutput.c:325:4: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+CLIOutput.c:330:3: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+mv -f .deps/libmi_a-CLIOutput.Tpo .deps/libmi_a-CLIOutput.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIArg.o -MD -MP -MF .deps/libmi_a-MIArg.Tpo -c -o libmi_a-MIArg.o `test -f 'MIArg.c' || echo './'`MIArg.c
+mv -f .deps/libmi_a-MIArg.Tpo .deps/libmi_a-MIArg.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIBreakpoint.o -MD -MP -MF .deps/libmi_a-MIBreakpoint.Tpo -c -o libmi_a-MIBreakpoint.o `test -f 'MIBreakpoint.c' || echo './'`MIBreakpoint.c
+mv -f .deps/libmi_a-MIBreakpoint.Tpo .deps/libmi_a-MIBreakpoint.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIBreakCommand.o -MD -MP -MF .deps/libmi_a-MIBreakCommand.Tpo -c -o libmi_a-MIBreakCommand.o `test -f 'MIBreakCommand.c' || echo './'`MIBreakCommand.c
+mv -f .deps/libmi_a-MIBreakCommand.Tpo .deps/libmi_a-MIBreakCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MICommand.o -MD -MP -MF .deps/libmi_a-MICommand.Tpo -c -o libmi_a-MICommand.o `test -f 'MICommand.c' || echo './'`MICommand.c
+mv -f .deps/libmi_a-MICommand.Tpo .deps/libmi_a-MICommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIError.o -MD -MP -MF .deps/libmi_a-MIError.Tpo -c -o libmi_a-MIError.o `test -f 'MIError.c' || echo './'`MIError.c
+mv -f .deps/libmi_a-MIError.Tpo .deps/libmi_a-MIError.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIEvent.o -MD -MP -MF .deps/libmi_a-MIEvent.Tpo -c -o libmi_a-MIEvent.o `test -f 'MIEvent.c' || echo './'`MIEvent.c
+mv -f .deps/libmi_a-MIEvent.Tpo .deps/libmi_a-MIEvent.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIExecCommand.o -MD -MP -MF .deps/libmi_a-MIExecCommand.Tpo -c -o libmi_a-MIExecCommand.o `test -f 'MIExecCommand.c' || echo './'`MIExecCommand.c
+mv -f .deps/libmi_a-MIExecCommand.Tpo .deps/libmi_a-MIExecCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIFrame.o -MD -MP -MF .deps/libmi_a-MIFrame.Tpo -c -o libmi_a-MIFrame.o `test -f 'MIFrame.c' || echo './'`MIFrame.c
+mv -f .deps/libmi_a-MIFrame.Tpo .deps/libmi_a-MIFrame.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIGDBCommand.o -MD -MP -MF .deps/libmi_a-MIGDBCommand.Tpo -c -o libmi_a-MIGDBCommand.o `test -f 'MIGDBCommand.c' || echo './'`MIGDBCommand.c
+mv -f .deps/libmi_a-MIGDBCommand.Tpo .deps/libmi_a-MIGDBCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIList.o -MD -MP -MF .deps/libmi_a-MIList.Tpo -c -o libmi_a-MIList.o `test -f 'MIList.c' || echo './'`MIList.c
+MIList.c: In function ‘MIListRemoveFirst’:
+MIList.c:206:18: warning: variable ‘ep’ set but not used [-Wunused-but-set-variable]
+mv -f .deps/libmi_a-MIList.Tpo .deps/libmi_a-MIList.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIMemory.o -MD -MP -MF .deps/libmi_a-MIMemory.Tpo -c -o libmi_a-MIMemory.o `test -f 'MIMemory.c' || echo './'`MIMemory.c
+mv -f .deps/libmi_a-MIMemory.Tpo .deps/libmi_a-MIMemory.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIMemoryCommand.o -MD -MP -MF .deps/libmi_a-MIMemoryCommand.Tpo -c -o libmi_a-MIMemoryCommand.o `test -f 'MIMemoryCommand.c' || echo './'`MIMemoryCommand.c
+mv -f .deps/libmi_a-MIMemoryCommand.Tpo .deps/libmi_a-MIMemoryCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIOOBRecord.o -MD -MP -MF .deps/libmi_a-MIOOBRecord.Tpo -c -o libmi_a-MIOOBRecord.o `test -f 'MIOOBRecord.c' || echo './'`MIOOBRecord.c
+mv -f .deps/libmi_a-MIOOBRecord.Tpo .deps/libmi_a-MIOOBRecord.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIOutput.o -MD -MP -MF .deps/libmi_a-MIOutput.Tpo -c -o libmi_a-MIOutput.o `test -f 'MIOutput.c' || echo './'`MIOutput.c
+mv -f .deps/libmi_a-MIOutput.Tpo .deps/libmi_a-MIOutput.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIParser.o -MD -MP -MF .deps/libmi_a-MIParser.Tpo -c -o libmi_a-MIParser.o `test -f 'MIParser.c' || echo './'`MIParser.c
+MIParser.c: In function ‘MIParse’:
+MIParser.c:146:3: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+MIParser.c: In function ‘processMIResult’:
+MIParser.c:308:2: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+mv -f .deps/libmi_a-MIParser.Tpo .deps/libmi_a-MIParser.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIPty.o -MD -MP -MF .deps/libmi_a-MIPty.Tpo -c -o libmi_a-MIPty.o `test -f 'MIPty.c' || echo './'`MIPty.c
+mv -f .deps/libmi_a-MIPty.Tpo .deps/libmi_a-MIPty.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIResult.o -MD -MP -MF .deps/libmi_a-MIResult.Tpo -c -o libmi_a-MIResult.o `test -f 'MIResult.c' || echo './'`MIResult.c
+mv -f .deps/libmi_a-MIResult.Tpo .deps/libmi_a-MIResult.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIResultRecord.o -MD -MP -MF .deps/libmi_a-MIResultRecord.Tpo -c -o libmi_a-MIResultRecord.o `test -f 'MIResultRecord.c' || echo './'`MIResultRecord.c
+mv -f .deps/libmi_a-MIResultRecord.Tpo .deps/libmi_a-MIResultRecord.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MISession.o -MD -MP -MF .deps/libmi_a-MISession.Tpo -c -o libmi_a-MISession.o `test -f 'MISession.c' || echo './'`MISession.c
+mv -f .deps/libmi_a-MISession.Tpo .deps/libmi_a-MISession.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MISignalInfo.o -MD -MP -MF .deps/libmi_a-MISignalInfo.Tpo -c -o libmi_a-MISignalInfo.o `test -f 'MISignalInfo.c' || echo './'`MISignalInfo.c
+mv -f .deps/libmi_a-MISignalInfo.Tpo .deps/libmi_a-MISignalInfo.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIStackCommand.o -MD -MP -MF .deps/libmi_a-MIStackCommand.Tpo -c -o libmi_a-MIStackCommand.o `test -f 'MIStackCommand.c' || echo './'`MIStackCommand.c
+mv -f .deps/libmi_a-MIStackCommand.Tpo .deps/libmi_a-MIStackCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIString.o -MD -MP -MF .deps/libmi_a-MIString.Tpo -c -o libmi_a-MIString.o `test -f 'MIString.c' || echo './'`MIString.c
+mv -f .deps/libmi_a-MIString.Tpo .deps/libmi_a-MIString.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIThread.o -MD -MP -MF .deps/libmi_a-MIThread.Tpo -c -o libmi_a-MIThread.o `test -f 'MIThread.c' || echo './'`MIThread.c
+mv -f .deps/libmi_a-MIThread.Tpo .deps/libmi_a-MIThread.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIThreadCommand.o -MD -MP -MF .deps/libmi_a-MIThreadCommand.Tpo -c -o libmi_a-MIThreadCommand.o `test -f 'MIThreadCommand.c' || echo './'`MIThreadCommand.c
+mv -f .deps/libmi_a-MIThreadCommand.Tpo .deps/libmi_a-MIThreadCommand.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIDisassembly.o -MD -MP -MF .deps/libmi_a-MIDisassembly.Tpo -c -o libmi_a-MIDisassembly.o `test -f 'MIDisassembly.c' || echo './'`MIDisassembly.c
+mv -f .deps/libmi_a-MIDisassembly.Tpo .deps/libmi_a-MIDisassembly.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIValue.o -MD -MP -MF .deps/libmi_a-MIValue.Tpo -c -o libmi_a-MIValue.o `test -f 'MIValue.c' || echo './'`MIValue.c
+mv -f .deps/libmi_a-MIValue.Tpo .deps/libmi_a-MIValue.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIVar.o -MD -MP -MF .deps/libmi_a-MIVar.Tpo -c -o libmi_a-MIVar.o `test -f 'MIVar.c' || echo './'`MIVar.c
+mv -f .deps/libmi_a-MIVar.Tpo .deps/libmi_a-MIVar.Po
+gcc -DHAVE_CONFIG_H -I.      -static -static-libgcc -Wall -MT libmi_a-MIVarCommand.o -MD -MP -MF .deps/libmi_a-MIVarCommand.Tpo -c -o libmi_a-MIVarCommand.o `test -f 'MIVarCommand.c' || echo './'`MIVarCommand.c
+mv -f .deps/libmi_a-MIVarCommand.Tpo .deps/libmi_a-MIVarCommand.Po
+rm -f libmi.a
+ar cru libmi.a libmi_a-CLICommand.o  libmi_a-CLIOutput.o libmi_a-MIArg.o  libmi_a-MIBreakpoint.o  libmi_a-MIBreakCommand.o libmi_a-MICommand.o  libmi_a-MIError.o libmi_a-MIEvent.o  libmi_a-MIExecCommand.o libmi_a-MIFrame.o  libmi_a-MIGDBCommand.o libmi_a-MIList.o  libmi_a-MIMemory.o libmi_a-MIMemoryCommand.o  libmi_a-MIOOBRecord.o libmi_a-MIOutput.o  libmi_a-MIParser.o libmi_a-MIPty.o  libmi_a-MIResult.o libmi_a-MIResultRecord.o  libmi_a-MISession.o libmi_a-MISignalInfo.o  libmi_a-MIStackCommand.o libmi_a-MIString.o  libmi_a-MIThread.o libmi_a-MIThreadCommand.o  libmi_a-MIDisassembly.o libmi_a-MIValue.o  libmi_a-MIVar.o libmi_a-MIVarCommand.o 
+ranlib libmi.a
+gcc -DHAVE_CONFIG_H -I.     -g -static -static-libgcc -Wall -MT test_mi-test_mi.o -MD -MP -MF .deps/test_mi-test_mi.Tpo -c -o test_mi-test_mi.o `test -f 'test_mi.c' || echo './'`test_mi.c
+mv -f .deps/test_mi-test_mi.Tpo .deps/test_mi-test_mi.Po
+gcc  -g -static -static-libgcc -Wall -g   -o test_mi.exe test_mi-test_mi.o libmi.a 
+make[2]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libmi'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libmi'
+make[1]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/libmi'
+make[1]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232'
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm.Tpo -c -o src/impl/libsdm_a-sdm.o `test -f 'src/impl/sdm.c' || echo './'`src/impl/sdm.c
+mv -f src/impl/.deps/libsdm_a-sdm.Tpo src/impl/.deps/libsdm_a-sdm.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_aggregate_hash.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_aggregate_hash.Tpo -c -o src/impl/libsdm_a-sdm_aggregate_hash.o `test -f 'src/impl/sdm_aggregate_hash.c' || echo './'`src/impl/sdm_aggregate_hash.c
+src/impl/sdm_aggregate_hash.c:373:1: warning: ‘disable_timer’ defined but not used [-Wunused-function]
+mv -f src/impl/.deps/libsdm_a-sdm_aggregate_hash.Tpo src/impl/.deps/libsdm_a-sdm_aggregate_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_hello_proto.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_hello_proto.Tpo -c -o src/impl/libsdm_a-sdm_hello_proto.o `test -f 'src/impl/sdm_hello_proto.c' || echo './'`src/impl/sdm_hello_proto.c
+mv -f src/impl/.deps/libsdm_a-sdm_hello_proto.Tpo src/impl/.deps/libsdm_a-sdm_hello_proto.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_message_tcpip.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_message_tcpip.Tpo -c -o src/impl/libsdm_a-sdm_message_tcpip.o `test -f 'src/impl/sdm_message_tcpip.c' || echo './'`src/impl/sdm_message_tcpip.c
+src/impl/sdm_message_tcpip.c: In function ‘sdm_parent_port_bind’:
+src/impl/sdm_message_tcpip.c:232:39: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+/usr/include/sys/socket.h:30:7: note: expected ‘socklen_t *’ but argument is of type ‘unsigned int *’
+mv -f src/impl/.deps/libsdm_a-sdm_message_tcpip.Tpo src/impl/.deps/libsdm_a-sdm_message_tcpip.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_route_tree.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_route_tree.Tpo -c -o src/impl/libsdm_a-sdm_route_tree.o `test -f 'src/impl/sdm_route_tree.c' || echo './'`src/impl/sdm_route_tree.c
+mv -f src/impl/.deps/libsdm_a-sdm_route_tree.Tpo src/impl/.deps/libsdm_a-sdm_route_tree.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_routing_table_file.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_routing_table_file.Tpo -c -o src/impl/libsdm_a-sdm_routing_table_file.o `test -f 'src/impl/sdm_routing_table_file.c' || echo './'`src/impl/sdm_routing_table_file.c
+src/impl/sdm_routing_table_file.c:33:15: warning: ‘NumRankVars’ defined but not used [-Wunused-variable]
+mv -f src/impl/.deps/libsdm_a-sdm_routing_table_file.Tpo src/impl/.deps/libsdm_a-sdm_routing_table_file.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_set_bitset.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_set_bitset.Tpo -c -o src/impl/libsdm_a-sdm_set_bitset.o `test -f 'src/impl/sdm_set_bitset.c' || echo './'`src/impl/sdm_set_bitset.c
+mv -f src/impl/.deps/libsdm_a-sdm_set_bitset.Tpo src/impl/.deps/libsdm_a-sdm_set_bitset.Po
+rm -f libsdm.a
+ar cru libsdm.a src/impl/libsdm_a-sdm.o  src/impl/libsdm_a-sdm_aggregate_hash.o  src/impl/libsdm_a-sdm_hello_proto.o  src/impl/libsdm_a-sdm_message_tcpip.o  src/impl/libsdm_a-sdm_route_tree.o  src/impl/libsdm_a-sdm_routing_table_file.o  src/impl/libsdm_a-sdm_set_bitset.o 
+ranlib libsdm.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/client/libdbgclnt_a-client_interface.o -MD -MP -MF src/client/.deps/libdbgclnt_a-client_interface.Tpo -c -o src/client/libdbgclnt_a-client_interface.o `test -f 'src/client/client_interface.c' || echo './'`src/client/client_interface.c
+src/client/client_interface.c: In function ‘DbgListStackframes’:
+src/client/client_interface.c:400:9: warning: variable ‘res’ set but not used [-Wunused-but-set-variable]
+mv -f src/client/.deps/libdbgclnt_a-client_interface.Tpo src/client/.deps/libdbgclnt_a-client_interface.Po
+rm -f libdbgclnt.a
+ar cru libdbgclnt.a src/client/libdbgclnt_a-client_interface.o 
+ranlib libdbgclnt.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-error.o -MD -MP -MF src/utils/.deps/libdbgutils_a-error.Tpo -c -o src/utils/libdbgutils_a-error.o `test -f 'src/utils/error.c' || echo './'`src/utils/error.c
+mv -f src/utils/.deps/libdbgutils_a-error.Tpo src/utils/.deps/libdbgutils_a-error.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-breakpoint.o -MD -MP -MF src/utils/.deps/libdbgutils_a-breakpoint.Tpo -c -o src/utils/libdbgutils_a-breakpoint.o `test -f 'src/utils/breakpoint.c' || echo './'`src/utils/breakpoint.c
+mv -f src/utils/.deps/libdbgutils_a-breakpoint.Tpo src/utils/.deps/libdbgutils_a-breakpoint.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-bpmap.o -MD -MP -MF src/utils/.deps/libdbgutils_a-bpmap.Tpo -c -o src/utils/libdbgutils_a-bpmap.o `test -f 'src/utils/bpmap.c' || echo './'`src/utils/bpmap.c
+mv -f src/utils/.deps/libdbgutils_a-bpmap.Tpo src/utils/.deps/libdbgutils_a-bpmap.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-threadmap.o -MD -MP -MF src/utils/.deps/libdbgutils_a-threadmap.Tpo -c -o src/utils/libdbgutils_a-threadmap.o `test -f 'src/utils/threadmap.c' || echo './'`src/utils/threadmap.c
+mv -f src/utils/.deps/libdbgutils_a-threadmap.Tpo src/utils/.deps/libdbgutils_a-threadmap.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-stackframe.o -MD -MP -MF src/utils/.deps/libdbgutils_a-stackframe.Tpo -c -o src/utils/libdbgutils_a-stackframe.o `test -f 'src/utils/stackframe.c' || echo './'`src/utils/stackframe.c
+mv -f src/utils/.deps/libdbgutils_a-stackframe.Tpo src/utils/.deps/libdbgutils_a-stackframe.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-signal_info.o -MD -MP -MF src/utils/.deps/libdbgutils_a-signal_info.Tpo -c -o src/utils/libdbgutils_a-signal_info.o `test -f 'src/utils/signal_info.c' || echo './'`src/utils/signal_info.c
+mv -f src/utils/.deps/libdbgutils_a-signal_info.Tpo src/utils/.deps/libdbgutils_a-signal_info.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-event.o -MD -MP -MF src/utils/.deps/libdbgutils_a-event.Tpo -c -o src/utils/libdbgutils_a-event.o `test -f 'src/utils/event.c' || echo './'`src/utils/event.c
+mv -f src/utils/.deps/libdbgutils_a-event.Tpo src/utils/.deps/libdbgutils_a-event.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-itimer.o -MD -MP -MF src/utils/.deps/libdbgutils_a-itimer.Tpo -c -o src/utils/libdbgutils_a-itimer.o `test -f 'src/utils/itimer.c' || echo './'`src/utils/itimer.c
+mv -f src/utils/.deps/libdbgutils_a-itimer.Tpo src/utils/.deps/libdbgutils_a-itimer.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-memoryinfo.o -MD -MP -MF src/utils/.deps/libdbgutils_a-memoryinfo.Tpo -c -o src/utils/libdbgutils_a-memoryinfo.o `test -f 'src/utils/memoryinfo.c' || echo './'`src/utils/memoryinfo.c
+mv -f src/utils/.deps/libdbgutils_a-memoryinfo.Tpo src/utils/.deps/libdbgutils_a-memoryinfo.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-disassembly.o -MD -MP -MF src/utils/.deps/libdbgutils_a-disassembly.Tpo -c -o src/utils/libdbgutils_a-disassembly.o `test -f 'src/utils/disassembly.c' || echo './'`src/utils/disassembly.c
+mv -f src/utils/.deps/libdbgutils_a-disassembly.Tpo src/utils/.deps/libdbgutils_a-disassembly.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-debug.o -MD -MP -MF src/utils/.deps/libdbgutils_a-debug.Tpo -c -o src/utils/libdbgutils_a-debug.o `test -f 'src/utils/debug.c' || echo './'`src/utils/debug.c
+mv -f src/utils/.deps/libdbgutils_a-debug.Tpo src/utils/.deps/libdbgutils_a-debug.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-gdb_aif.o -MD -MP -MF src/utils/.deps/libdbgutils_a-gdb_aif.Tpo -c -o src/utils/libdbgutils_a-gdb_aif.o `test -f 'src/utils/gdb_aif.c' || echo './'`src/utils/gdb_aif.c
+mv -f src/utils/.deps/libdbgutils_a-gdb_aif.Tpo src/utils/.deps/libdbgutils_a-gdb_aif.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-gdb_mi.o -MD -MP -MF src/utils/.deps/libdbgutils_a-gdb_mi.Tpo -c -o src/utils/libdbgutils_a-gdb_mi.o `test -f 'src/utils/gdb_mi.c' || echo './'`src/utils/gdb_mi.c
+src/utils/gdb_mi.c: In function ‘FixReferenceType’:
+src/utils/gdb_mi.c:64:3: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+mv -f src/utils/.deps/libdbgutils_a-gdb_mi.Tpo src/utils/.deps/libdbgutils_a-gdb_mi.Po
+rm -f libdbgutils.a
+ar cru libdbgutils.a src/utils/libdbgutils_a-error.o  src/utils/libdbgutils_a-breakpoint.o  src/utils/libdbgutils_a-bpmap.o  src/utils/libdbgutils_a-threadmap.o  src/utils/libdbgutils_a-stackframe.o  src/utils/libdbgutils_a-signal_info.o  src/utils/libdbgutils_a-event.o  src/utils/libdbgutils_a-itimer.o  src/utils/libdbgutils_a-memoryinfo.o  src/utils/libdbgutils_a-disassembly.o  src/utils/libdbgutils_a-debug.o  src/utils/libdbgutils_a-gdb_aif.o  src/utils/libdbgutils_a-gdb_mi.o 
+ranlib libdbgutils.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_gdbmi_backend.o -MD -MP -MF src/x10/.deps/libx10_a-x10_gdbmi_backend.Tpo -c -o src/x10/libx10_a-x10_gdbmi_backend.o `test -f 'src/x10/x10_gdbmi_backend.c' || echo './'`src/x10/x10_gdbmi_backend.c
+src/x10/x10_gdbmi_backend.c: In function ‘ProcessX10Maps’:
+src/x10/x10_gdbmi_backend.c:223:8: warning: variable ‘tmp’ set but not used [-Wunused-but-set-variable]
+src/x10/x10_gdbmi_backend.c: In function ‘X10GetStackframes’:
+src/x10/x10_gdbmi_backend.c:1122:10: warning: variable ‘file’ set but not used [-Wunused-but-set-variable]
+mv -f src/x10/.deps/libx10_a-x10_gdbmi_backend.Tpo src/x10/.deps/libx10_a-x10_gdbmi_backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_aif.o -MD -MP -MF src/x10/.deps/libx10_a-x10_aif.Tpo -c -o src/x10/libx10_a-x10_aif.o `test -f 'src/x10/x10_aif.c' || echo './'`src/x10/x10_aif.c
+mv -f src/x10/.deps/libx10_a-x10_aif.Tpo src/x10/.deps/libx10_a-x10_aif.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_da.o -MD -MP -MF src/x10/.deps/libx10_a-x10_da.Tpo -c -o src/x10/libx10_a-x10_da.o `test -f 'src/x10/x10_da.c' || echo './'`src/x10/x10_da.c
+mv -f src/x10/.deps/libx10_a-x10_da.Tpo src/x10/.deps/libx10_a-x10_da.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_var.o -MD -MP -MF src/x10/.deps/libx10_a-x10_var.Tpo -c -o src/x10/libx10_a-x10_var.o `test -f 'src/x10/x10_var.c' || echo './'`src/x10/x10_var.c
+mv -f src/x10/.deps/libx10_a-x10_var.Tpo src/x10/.deps/libx10_a-x10_var.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_variable.o -MD -MP -MF src/x10/.deps/libx10_a-x10_variable.Tpo -c -o src/x10/libx10_a-x10_variable.o `test -f 'src/x10/x10_variable.c' || echo './'`src/x10/x10_variable.c
+mv -f src/x10/.deps/libx10_a-x10_variable.Tpo src/x10/.deps/libx10_a-x10_variable.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_metadebug_info_map.o -MD -MP -MF src/x10/.deps/libx10_a-x10_metadebug_info_map.Tpo -c -o src/x10/libx10_a-x10_metadebug_info_map.o `test -f 'src/x10/x10_metadebug_info_map.c' || echo './'`src/x10/x10_metadebug_info_map.c
+mv -f src/x10/.deps/libx10_a-x10_metadebug_info_map.Tpo src/x10/.deps/libx10_a-x10_metadebug_info_map.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_variable_util.o -MD -MP -MF src/x10/.deps/libx10_a-x10_variable_util.Tpo -c -o src/x10/libx10_a-x10_variable_util.o `test -f 'src/x10/x10_variable_util.c' || echo './'`src/x10/x10_variable_util.c
+mv -f src/x10/.deps/libx10_a-x10_variable_util.Tpo src/x10/.deps/libx10_a-x10_variable_util.Po
+rm -f libx10.a
+ar cru libx10.a src/x10/libx10_a-x10_gdbmi_backend.o  src/x10/libx10_a-x10_aif.o  src/x10/libx10_a-x10_da.o  src/x10/libx10_a-x10_var.o  src/x10/libx10_a-x10_variable.o  src/x10/libx10_a-x10_metadebug_info_map.o  src/x10/libx10_a-x10_variable_util.o 
+ranlib libx10.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-startup.o -MD -MP -MF src/master/.deps/sdm-startup.Tpo -c -o src/master/sdm-startup.o `test -f 'src/master/startup.c' || echo './'`src/master/startup.c
+mv -f src/master/.deps/sdm-startup.Tpo src/master/.deps/sdm-startup.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-master.o -MD -MP -MF src/master/.deps/sdm-master.Tpo -c -o src/master/sdm-master.o `test -f 'src/master/master.c' || echo './'`src/master/master.c
+mv -f src/master/.deps/sdm-master.Tpo src/master/.deps/sdm-master.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-master_cmds.o -MD -MP -MF src/master/.deps/sdm-master_cmds.Tpo -c -o src/master/sdm-master_cmds.o `test -f 'src/master/master_cmds.c' || echo './'`src/master/master_cmds.c
+mv -f src/master/.deps/sdm-master_cmds.Tpo src/master/.deps/sdm-master_cmds.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-server.o -MD -MP -MF src/server/.deps/sdm-server.Tpo -c -o src/server/sdm-server.o `test -f 'src/server/server.c' || echo './'`src/server/server.c
+mv -f src/server/.deps/sdm-server.Tpo src/server/.deps/sdm-server.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-server_cmds.o -MD -MP -MF src/server/.deps/sdm-server_cmds.Tpo -c -o src/server/sdm-server_cmds.o `test -f 'src/server/server_cmds.c' || echo './'`src/server/server_cmds.c
+mv -f src/server/.deps/sdm-server_cmds.Tpo src/server/.deps/sdm-server_cmds.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-backend.o -MD -MP -MF src/server/.deps/sdm-backend.Tpo -c -o src/server/sdm-backend.o `test -f 'src/server/backend.c' || echo './'`src/server/backend.c
+mv -f src/server/.deps/sdm-backend.Tpo src/server/.deps/sdm-backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-gdbmi_backend.o -MD -MP -MF src/server/.deps/sdm-gdbmi_backend.Tpo -c -o src/server/sdm-gdbmi_backend.o `test -f 'src/server/gdbmi_backend.c' || echo './'`src/server/gdbmi_backend.c
+mv -f src/server/.deps/sdm-gdbmi_backend.Tpo src/server/.deps/sdm-gdbmi_backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-test_backend.o -MD -MP -MF src/server/.deps/sdm-test_backend.Tpo -c -o src/server/sdm-test_backend.o `test -f 'src/server/test_backend.c' || echo './'`src/server/test_backend.c
+mv -f src/server/.deps/sdm-test_backend.Tpo src/server/.deps/sdm-test_backend.Po
+gcc -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include   -o  sdm.exe src/master/sdm-startup.o  src/master/sdm-master.o  src/master/sdm-master_cmds.o  src/server/sdm-server.o  src/server/sdm-server_cmds.o  src/server/sdm-backend.o  src/server/sdm-gdbmi_backend.o  src/server/sdm-test_backend.o libsdm.a libx10.a libdbgutils.a libmi/libmi.a libaif/libaif.a libmi/libmi.a  -lproxysvr -lutils  -L../org.eclipse.ptp.utils_7.0.0.201303252232 -L../org.eclipse.ptp.proxy_7.0.0.201303252232
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/test/sdm_test-sdm_test.o -MD -MP -MF src/test/.deps/sdm_test-sdm_test.Tpo -c -o src/test/sdm_test-sdm_test.o `test -f 'src/test/sdm_test.c' || echo './'`src/test/sdm_test.c
+mv -f src/test/.deps/sdm_test-sdm_test.Tpo src/test/.deps/sdm_test-sdm_test.Po
+gcc -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include  -g  -o sdm_test.exe src/test/sdm_test-sdm_test.o libdbgclnt.a libsdm.a libdbgutils.a libaif/libaif.a libmi/libmi.a  -lproxyclnt -lutils  -L../org.eclipse.ptp.utils_7.0.0.201303252232 -L../org.eclipse.ptp.proxy_7.0.0.201303252232
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232/missing --run autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+make[2]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232'
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-startup.o -MD -MP -MF src/master/.deps/sdm-startup.Tpo -c -o src/master/sdm-startup.o `test -f 'src/master/startup.c' || echo './'`src/master/startup.c
+mv -f src/master/.deps/sdm-startup.Tpo src/master/.deps/sdm-startup.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-master.o -MD -MP -MF src/master/.deps/sdm-master.Tpo -c -o src/master/sdm-master.o `test -f 'src/master/master.c' || echo './'`src/master/master.c
+mv -f src/master/.deps/sdm-master.Tpo src/master/.deps/sdm-master.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/master/sdm-master_cmds.o -MD -MP -MF src/master/.deps/sdm-master_cmds.Tpo -c -o src/master/sdm-master_cmds.o `test -f 'src/master/master_cmds.c' || echo './'`src/master/master_cmds.c
+mv -f src/master/.deps/sdm-master_cmds.Tpo src/master/.deps/sdm-master_cmds.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-server.o -MD -MP -MF src/server/.deps/sdm-server.Tpo -c -o src/server/sdm-server.o `test -f 'src/server/server.c' || echo './'`src/server/server.c
+mv -f src/server/.deps/sdm-server.Tpo src/server/.deps/sdm-server.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-server_cmds.o -MD -MP -MF src/server/.deps/sdm-server_cmds.Tpo -c -o src/server/sdm-server_cmds.o `test -f 'src/server/server_cmds.c' || echo './'`src/server/server_cmds.c
+mv -f src/server/.deps/sdm-server_cmds.Tpo src/server/.deps/sdm-server_cmds.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-backend.o -MD -MP -MF src/server/.deps/sdm-backend.Tpo -c -o src/server/sdm-backend.o `test -f 'src/server/backend.c' || echo './'`src/server/backend.c
+mv -f src/server/.deps/sdm-backend.Tpo src/server/.deps/sdm-backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-gdbmi_backend.o -MD -MP -MF src/server/.deps/sdm-gdbmi_backend.Tpo -c -o src/server/sdm-gdbmi_backend.o `test -f 'src/server/gdbmi_backend.c' || echo './'`src/server/gdbmi_backend.c
+mv -f src/server/.deps/sdm-gdbmi_backend.Tpo src/server/.deps/sdm-gdbmi_backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/server/sdm-test_backend.o -MD -MP -MF src/server/.deps/sdm-test_backend.Tpo -c -o src/server/sdm-test_backend.o `test -f 'src/server/test_backend.c' || echo './'`src/server/test_backend.c
+mv -f src/server/.deps/sdm-test_backend.Tpo src/server/.deps/sdm-test_backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm.Tpo -c -o src/impl/libsdm_a-sdm.o `test -f 'src/impl/sdm.c' || echo './'`src/impl/sdm.c
+mv -f src/impl/.deps/libsdm_a-sdm.Tpo src/impl/.deps/libsdm_a-sdm.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_aggregate_hash.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_aggregate_hash.Tpo -c -o src/impl/libsdm_a-sdm_aggregate_hash.o `test -f 'src/impl/sdm_aggregate_hash.c' || echo './'`src/impl/sdm_aggregate_hash.c
+src/impl/sdm_aggregate_hash.c:373:1: warning: ‘disable_timer’ defined but not used [-Wunused-function]
+mv -f src/impl/.deps/libsdm_a-sdm_aggregate_hash.Tpo src/impl/.deps/libsdm_a-sdm_aggregate_hash.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_message_tcpip.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_message_tcpip.Tpo -c -o src/impl/libsdm_a-sdm_message_tcpip.o `test -f 'src/impl/sdm_message_tcpip.c' || echo './'`src/impl/sdm_message_tcpip.c
+src/impl/sdm_message_tcpip.c: In function ‘sdm_parent_port_bind’:
+src/impl/sdm_message_tcpip.c:232:39: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness [-Wpointer-sign]
+/usr/include/sys/socket.h:30:7: note: expected ‘socklen_t *’ but argument is of type ‘unsigned int *’
+mv -f src/impl/.deps/libsdm_a-sdm_message_tcpip.Tpo src/impl/.deps/libsdm_a-sdm_message_tcpip.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_route_tree.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_route_tree.Tpo -c -o src/impl/libsdm_a-sdm_route_tree.o `test -f 'src/impl/sdm_route_tree.c' || echo './'`src/impl/sdm_route_tree.c
+mv -f src/impl/.deps/libsdm_a-sdm_route_tree.Tpo src/impl/.deps/libsdm_a-sdm_route_tree.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_routing_table_file.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_routing_table_file.Tpo -c -o src/impl/libsdm_a-sdm_routing_table_file.o `test -f 'src/impl/sdm_routing_table_file.c' || echo './'`src/impl/sdm_routing_table_file.c
+src/impl/sdm_routing_table_file.c:33:15: warning: ‘NumRankVars’ defined but not used [-Wunused-variable]
+mv -f src/impl/.deps/libsdm_a-sdm_routing_table_file.Tpo src/impl/.deps/libsdm_a-sdm_routing_table_file.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/impl/libsdm_a-sdm_set_bitset.o -MD -MP -MF src/impl/.deps/libsdm_a-sdm_set_bitset.Tpo -c -o src/impl/libsdm_a-sdm_set_bitset.o `test -f 'src/impl/sdm_set_bitset.c' || echo './'`src/impl/sdm_set_bitset.c
+mv -f src/impl/.deps/libsdm_a-sdm_set_bitset.Tpo src/impl/.deps/libsdm_a-sdm_set_bitset.Po
+rm -f libsdm.a
+ar cru libsdm.a src/impl/libsdm_a-sdm.o  src/impl/libsdm_a-sdm_aggregate_hash.o  src/impl/libsdm_a-sdm_hello_proto.o  src/impl/libsdm_a-sdm_message_tcpip.o  src/impl/libsdm_a-sdm_route_tree.o  src/impl/libsdm_a-sdm_routing_table_file.o  src/impl/libsdm_a-sdm_set_bitset.o 
+ranlib libsdm.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_gdbmi_backend.o -MD -MP -MF src/x10/.deps/libx10_a-x10_gdbmi_backend.Tpo -c -o src/x10/libx10_a-x10_gdbmi_backend.o `test -f 'src/x10/x10_gdbmi_backend.c' || echo './'`src/x10/x10_gdbmi_backend.c
+src/x10/x10_gdbmi_backend.c: In function ‘ProcessX10Maps’:
+src/x10/x10_gdbmi_backend.c:223:8: warning: variable ‘tmp’ set but not used [-Wunused-but-set-variable]
+src/x10/x10_gdbmi_backend.c: In function ‘X10GetStackframes’:
+src/x10/x10_gdbmi_backend.c:1122:10: warning: variable ‘file’ set but not used [-Wunused-but-set-variable]
+mv -f src/x10/.deps/libx10_a-x10_gdbmi_backend.Tpo src/x10/.deps/libx10_a-x10_gdbmi_backend.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_aif.o -MD -MP -MF src/x10/.deps/libx10_a-x10_aif.Tpo -c -o src/x10/libx10_a-x10_aif.o `test -f 'src/x10/x10_aif.c' || echo './'`src/x10/x10_aif.c
+mv -f src/x10/.deps/libx10_a-x10_aif.Tpo src/x10/.deps/libx10_a-x10_aif.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_var.o -MD -MP -MF src/x10/.deps/libx10_a-x10_var.Tpo -c -o src/x10/libx10_a-x10_var.o `test -f 'src/x10/x10_var.c' || echo './'`src/x10/x10_var.c
+mv -f src/x10/.deps/libx10_a-x10_var.Tpo src/x10/.deps/libx10_a-x10_var.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_variable.o -MD -MP -MF src/x10/.deps/libx10_a-x10_variable.Tpo -c -o src/x10/libx10_a-x10_variable.o `test -f 'src/x10/x10_variable.c' || echo './'`src/x10/x10_variable.c
+mv -f src/x10/.deps/libx10_a-x10_variable.Tpo src/x10/.deps/libx10_a-x10_variable.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_metadebug_info_map.o -MD -MP -MF src/x10/.deps/libx10_a-x10_metadebug_info_map.Tpo -c -o src/x10/libx10_a-x10_metadebug_info_map.o `test -f 'src/x10/x10_metadebug_info_map.c' || echo './'`src/x10/x10_metadebug_info_map.c
+mv -f src/x10/.deps/libx10_a-x10_metadebug_info_map.Tpo src/x10/.deps/libx10_a-x10_metadebug_info_map.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/x10/libx10_a-x10_variable_util.o -MD -MP -MF src/x10/.deps/libx10_a-x10_variable_util.Tpo -c -o src/x10/libx10_a-x10_variable_util.o `test -f 'src/x10/x10_variable_util.c' || echo './'`src/x10/x10_variable_util.c
+mv -f src/x10/.deps/libx10_a-x10_variable_util.Tpo src/x10/.deps/libx10_a-x10_variable_util.Po
+rm -f libx10.a
+ar cru libx10.a src/x10/libx10_a-x10_gdbmi_backend.o  src/x10/libx10_a-x10_aif.o  src/x10/libx10_a-x10_da.o  src/x10/libx10_a-x10_var.o  src/x10/libx10_a-x10_variable.o  src/x10/libx10_a-x10_metadebug_info_map.o  src/x10/libx10_a-x10_variable_util.o 
+ranlib libx10.a
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-bpmap.o -MD -MP -MF src/utils/.deps/libdbgutils_a-bpmap.Tpo -c -o src/utils/libdbgutils_a-bpmap.o `test -f 'src/utils/bpmap.c' || echo './'`src/utils/bpmap.c
+mv -f src/utils/.deps/libdbgutils_a-bpmap.Tpo src/utils/.deps/libdbgutils_a-bpmap.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-threadmap.o -MD -MP -MF src/utils/.deps/libdbgutils_a-threadmap.Tpo -c -o src/utils/libdbgutils_a-threadmap.o `test -f 'src/utils/threadmap.c' || echo './'`src/utils/threadmap.c
+mv -f src/utils/.deps/libdbgutils_a-threadmap.Tpo src/utils/.deps/libdbgutils_a-threadmap.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-debug.o -MD -MP -MF src/utils/.deps/libdbgutils_a-debug.Tpo -c -o src/utils/libdbgutils_a-debug.o `test -f 'src/utils/debug.c' || echo './'`src/utils/debug.c
+mv -f src/utils/.deps/libdbgutils_a-debug.Tpo src/utils/.deps/libdbgutils_a-debug.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-gdb_aif.o -MD -MP -MF src/utils/.deps/libdbgutils_a-gdb_aif.Tpo -c -o src/utils/libdbgutils_a-gdb_aif.o `test -f 'src/utils/gdb_aif.c' || echo './'`src/utils/gdb_aif.c
+mv -f src/utils/.deps/libdbgutils_a-gdb_aif.Tpo src/utils/.deps/libdbgutils_a-gdb_aif.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include -I./libaif -I./libmi  -g -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include -MT src/utils/libdbgutils_a-gdb_mi.o -MD -MP -MF src/utils/.deps/libdbgutils_a-gdb_mi.Tpo -c -o src/utils/libdbgutils_a-gdb_mi.o `test -f 'src/utils/gdb_mi.c' || echo './'`src/utils/gdb_mi.c
+src/utils/gdb_mi.c: In function ‘FixReferenceType’:
+src/utils/gdb_mi.c:64:3: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+mv -f src/utils/.deps/libdbgutils_a-gdb_mi.Tpo src/utils/.deps/libdbgutils_a-gdb_mi.Po
+rm -f libdbgutils.a
+ar cru libdbgutils.a src/utils/libdbgutils_a-error.o  src/utils/libdbgutils_a-breakpoint.o  src/utils/libdbgutils_a-bpmap.o  src/utils/libdbgutils_a-threadmap.o  src/utils/libdbgutils_a-stackframe.o  src/utils/libdbgutils_a-signal_info.o  src/utils/libdbgutils_a-event.o  src/utils/libdbgutils_a-itimer.o  src/utils/libdbgutils_a-memoryinfo.o  src/utils/libdbgutils_a-disassembly.o  src/utils/libdbgutils_a-debug.o  src/utils/libdbgutils_a-gdb_aif.o  src/utils/libdbgutils_a-gdb_mi.o 
+ranlib libdbgutils.a
+gcc -I./include -I./libaif -I./libmi  -static -static-libgcc -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -I../org.eclipse.ptp.proxy_7.0.0.201303252232/include   -o  sdm.exe src/master/sdm-startup.o  src/master/sdm-master.o  src/master/sdm-master_cmds.o  src/server/sdm-server.o  src/server/sdm-server_cmds.o  src/server/sdm-backend.o  src/server/sdm-gdbmi_backend.o  src/server/sdm-test_backend.o libsdm.a libx10.a libdbgutils.a libmi/libmi.a libaif/libaif.a libmi/libmi.a  -lproxysvr -lutils  -L../org.eclipse.ptp.utils_7.0.0.201303252232 -L../org.eclipse.ptp.proxy_7.0.0.201303252232
+ /usr/bin/mkdir -p '/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/bin'
+  /usr/bin/install -c sdm.exe '/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/bin'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232'
+make[1]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.debug.sdm_7.0.0.201303252232'

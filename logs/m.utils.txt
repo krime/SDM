@@ -1,0 +1,16 @@
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g  -g -O2 -Wall -MT libutils_a-compat.o -MD -MP -MF .deps/libutils_a-compat.Tpo -c -o libutils_a-compat.o `test -f 'src/compat.c' || echo './'`src/compat.c
+mv -f .deps/libutils_a-compat.Tpo .deps/libutils_a-compat.Po
+rm -f libutils.a
+ar cru libutils.a libutils_a-bitset.o  libutils_a-args.o libutils_a-list.o  libutils_a-hash.o libutils_a-handler.o  libutils_a-compat.o libutils_a-rangeset.o  libutils_a-serdes.o libutils_a-varint.o  libutils_a-varstr.o 
+ranlib libutils.a
+gcc -I./include  -g -g -O2 -Wall  -g  -o bitset_test.exe bitset_test-bitset_test.o libutils.a 
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -MT args_test-args_test.o -MD -MP -MF .deps/args_test-args_test.Tpo -c -o args_test-args_test.o `test -f 'src/args_test.c' || echo './'`src/args_test.c
+mv -f .deps/args_test-args_test.Tpo .deps/args_test-args_test.Po
+gcc -I./include  -g -g -O2 -Wall  -g  -o args_test.exe args_test-args_test.o libutils.a 
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -MT rangeset_test-rangeset_test.o -MD -MP -MF .deps/rangeset_test-rangeset_test.Tpo -c -o rangeset_test-rangeset_test.o `test -f 'src/rangeset_test.c' || echo './'`src/rangeset_test.c
+mv -f .deps/rangeset_test-rangeset_test.Tpo .deps/rangeset_test-rangeset_test.Po
+gcc -I./include  -g -g -O2 -Wall  -g  -o rangeset_test.exe rangeset_test-rangeset_test.o libutils.a 
+make[1]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.utils_7.0.0.201303252232'
+make[1]: Nothing to be done for `install-exec-am'.
+make[1]: Nothing to be done for `install-data-am'.
+make[1]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.utils_7.0.0.201303252232'

@@ -1,0 +1,7 @@
+./include/compat.h
+./libutils.a
+./libutils_a-bitset.o
+./libutils_a-serdes.o
+./src/bitset.c
+./src/compat.c
+./src/serdes.c

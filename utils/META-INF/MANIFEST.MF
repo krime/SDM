@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %pluginProvider
+Bundle-Version: 7.0.0.201306051712
+Built-By: hudsonBuild
+Build-Jdk: 1.6.0_21
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven
+Bundle-SymbolicName: org.eclipse.ptp.utils
+Archiver-Version: Plexus Archiver
+

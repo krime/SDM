@@ -1,0 +1,37 @@
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_svr.o -MD -MP -MF .deps/libproxysvr_a-proxy_svr.Tpo -c -o libproxysvr_a-proxy_svr.o `test -f 'src/proxy_svr.c' || echo './'`src/proxy_svr.c
+mv -f .deps/libproxysvr_a-proxy_svr.Tpo .deps/libproxysvr_a-proxy_svr.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_stdio.o -MD -MP -MF .deps/libproxysvr_a-proxy_stdio.Tpo -c -o libproxysvr_a-proxy_stdio.o `test -f 'src/proxy_stdio.c' || echo './'`src/proxy_stdio.c
+mv -f .deps/libproxysvr_a-proxy_stdio.Tpo .deps/libproxysvr_a-proxy_stdio.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_stdio_svr.o -MD -MP -MF .deps/libproxysvr_a-proxy_stdio_svr.Tpo -c -o libproxysvr_a-proxy_stdio_svr.o `test -f 'src/proxy_stdio_svr.c' || echo './'`src/proxy_stdio_svr.c
+src/proxy_stdio_svr.c: In function ‘proxy_stdio_svr_event_callback’:
+src/proxy_stdio_svr.c:78:2: warning: passing argument 2 of ‘proxy_serialize_msg’ from incompatible pointer type [enabled by default]
+./include/proxy_msg.h:55:15: note: expected ‘unsigned char **’ but argument is of type ‘char **’
+src/proxy_stdio_svr.c: In function ‘proxy_stdio_svr_dispatch’:
+src/proxy_stdio_svr.c:257:2: warning: pointer targets in passing argument 1 of ‘proxy_deserialize_msg’ differ in signedness [-Wpointer-sign]
+./include/proxy_msg.h:54:15: note: expected ‘unsigned char *’ but argument is of type ‘char *’
+mv -f .deps/libproxysvr_a-proxy_stdio_svr.Tpo .deps/libproxysvr_a-proxy_stdio_svr.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_tcp.o -MD -MP -MF .deps/libproxysvr_a-proxy_tcp.Tpo -c -o libproxysvr_a-proxy_tcp.o `test -f 'src/proxy_tcp.c' || echo './'`src/proxy_tcp.c
+mv -f .deps/libproxysvr_a-proxy_tcp.Tpo .deps/libproxysvr_a-proxy_tcp.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_tcp_svr.o -MD -MP -MF .deps/libproxysvr_a-proxy_tcp_svr.Tpo -c -o libproxysvr_a-proxy_tcp_svr.o `test -f 'src/proxy_tcp_svr.c' || echo './'`src/proxy_tcp_svr.c
+mv -f .deps/libproxysvr_a-proxy_tcp_svr.Tpo .deps/libproxysvr_a-proxy_tcp_svr.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_msg.o -MD -MP -MF .deps/libproxysvr_a-proxy_msg.Tpo -c -o libproxysvr_a-proxy_msg.o `test -f 'src/proxy_msg.c' || echo './'`src/proxy_msg.c
+./include/compression.h:31:14: warning: ‘error_strings’ defined but not used [-Wunused-variable]
+mv -f .deps/libproxysvr_a-proxy_msg.Tpo .deps/libproxysvr_a-proxy_msg.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-proxy_event.o -MD -MP -MF .deps/libproxysvr_a-proxy_event.Tpo -c -o libproxysvr_a-proxy_event.o `test -f 'src/proxy_event.c' || echo './'`src/proxy_event.c
+mv -f .deps/libproxysvr_a-proxy_event.Tpo .deps/libproxysvr_a-proxy_event.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-compression.o -MD -MP -MF .deps/libproxysvr_a-compression.Tpo -c -o libproxysvr_a-compression.o `test -f 'src/compression.c' || echo './'`src/compression.c
+src/compression.c:152:13: warning: ‘pack_byte_bits’ defined but not used [-Wunused-function]
+mv -f .deps/libproxysvr_a-compression.Tpo .deps/libproxysvr_a-compression.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-huffman_byte_encoder.o -MD -MP -MF .deps/libproxysvr_a-huffman_byte_encoder.Tpo -c -o libproxysvr_a-huffman_byte_encoder.o `test -f 'src/huffman_byte_encoder.c' || echo './'`src/huffman_byte_encoder.c
+./include/compression.h:31:14: warning: ‘error_strings’ defined but not used [-Wunused-variable]
+mv -f .deps/libproxysvr_a-huffman_byte_encoder.Tpo .deps/libproxysvr_a-huffman_byte_encoder.Po
+gcc -DHAVE_CONFIG_H -I.    -I./include  -g -g -O2 -Wall -I../org.eclipse.ptp.utils_7.0.0.201303252232/include -MT libproxysvr_a-huffman_coder.o -MD -MP -MF .deps/libproxysvr_a-huffman_coder.Tpo -c -o libproxysvr_a-huffman_coder.o `test -f 'src/huffman_coder.c' || echo './'`src/huffman_coder.c
+./include/compression.h:31:14: warning: ‘error_strings’ defined but not used [-Wunused-variable]
+mv -f .deps/libproxysvr_a-huffman_coder.Tpo .deps/libproxysvr_a-huffman_coder.Po
+rm -f libproxysvr.a
+ar cru libproxysvr.a libproxysvr_a-proxy.o  libproxysvr_a-proxy_attr.o  libproxysvr_a-proxy_svr.o  libproxysvr_a-proxy_stdio.o  libproxysvr_a-proxy_stdio_svr.o  libproxysvr_a-proxy_tcp.o  libproxysvr_a-proxy_tcp_svr.o  libproxysvr_a-proxy_msg.o  libproxysvr_a-proxy_event.o  libproxysvr_a-compression.o  libproxysvr_a-huffman_byte_encoder.o  libproxysvr_a-huffman_coder.o 
+ranlib libproxysvr.a
+make[1]: Entering directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.proxy_7.0.0.201303252232'
+make[1]: Nothing to be done for `install-exec-am'.
+make[1]: Nothing to be done for `install-data-am'.
+make[1]: Leaving directory `/cygdrive/c/Users/Krime/Desktop/Krime/Home/Temp/sdm/org.eclipse.ptp.proxy_7.0.0.201303252232'
