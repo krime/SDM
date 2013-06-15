@@ -91,9 +91,9 @@ function ptp_inst() {
                     echo You don"'"t have Java Installed
                     case ${OS} in
                         ubuntu)
-                            sudo add-apt-repository ppa:webupd8team/java
+                            sudo add-apt-repository -y ppa:webupd8team/java
                             sudo apt-get update
-                            sudo apt-get install oracle-java7-installer
+                            sudo apt-get install -y oracle-java7-installer
                             ;;
                         centos|fedora|redhat)
                             ## JDK 64-bit ##
@@ -122,22 +122,22 @@ function ptp_inst() {
                     ;;
                 *)
                     echo I don"'"t know what is it, but you can try it
-                    sudo ${installer} install $i
+                    sudo ${installer} install -y $i
                     ;;
             esac
         else
             if [ $i = 'java' ]; then
                 jdk=`java -version |& grep -qi OpenJDK && echo false`
                 if [ $jdk = 'false' ]; then
-                    sudo apt-get purge openjdk*
+                    sudo apt-get purge -y openjdk*
                     sudo rm /var/lib/dpkg/info/oracle-java7-installer*
-                    sudo apt-get purge oracle-java7-installer*
+                    sudo apt-get purge -y oracle-java7-installer*
                     sudo rm /etc/apt/sources.list.d/*java*
                     sudo apt-get update
 
-                    sudo add-apt-repository ppa:webupd8team/java
+                    sudo add-apt-repository -y ppa:webupd8team/java
                     sudo apt-get update
-                    sudo apt-get install oracle-java7-installer
+                    sudo apt-get install -y oracle-java7-installer
                 fi
             fi
             echo You have installed $i already! >& 2
