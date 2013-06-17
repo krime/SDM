@@ -128,17 +128,44 @@ function ptp_inst() {
         else
             if [ $i = 'java' ]; then
                 jdk=`java -version |& grep -qi OpenJDK && echo false`
-                if [ $jdk = 'false' ]; then
-                    sudo apt-get purge -y openjdk*
-                    sudo rm /var/lib/dpkg/info/oracle-java7-installer*
-                    sudo apt-get purge -y oracle-java7-installer*
-                    sudo rm /etc/apt/sources.list.d/*java*
-                    sudo apt-get update
+                case ${OS} in
+                    ubuntu)
+                        if [ $jdk = 'false' ]; then
+                            sudo apt-get purge -y openjdk*
+                            sudo rm /var/lib/dpkg/info/oracle-java7-installer*
+                            sudo apt-get purge -y oracle-java7-installer*
+                            sudo rm /etc/apt/sources.list.d/*java*
+                            sudo apt-get update
+                            
+                            sudo add-apt-repository -y ppa:webupd8team/java
+                            sudo apt-get update
+                            sudo apt-get install -y oracle-java7-installer
+                        fi
+                        ;;
+                    centos|fedora|redhat)
+                        ## JDK 64-bit ##
+                        rpm -Uvh /path/to/binary/jdk-7u21-linux-x64.rpm
+                        ## JRE 64-bit ##
+                        rpm -Uvh /path/to/binary/jre-7u21-linux-x64.rpm
 
-                    sudo add-apt-repository -y ppa:webupd8team/java
-                    sudo apt-get update
-                    sudo apt-get install -y oracle-java7-installer
-                fi
+                        ## java ##
+                        alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_21/jre/bin/java 20000
+                        ## javaws ##
+                        alternatives --install /usr/bin/javaws javaws /usr/java/jdk1.7.0_21/jre/bin/javaws 20000
+
+                        ## Java Browser (Mozilla) Plugin 32-bit ##
+                        alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/jdk1.7.0_21/jre/lib/i386/libnpjp2.so 20000
+
+                        ## Java Browser (Mozilla) Plugin 64-bit ##
+                        alternatives --install /usr/lib64/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /usr/java/jdk1.7.0_21/jre/lib/amd64/libnpjp2.so 20000
+
+                        ## Install javac only if you installed JDK (Java Development Kit) package ##
+                        alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_21/bin/javac 20000
+                        alternatives --install /usr/bin/jar jar /usr/java/jdk1.7.0_21/bin/jar 20000
+                        ;;
+                    *)
+                        ;;
+                esac
             fi
             echo You have installed $i already! >& 2
         fi
