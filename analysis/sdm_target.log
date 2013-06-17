@@ -1,0 +1,108 @@
+node1
+## PTP First Invoking:
+root     28035  0.0  0.0 108148  1452 ?        Ss   21:07   0:00
+/bin/bash -l -c
+  echo "PID=$$ PIID=9" > /dev/pts/3;
+  export "PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700";
+  export "PTP_LAUNCH_MODE=debug";
+  export "PTP_JOBID=b530ce35-c47f-44da-b02f-1b7ddb75c99f";
+  export "PTP_DEBUGGER_ARGS=--port=55626 --host=localhost --debugger=gdb-mi";
+  cd /public/SynchronizedProjects_01/MPITestDawn/Debug &&
+  /public/bin/sdm700
+    --master
+    --routing_file\=routes_b530ce35-c47f-44da-b02f-1b7ddb75c99f
+    --port\=55626
+    --host\=localhost
+    --debugger\=gdb-mi
+
+## PTP Second Invoking:
+root     28036  0.0  0.0 108148  1452 ?        Ss   21:07   0:00
+/bin/bash -l -c
+  echo "PID=$$ PIID=10" > /dev/pts/3;
+  export "PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700";
+  export "PTP_LAUNCH_MODE=debug";
+  export "PTP_JOBID=b530ce35-c47f-44da-b02f-1b7ddb75c99f";
+  export "PTP_DEBUGGER_ARGS=--port=55626 --host=localhost --debugger=gdb-mi";
+  cd /public/SynchronizedProjects_01/MPITestDawn/Debug &&
+  perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl
+    mpirun
+      -np 1
+      --hostfile /public/krime/ma2.ma
+
+## Questioning: What happened here???
+##======> Unexplainable
+root     28325  0.0  0.0 131356  5000 ?        S    21:07   0:00
+perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl
+  mpirun
+    -np 1
+    --hostfile /public/krime/ma2.ma
+
+## The first invoking result: generate the following command
+root     28326  1.0  0.0  10628   924 ?        S    21:07   0:01
+/public/bin/sdm700
+  --master
+  --routing_file=routes_b530ce35-c47f-44da-b02f-1b7ddb75c99f
+  --port=55626
+  --host=localhost
+  --debugger=gdb-mi
+
+## PTP invoke LML Da Drive Engine through this command:
+##   'Cause Eclipse Debug output information shows that the PID is 28327,
+##   which was as an I/O result from the start_job.pl script
+root     28327  0.0  0.0 131356  3852 ?        S    21:07   0:00
+perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl
+  mpirun
+    -np 1
+    --hostfile /public/krime/ma2.ma
+
+## The result from last LML Da Drive Engine Invoking ----
+##   Generate the following command:
+root     28328  0.0  0.0  23368  2076 ?        S    21:07   0:00
+mpirun
+  -np 1
+  --hostfile /public/krime/ma2.ma
+  -mca orte_show_resolved_nodenames 1
+  -display-map
+  /public/bin/sdm700
+    --port=55626
+    --host=localhost
+    --debugger=gdb-mi
+    --routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_b530ce35-c47f-44da-b02f-1b7ddb75c99f
+
+
+
+
+node2
+## Resulted from the node1 mpirun invocation
+root     13915  0.1  0.0  11652   952 ?        S    21:07   0:00
+/public/bin/sdm700
+  --port=55626
+  --host=localhost
+  --debugger=gdb-mi
+  --routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_b530ce35-c47f-44da-b02f-1b7ddb75c99f
+
+## Questioning: When did this invoke?
+##===== Guess that the sdm invoke this
+##===== Evidence: Check debug.sdm/src/server/server_cmds.c file
+
+## God! It locale in debug.sdm/libmi/MISession.c file
+root     13917  0.1  0.1 195472 17604 ?        S    21:07   0:00
+gdb
+  -q
+  -tty /dev/pts/2
+  -i mi
+  /public/SynchronizedProjects_01/MPITestDawn/Debug/MPITestDawn
+
+root     13919  0.0  0.0  23928   968 pts/2    Ts+  21:07   0:00
+/public/SynchronizedProjects_01/MPITestDawn/Debug/MPITestDawn
+
+
+
+routes_b530ce35-c47f-44da-b02f-1b7ddb75c99f
+1
+0 node2 55004
+
+
+
+
+
