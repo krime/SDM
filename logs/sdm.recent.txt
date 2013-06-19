@@ -1,0 +1,1055 @@
+Process 15168 attached
+Process 15169 attached
+[pid 15169] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=16\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=d859eed9-4995-4b57-adb0-cdf9536295a6\"; export \"PTP_DEBUGGER_ARGS=--port=60067 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 --hostfile /public/krime/ma2.ma'"], [/* 8 vars */] <unfinished ...>
+[pid 15168] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=15\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=d859eed9-4995-4b57-adb0-cdf9536295a6\"; export \"PTP_DEBUGGER_ARGS=--port=60067 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_d859eed9-4995-4b57-adb0-cdf9536295a6 --port\\=60067 --host\\=localhost --debugger\\=gdb-mi'"], [/* 8 vars */] <unfinished ...>
+[pid 15169] <... execve resumed> )      = 0
+[pid 15168] <... execve resumed> )      = 0
+Process 15236 attached
+Process 15237 attached
+[pid 15237] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 15237 detached
+[pid 15236] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15236 detached
+Process 15260 attached
+Process 15261 attached
+Process 15262 attached
+[pid 15262] execve("/bin/ps", ["/bin/ps", "-p", "15169", "-ocomm="], [/* 26 vars */]) = 0
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15265 attached
+Process 15266 attached
+Process 15267 attached
+[pid 15267] execve("/bin/ps", ["/bin/ps", "-p", "15168", "-ocomm="], [/* 26 vars */]) = 0
+Process 15262 detached
+[pid 15261] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15261 detached
+[pid 15260] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15268 attached
+Process 15267 detached
+[pid 15268] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */] <unfinished ...>
+[pid 15266] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15268] <... execve resumed> )      = 0
+Process 15266 detached
+[pid 15265] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15268 detached
+[pid 15260] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15260 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15265] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15265 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15270] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15272] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15272 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15315 attached
+[pid 15315] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 15317 attached
+[pid 15317] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 15315 detached
+Process 15317 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=16\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=d859eed9-4995-4b57-adb0-cdf9536295a6\"; export \"PTP_DEBUGGER_ARGS=--port=60067 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 --hostfile /public/krime/ma2.ma"], [/* 42 vars */]) = 0
+[pid 15168] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=15\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=d859eed9-4995-4b57-adb0-cdf9536295a6\"; export \"PTP_DEBUGGER_ARGS=--port=60067 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_d859eed9-4995-4b57-adb0-cdf9536295a6 --port\\=60067 --host\\=localhost --debugger\\=gdb-mi"], [/* 42 vars */]) = 0
+Process 15318 attached
+Process 15319 attached (waiting for parent)
+Process 15319 resumed (parent 15318 ready)
+[pid 15319] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+Process 15320 attached
+Process 15321 attached
+[pid 15321] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+Process 15319 detached
+[pid 15318] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15318 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15322 attached
+Process 15321 detached
+Process 15323 attached
+[pid 15320] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15320 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15323] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+Process 15324 attached
+Process 15325 attached
+[pid 15325] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+Process 15323 detached
+[pid 15322] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15322 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15325 detached
+[pid 15324] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15324 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15326 attached
+Process 15327 attached
+[pid 15327] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]Process 15326 detached
+) = 0
+Process 15328 attached
+Process 15329 attached
+[pid 15329] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]) = 0
+Process 15328 detached
+Process 15327 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15330 attached
+Process 15331 attached
+[pid 15331] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]) = 0
+Process 15330 detached
+Process 15329 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15332 attached
+Process 15333 attached
+[pid 15333] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]Process 15331 detached
+) = 0
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15332 detached
+Process 15334 attached
+Process 15335 attached
+[pid 15335] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]Process 15334 detached
+) = 0
+Process 15333 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15336 attached
+Process 15337 attached
+Process 15335 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15336 detached
+[pid 15337] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+Process 15338 attached
+Process 15339 attached
+Process 15338 detached
+[pid 15339] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]) = 0
+Process 15337 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15339 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15340 attached
+Process 15341 attached (waiting for parent)
+Process 15341 resumed (parent 15168 ready)
+Process 15342 attached
+[pid 15341] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]Process 15343 attached (waiting for parent)
+Process 15343 resumed (parent 15169 ready)
+Process 15340 detached
+) = 0
+[pid 15343] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 15342 detached
+) = 0
+Process 15341 detached
+Process 15343 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15344 attached
+Process 15345 attached
+Process 15346 attached (waiting for parent)
+Process 15346 resumed (parent 15168 ready)
+Process 15347 attached
+[pid 15346] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15347] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15346] <... execve resumed> )      = 0
+Process 15345 detached
+[pid 15347] <... execve resumed> )      = 0
+Process 15344 detached
+Process 15346 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15347 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15348 attached
+Process 15349 attached
+Process 15350 attached (waiting for parent)
+Process 15350 resumed (parent 15169 ready)
+Process 15351 attached
+[pid 15349] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]Process 15348 detached
+) = 0
+Process 15350 detached
+[pid 15351] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]) = 0
+Process 15349 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15351 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15352 attached
+Process 15353 attached
+Process 15354 attached
+Process 15355 attached
+[pid 15354] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */] <unfinished ...>
+[pid 15355] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */] <unfinished ...>
+[pid 15354] <... execve resumed> )      = 0
+[pid 15355] <... execve resumed> )      = 0
+Process 15352 detached
+Process 15353 detached
+Process 15355 detached
+Process 15354 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15356 attached
+Process 15357 attached (waiting for parent)
+Process 15357 resumed (parent 15169 ready)
+Process 15358 attached
+Process 15359 attached (waiting for parent)
+Process 15359 resumed (parent 15169 ready)
+[pid 15358] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */] <unfinished ...>
+[pid 15359] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */] <unfinished ...>
+[pid 15358] <... execve resumed> )      = 0
+Process 15356 detached
+Process 15357 detached
+[pid 15359] <... execve resumed> )      = 0
+Process 15359 detached
+Process 15358 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15360 attached (waiting for parent)
+Process 15360 resumed (parent 15169 ready)
+Process 15361 attached
+Process 15362 attached (waiting for parent)
+Process 15362 resumed (parent 15169 ready)
+Process 15363 attached (waiting for parent)
+Process 15363 resumed (parent 15168 ready)
+[pid 15362] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+Process 15360 detached
+[pid 15363] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]Process 15361 detached
+) = 0
+Process 15363 detached
+Process 15362 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15364 attached
+Process 15365 attached
+Process 15366 attached (waiting for parent)
+Process 15366 resumed (parent 15169 ready)
+Process 15367 attached
+[pid 15366] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+Process 15364 detached
+[pid 15367] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+Process 15365 detached
+Process 15367 detached
+Process 15366 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15368 attached (waiting for parent)
+Process 15369 attached (waiting for parent)
+Process 15369 resumed (parent 15169 ready)
+Process 15368 resumed (parent 15168 ready)
+Process 15370 attached (waiting for parent)
+Process 15371 attached (waiting for parent)
+Process 15370 resumed (parent 15169 ready)
+Process 15371 resumed (parent 15168 ready)
+[pid 15370] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15371] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */] <unfinished ...>
+[pid 15370] <... execve resumed> )      = 0
+Process 15369 detached
+[pid 15371] <... execve resumed> )      = 0
+Process 15368 detached
+Process 15371 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15370 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15372 attached
+Process 15373 attached
+Process 15374 attached (waiting for parent)
+Process 15374 resumed (parent 15169 ready)
+Process 15375 attached
+[pid 15373] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]Process 15372 detached
+) = 0
+[pid 15375] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]Process 15374 detached
+) = 0
+Process 15373 detached
+Process 15375 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15377 attached (waiting for parent)
+Process 15376 attached (waiting for parent)
+Process 15377 resumed (parent 15169 ready)
+Process 15376 resumed (parent 15168 ready)
+Process 15378 attached
+Process 15379 attached (waiting for parent)
+Process 15379 resumed (parent 15168 ready)
+[pid 15378] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]Process 15377 detached
+ <unfinished ...>
+[pid 15379] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+[pid 15378] <... execve resumed> )      = 0
+Process 15376 detached
+Process 15379 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15380 attached
+Process 15381 attached
+Process 15378 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15380 detached
+[pid 15381] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]Process 15382 attached
+) = 0
+Process 15383 attached (waiting for parent)
+Process 15383 resumed (parent 15169 ready)
+[pid 15383] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+Process 15382 detached
+Process 15381 detached
+Process 15383 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15384 attached
+Process 15385 attached
+Process 15386 attached
+Process 15387 attached (waiting for parent)
+Process 15387 resumed (parent 15169 ready)
+[pid 15386] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15387] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15386] <... execve resumed> )      = 0
+Process 15385 detached
+Process 15384 detached
+[pid 15387] <... execve resumed> )      = 0
+Process 15387 detached
+Process 15386 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15388 attached
+Process 15389 attached
+Process 15390 attached (waiting for parent)
+Process 15390 resumed (parent 15169 ready)
+[pid 15389] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]) = 0
+Process 15388 detached
+Process 15391 attached
+[pid 15391] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 15389 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15391 detached
+[pid 15390] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15390 detached
+Process 15392 attached (waiting for parent)
+Process 15392 resumed (parent 15168 ready)
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15393 attached
+[pid 15393] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 15393 detached
+[pid 15392] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15392 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15394 attached
+Process 15395 attached (waiting for parent)
+Process 15395 resumed (parent 15169 ready)
+[pid 15395] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+Process 15394 detached
+Process 15395 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15396 attached
+Process 15397 attached
+[pid 15397] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+Process 15396 detached
+Process 15397 detached
+Process 15398 attached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15399 attached
+[pid 15399] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]) = 0
+Process 15398 detached
+Process 15399 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15400 attached
+Process 15401 attached
+[pid 15401] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]Process 15400 detached
+) = 0
+Process 15402 attached
+Process 15403 attached
+[pid 15403] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 15402 detached
+) = 0
+Process 15401 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15403 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15404 attached
+Process 15405 attached
+[pid 15405] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]Process 15404 detached
+) = 0
+Process 15406 attached
+Process 15407 attached
+[pid 15407] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]) = 0
+Process 15406 detached
+Process 15405 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15407 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15408 attached (waiting for parent)
+Process 15408 resumed (parent 15168 ready)
+Process 15409 attached
+[pid 15409] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]) = 0
+Process 15408 detached
+Process 15409 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15410 attached
+Process 15411 attached (waiting for parent)
+Process 15411 resumed (parent 15169 ready)
+[pid 15411] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]Process 15410 detached
+) = 0
+Process 15411 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15412 attached
+Process 15413 attached
+Process 15414 attached (waiting for parent)
+Process 15414 resumed (parent 15412 ready)
+Process 15415 attached
+[pid 15415] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]Process 15413 detached
+) = 0
+Process 15416 attached
+[pid 15416] execve("/bin/ps", ["/bin/ps", "-p", "15169", "-ocomm="], [/* 45 vars */]) = 0
+Process 15415 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15417 attached
+Process 15418 attached
+Process 15419 attached
+[pid 15419] execve("/bin/ps", ["/bin/ps", "-p", "15168", "-ocomm="], [/* 45 vars */]) = 0
+Process 15419 detached
+[pid 15418] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15418 detached
+[pid 15417] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15420 attached
+[pid 15420] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]Process 15416 detached
+) = 0
+[pid 15414] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15414 detached
+[pid 15412] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15421 attached
+[pid 15421] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+Process 15420 detached
+[pid 15417] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15417 detached
+Process 15421 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15412] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15412 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15422 attached
+Process 15423 attached
+Process 15424 attached
+[pid 15423] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]Process 15425 attached
+) = 0
+Process 15422 detached
+[pid 15425] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]Process 15424 detached
+) = 0
+Process 15423 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15425 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15426 attached
+Process 15427 attached (waiting for parent)
+Process 15427 resumed (parent 15169 ready)
+[pid 15427] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]Process 15426 detached
+) = 0
+Process 15428 attached
+Process 15429 attached
+[pid 15429] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]Process 15428 detached
+) = 0
+Process 15427 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15430 attached
+Process 15431 attached (waiting for parent)
+Process 15431 resumed (parent 15169 ready)
+[pid 15431] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+Process 15429 detached
+Process 15430 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15432 attached
+Process 15433 attached
+[pid 15433] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]Process 15432 detached
+) = 0
+Process 15431 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15433 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15434 attached
+Process 15435 attached
+Process 15436 attached
+[pid 15436] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+Process 15437 attached
+[pid 15437] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+Process 15436 detached
+[pid 15434] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15434 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15437 detached
+[pid 15435] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15435 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15438 attached (waiting for parent)
+Process 15438 resumed (parent 15169 ready)
+Process 15439 attached (waiting for parent)
+Process 15439 resumed (parent 15169 ready)
+[pid 15439] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 15438 detached
+) = 0
+Process 15440 attached
+Process 15441 attached
+[pid 15441] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 15440 detached
+) = 0
+Process 15439 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15441 detached
+Process 15442 attached
+Process 15443 attached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15443] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 15444 attached
+) = 0
+Process 15442 detached
+Process 15445 attached
+[pid 15445] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 15444 detached
+) = 0
+Process 15443 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15445 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15446 attached
+Process 15447 attached
+Process 15448 attached
+Process 15449 attached (waiting for parent)
+Process 15449 resumed (parent 15447 ready)
+[pid 15448] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */] <unfinished ...>
+[pid 15449] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */] <unfinished ...>
+[pid 15448] <... execve resumed> )      = 0
+[pid 15449] <... execve resumed> )      = 0
+Process 15449 detached
+Process 15448 detached
+[pid 15446] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15447] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15446 detached
+Process 15447 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15450 attached
+Process 15451 attached
+[pid 15451] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+Process 15452 attached
+Process 15453 attached
+[pid 15453] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+Process 15451 detached
+[pid 15450] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15450 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15453 detached
+[pid 15452] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15452 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15454 attached (waiting for parent)
+Process 15454 resumed (parent 15169 ready)
+Process 15455 attached
+[pid 15455] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 15456 attached
+Process 15457 attached
+[pid 15457] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 15455 detached
+[pid 15454] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15454 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15457 detached
+[pid 15456] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15456 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15458 attached
+[pid 15458] execve("/usr/bin/perl", ["perl", "/root/.eclipsesettings/rms/OPENMPI/start_job.pl", "mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma"], [/* 51 vars */]Process 15459 attached (waiting for parent)
+Process 15459 resumed (parent 15168 ready)
+) = 0
+[pid 15459] execve("/public/bin/sdm700", ["/public/bin/sdm700", "--master", "--routing_file=routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--port=60067", "--host=localhost", "--debugger=gdb-mi"], [/* 51 vars */]) = 0
+Process 15460 attached
+Process 15461 attached
+[pid 15461] execve("/opt/gridview//pbs//dispatcher-sched//bin/mpirun", ["mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=60067", "--host=localhost", "--debugger=gdb-mi", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--debug=255"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15461] execve("/opt/gridview//pbs//dispatcher-sched//sbin/mpirun", ["mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=60067", "--host=localhost", "--debugger=gdb-mi", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--debug=255"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15461] execve("/opt/gridview//pbs//dispatcher//bin/mpirun", ["mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=60067", "--host=localhost", "--debugger=gdb-mi", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--debug=255"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15461] execve("/opt/gridview//pbs//dispatcher//sbin/mpirun", ["mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=60067", "--host=localhost", "--debugger=gdb-mi", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--debug=255"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15461] execve("/opt/openmpi/bin/mpirun", ["mpirun", "-np", "1", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=60067", "--host=localhost", "--debugger=gdb-mi", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_d859eed9-4995-4b57-adb0-cdf9536295a6", "--debug=255"], [/* 51 vars */]) = 0
+Process 15462 attached
+[pid 15462] execve("//usr/bin/ssh", ["/usr/bin/ssh", "-x", "node2", " orted", "--daemonize", "-mca", "ess", "env", "-mca", "orte_ess_jobid", "2499674112", "-mca", "orte_ess_vpid", "1", "-mca", "orte_ess_num_procs", "2", "--hnp-uri", "\"2499674112.0;tcp://10.10.10.1:53651;tcp://192.168.0.5:53651\"", "-mca", "orte_show_resolved_nodenames", "1"], [/* 54 vars */]) = 0
+Process 15462 detached
+[pid 15461] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15459 detached
+[pid 15168] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15168 detached
+[pid 11827] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15461 detached
+[pid 15460] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15460 detached
+[pid 15458] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15458 detached
+[pid 15169] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 15169 detached
+[pid 11827] --- SIGCHLD (Child exited) @ 0 (0) ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PTP job_id=15460
+
+found job map
+found node node2, procs 1
+found proc 0
+found end of node map
+found end of table
+SDM: [server] effsize: 2, size: 1, rv: 0
+SDM: [server] Found routing file, size=1
+SDM: [0] size 2
+SDM: [0] in sdm_create_sockd_map
+SDM: [0] sdm_route_get_route dest {0}, parent 1
+SDM: [0] adjacent nodes: {}
+SDM: [0] This node is a server!
+SDM: [server] effsize: 2, size: 1, rv: 0
+SDM: [0] nodeID: 0, hostname: node2, port: 59815
+SDM: [0] found entry for node 0
+SDM: [0] found my entry
+SDM: [0] [ACCEPT] sockfd: 4
+SDM: [0] port bound: 59815
+SDM: [0] bound to port 59815
+SDM: [0] peersockfd: 5
+SDM: [0] Parent 1 successfully connected
+SDM: [0] This node is a leaf
+SDM: [0] Initialization successful
+SDM: starting task 0
+SDM: starting server on 0, size=2
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:91
+SDM: [0] About to recv 91
+SDM: [0] sdm_message_progress received len 91 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #0 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -gdb-version
+MI: RECV =thread-group-added,id="i1"
+MI: RECV ~"Reading symbols from /public/SynchronizedProjects_01/MPITestDawn/Debug/MPITestDawn..."
+MI: RECV ~"done.\n"
+MI: RECV (gdb) 
+MI: RECV ~"GNU gdb (GDB) Red Hat Enterprise Linux (7.2-50.el6)\n"
+MI: RECV ~"Copyright (C) 2010 Free Software Foundation, Inc.\n"
+MI: RECV ~"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\nand \"show warranty\" for details.\n"
+MI: RECV ~"This GDB was configured as \"x86_64-redhat-linux-gnu\".\nFor bug reporting instructions, please see:\n"
+MI: RECV ~"<http://www.gnu.org/software/gdb/bugs/>.\n"
+MI: RECV ^done
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: ------------------- gdb version: 7.200000
+MI: SEND -gdb-set confirm off
+MI: RECV ^done
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #0 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b9f785c6 for request 0
+SDM: [0] request 0 completed for #b9f785c6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 18
+SDM: [0] Sending to 1
+SDM: [0] About to send 22
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:47
+SDM: [0] About to recv 47
+SDM: [0] sdm_message_progress received len 47 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #2 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -break-insert -t MAIN__
+MI: RECV ^error,msg="Function \"MAIN__\" not defined."
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+MI: SEND -break-insert -t main
+MI: RECV ^done,bkpt={number="1",type="breakpoint",disp="del",enabled="y",addr="0x0000000000400d7f",func="main",file="../src/MPITestDawn.c",fullname="/public/SynchronizedProjects_01/MPITestDawn/src/MPITestDawn.c",line="59",times="0",original-location="main"}
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #2 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b9f785c6 for request 2
+SDM: [0] request 2 completed for #b9f785c6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 18
+SDM: [0] Sending to 1
+SDM: [0] About to send 22
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:16
+SDM: [0] About to recv 16
+SDM: [0] sdm_message_progress received len 16 from 1
+SDM: [0] sdm_message_progress agg=0x186a0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #4 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -exec-run
+MI: RECV =thread-group-started,id="i1",pid="16535"
+=thread-created,id="1",group-id="i1"
+MI: RECV ^running
+*running,thread-id="all"
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #4 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b9f785c6 for request 4
+SDM: [0] request 4 completed for #b9f785c6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 18
+SDM: [0] Sending to 1
+SDM: [0] About to send 22
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+MI: RECV =library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1"
+MI: RECV =library-loaded,id="/opt/openmpi/lib/libmpi.so.0",target-name="/opt/openmpi/lib/libmpi.so.0",host-name="/opt/openmpi/lib/libmpi.so.0",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/opt/openmpi/lib/libopen-rte.so.0",target-name="/opt/openmpi/lib/libopen-rte.so.0",host-name="/opt/openmpi/lib/libopen-rte.so.0",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/opt/openmpi/lib/libopen-pal.so.0",target-name="/opt/openmpi/lib/libopen-pal.so.0",host-name="/opt/openmpi/lib/libopen-pal.so.0",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libdl.so.2",target-name="/lib64/libdl.so.2",host-name="/lib64/libdl.so.2",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libnsl.so.1",target-name="/lib64/libnsl.so.1",host-name="/lib64/libnsl.so.1",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libutil.so.1",target-name="/lib64/libutil.so.1",host-name="/lib64/libutil.so.1",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libm.so.6",target-name="/lib64/libm.so.6",host-name="/lib64/libm.so.6",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libpthread.so.0",target-name="/lib64/libpthread.so.0",host-name="/lib64/libpthread.so.0",symbols-loaded="0",thread-group="i1"
+=library-loaded,id="/lib64/libc.so.6",target-name="/lib64/libc.so.6",host-name="/lib64/libc.so.6",symbols-loaded="0",thread-group="i1"
+MI: RECV ~"[Thread debugging using libthread_db enabled]\n"
+MI: RECV *stopped,reason="breakpoint-hit",disp="del",bkptno="1",frame={addr="0x0000000000400d7f",func="main",args=[{name="argc",value="1"},{name="argv",value="0x7fffffffe168"}],file="../src/MPITestDawn.c",fullname="/public/SynchronizedProjects_01/MPITestDawn/src/MPITestDawn.c",line="59"},thread-id="1",stopped-threads="all",core="5"
+MI: SEND -stack-info-depth
+MI: RECV (gdb) 
+MI: RECV ^done,depth="1"
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+MI: SEND -var-update *
+MI: RECV ^done,changelist=[]
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #4 from {0}
+SDM: [0] sdm_aggregate_message: message is unsolicited
+SDM: [0] Creating new request #4 expected replies {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #52abe854 for request 4
+SDM: [0] request 4 completed for #52abe854
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 94
+SDM: [0] Sending to 1
+SDM: [0] About to send 98
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:14
+SDM: [0] About to recv 14
+SDM: [0] sdm_message_progress received len 14 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #7 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND info threads
+MI: RECV &"info threads\n"
+MI: RECV ~"* 1 Thread 0x7ffff771c700 (LWP 16535)  main (argc=1, argv=0x7fffffffe168) at ../src/MPITestDawn.c:59\n"
+^done
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #7 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #3b85a781 for request 7
+SDM: [0] request 7 completed for #3b85a781
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 26
+SDM: [0] Sending to 1
+SDM: [0] About to send 30
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:14
+SDM: [0] About to recv 14
+SDM: [0] sdm_message_progress received len 14 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #9 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -stack-info-depth
+MI: RECV ^done,depth="1"
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #9 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b33ef8d1 for request 9
+SDM: [0] request 9 completed for #b33ef8d1
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 22
+SDM: [0] Sending to 1
+SDM: [0] About to send 26
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:22
+SDM: [0] About to recv 22
+SDM: [0] sdm_message_progress received len 22 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #11 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -stack-list-frames 0 1
+MI: RECV ^done,stack=[frame={level="0",addr="0x0000000000400d7f",func="main",file="../src/MPITestDawn.c",fullname="/public/SynchronizedProjects_01/MPITestDawn/src/MPITestDawn.c",line="59"}]
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #11 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b0a757f6 for request 11
+SDM: [0] request 11 completed for #b0a757f6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 82
+SDM: [0] Sending to 1
+SDM: [0] About to send 86
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:16
+SDM: [0] About to recv 16
+SDM: [0] sdm_message_progress received len 16 from 1
+SDM: [0] sdm_message_progress agg=0x186a0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #13 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -exec-continue
+MI: RECV ^running
+*running,thread-id="all"
+(gdb) 
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #13 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b9f785c6 for request 13
+SDM: [0] request 13 completed for #b9f785c6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 18
+SDM: [0] Sending to 1
+SDM: [0] About to send 22
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+MI: RECV =library-loaded,id="/lib64/libnss_files.so.2",target-name="/lib64/libnss_files.so.2",host-name="/lib64/libnss_files.so.2",symbols-loaded="0",thread-group="i1"
+MI: RECV Num processes: 1
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #13 from {0}
+SDM: [0] sdm_aggregate_message: message is unsolicited
+SDM: [0] Creating new request #13 expected replies {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #c9226e2b for request 13
+SDM: [0] request 13 completed for #c9226e2b
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 39
+SDM: [0] Sending to 1
+SDM: [0] About to send 43
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+Num processes: 1
+MI: RECV =thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+*stopped,reason="exited-normally"
+(gdb) 
+MI: RECV PI is approximately 3.1415926535904264
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #13 from {0}
+SDM: [0] sdm_aggregate_message: message is unsolicited
+SDM: [0] Creating new request #13 expected replies {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #d8ea53f9 for request 13
+SDM: [0] request 13 completed for #d8ea53f9
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 26
+SDM: [0] Sending to 1
+SDM: [0] About to send 30
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #13 from {0}
+SDM: [0] sdm_aggregate_message: message is unsolicited
+SDM: [0] Creating new request #13 expected replies {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #3da62e2b for request 13
+SDM: [0] receiving header
+SDM: MESSAGE_LEN:14
+SDM: [0] About to recv 14
+SDM: [0] sdm_message_progress received len 14 from 1
+SDM: [0] sdm_message_progress agg=0x0 src={1} dest={0}
+SDM: [0] About to call recv_callback
+SDM: [0] Enter recv_callback
+SDM: [0] got downstream message src={1}, dest={0}
+SDM: [0] Creating new request #17 expected replies {0}
+SDM: [0] sdm_message_deliver 
+SDM: [0] Enter deliver_callback
+MI: SEND -gdb-exit
+MI: RECV ^exit
+MI: PROCESS COMMAND CALLBACK
+SDM: [0] Leaving deliver_callback
+SDM: [0] sdm_message_send removing me from dest
+SDM: [0] sdm_route_get_route dest {}, parent 1
+SDM: [0] sdm_message_send src {1} dest {} route {}
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving recv_callback
+SDM: [0] Finished recv_callback
+SDM: [0] request 13 completed for #3da62e2b
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 61
+SDM: [0] Sending to 1
+SDM: [0] About to send 65
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #17 from {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #b9f785c6 for request 17
+SDM: [0] request 17 completed for #b9f785c6
+SDM: [0] Enter aggregate_callback
+SDM: [0] sdm_route_get_route dest {1}, parent 1
+SDM: [0] sdm_message_send src {0} dest {1} route {1}
+SDM: [0] Sending len 18
+SDM: [0] Sending to 1
+SDM: [0] About to send 22
+SDM: [0] About to call send_complete
+SDM: [0] Leaving sdm_message_send
+SDM: [0] Leaving aggregate_callback
+SDM: [0] Enter free_request
+SDM: [0] Leaving free_request
+SDM: all finished
