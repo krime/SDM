@@ -1,0 +1,64 @@
+debug1: server_input_global_request: rtype tcpip-forward want_reply 1
+debug1: server_input_global_request: tcpip-forward listen localhost port 65476
+debug1: Local forwarding listening on ::1 port 65476.
+debug1: channel 4: new [port listener]
+debug1: Local forwarding listening on 127.0.0.1 port 65476.
+debug1: channel 5: new [port listener]
+debug1: server_input_channel_open: ctype session rchan 76 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15343
+debug1: session_exit_message: session 4 channel 6 pid 15343
+debug1: session_exit_message: release channel 6
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug1: channel 6: free: server-session, nchannels 7
+debug1: server_input_channel_open: ctype session rchan 77 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15488
+debug1: session_exit_message: session 4 channel 6 pid 15488
+debug1: session_exit_message: release channel 6
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug1: channel 6: free: server-session, nchannels 7
+debug1: server_input_channel_open: ctype session rchan 78 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug1: server_input_channel_open: ctype session rchan 79 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 7: new [server-session]
+debug1: session_new: session 5
+debug1: session_open: channel 7
+debug1: session_open: session 5: link with channel 7
+debug1: server_input_channel_open: confirm session
+debug1: server_input_channel_req: channel 7 request exec reply 0
+debug1: session_by_channel: session 5 channel 7
+debug1: session_input_channel_req: session 5 req exec
+debug1: Connection to port 65476 forwarding to localhost port 0 requested.
+debug1: channel 8: new [forwarded-tcpip]

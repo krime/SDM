@@ -1,0 +1,883 @@
+debug3: Wrote 80 bytes for a total of 4517
+debug1: server_input_global_request: rtype tcpip-forward want_reply 1
+debug1: server_input_global_request: tcpip-forward listen localhost port 65476
+debug3: channel_setup_fwd_listener: type 11 wildcard 0 addr NULL
+debug1: Local forwarding listening on ::1 port 65476.
+debug2: fd 8 setting O_NONBLOCK
+debug3: fd 8 is O_NONBLOCK
+debug1: channel 4: new [port listener]
+debug1: Local forwarding listening on 127.0.0.1 port 65476.
+debug2: fd 19 setting O_NONBLOCK
+debug3: fd 19 is O_NONBLOCK
+debug1: channel 5: new [port listener]
+debug3: Wrote 32 bytes for a total of 4549
+debug3: Wrote 80 bytes for a total of 4629
+debug1: server_input_channel_open: ctype session rchan 76 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug2: session_new: allocate (allocated 4 max 10)
+debug3: session_unused: session id 4 unused
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 4677
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 4725
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug3: Wrote 80 bytes for a total of 4805
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug3: Wrote 80 bytes for a total of 4885
+debug2: channel 6: read 143 from efd 25
+debug2: channel 6: rwin 1048501 elen 143 euse 1
+debug2: channel 6: sent ext data 143
+debug2: channel 6: read 208 from efd 25
+debug3: Wrote 192 bytes for a total of 5077
+debug2: channel 6: rwin 1048358 elen 208 euse 1
+debug2: channel 6: sent ext data 208
+debug2: channel 6: read 148 from efd 25
+debug3: Wrote 256 bytes for a total of 5333
+debug2: channel 6: rwin 1048150 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 6: read 100 from efd 25
+debug3: Wrote 192 bytes for a total of 5525
+debug2: channel 6: rwin 1048002 elen 100 euse 1
+debug2: channel 6: sent ext data 100
+debug3: Wrote 144 bytes for a total of 5669
+debug2: notify_done: reading
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15343
+debug1: session_exit_message: session 4 channel 6 pid 15343
+debug2: channel 6: request exit-status confirm 0
+debug1: session_exit_message: release channel 6
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug3: Wrote 176 bytes for a total of 5845
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug3: Wrote 64 bytes for a total of 5909
+debug3: channel 6: will not send data after close
+debug2: channel 6: rcvd close
+debug3: channel 6: will not send data after close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug3: session_unused: session id 4 unused
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug1: channel 6: free: server-session, nchannels 7
+debug3: channel 6: status: The following connections are open:
+  #0 server-session (t4 r72 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r73 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r74 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r75 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r76 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 6: close_fds r -1 w -1 e -1 c -1
+debug1: server_input_channel_open: ctype session rchan 77 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 5957
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 6005
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug3: Wrote 80 bytes for a total of 6085
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug2: channel 6: read 199 from efd 25
+debug3: Wrote 80 bytes for a total of 6165
+debug2: channel 6: rwin 1048501 elen 199 euse 1
+debug2: channel 6: sent ext data 199
+debug2: channel 6: read 202 from efd 25
+debug3: Wrote 240 bytes for a total of 6405
+debug2: channel 6: rwin 1048302 elen 202 euse 1
+debug2: channel 6: sent ext data 202
+debug2: channel 6: read 148 from efd 25
+debug3: Wrote 240 bytes for a total of 6645
+debug2: channel 6: rwin 1048100 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 6: read 50 from efd 25
+debug3: Wrote 192 bytes for a total of 6837
+debug2: channel 6: rwin 1047952 elen 50 euse 1
+debug2: channel 6: sent ext data 50
+debug3: Wrote 96 bytes for a total of 6933
+debug3: Wrote 64 bytes for a total of 6997
+debug3: Wrote 128 bytes for a total of 7125
+debug3: Wrote 112 bytes for a total of 7237
+debug3: Wrote 160 bytes for a total of 7397
+debug3: Wrote 160 bytes for a total of 7557
+debug3: Wrote 208 bytes for a total of 7765
+debug3: Wrote 208 bytes for a total of 7973
+debug3: Wrote 192 bytes for a total of 8165
+debug3: Wrote 144 bytes for a total of 8309
+debug3: Wrote 192 bytes for a total of 8501
+debug3: Wrote 160 bytes for a total of 8661
+debug3: Wrote 208 bytes for a total of 8869
+debug3: Wrote 176 bytes for a total of 9045
+debug3: Wrote 192 bytes for a total of 9237
+debug3: Wrote 208 bytes for a total of 9445
+debug3: Wrote 176 bytes for a total of 9621
+debug3: Wrote 176 bytes for a total of 9797
+debug3: Wrote 144 bytes for a total of 9941
+debug3: Wrote 176 bytes for a total of 10117
+debug3: Wrote 176 bytes for a total of 10293
+debug3: Wrote 144 bytes for a total of 10437
+debug3: Wrote 176 bytes for a total of 10613
+debug3: Wrote 176 bytes for a total of 10789
+debug3: Wrote 160 bytes for a total of 10949
+debug3: Wrote 160 bytes for a total of 11109
+debug3: Wrote 176 bytes for a total of 11285
+debug3: Wrote 128 bytes for a total of 11413
+debug3: Wrote 160 bytes for a total of 11573
+debug3: Wrote 176 bytes for a total of 11749
+debug3: Wrote 160 bytes for a total of 11909
+debug3: Wrote 128 bytes for a total of 12037
+debug3: Wrote 176 bytes for a total of 12213
+debug3: Wrote 160 bytes for a total of 12373
+debug3: Wrote 176 bytes for a total of 12549
+debug3: Wrote 176 bytes for a total of 12725
+debug3: Wrote 160 bytes for a total of 12885
+debug3: Wrote 192 bytes for a total of 13077
+debug3: Wrote 192 bytes for a total of 13269
+debug3: Wrote 192 bytes for a total of 13461
+debug3: Wrote 208 bytes for a total of 13669
+debug3: Wrote 192 bytes for a total of 13861
+debug3: Wrote 160 bytes for a total of 14021
+debug3: Wrote 144 bytes for a total of 14165
+debug3: Wrote 192 bytes for a total of 14357
+debug3: Wrote 176 bytes for a total of 14533
+debug3: Wrote 128 bytes for a total of 14661
+debug3: Wrote 176 bytes for a total of 14837
+debug3: Wrote 192 bytes for a total of 15029
+debug3: Wrote 160 bytes for a total of 15189
+debug3: Wrote 176 bytes for a total of 15365
+debug3: Wrote 144 bytes for a total of 15509
+debug3: Wrote 176 bytes for a total of 15685
+debug3: Wrote 176 bytes for a total of 15861
+debug3: Wrote 176 bytes for a total of 16037
+debug3: Wrote 160 bytes for a total of 16197
+debug3: Wrote 192 bytes for a total of 16389
+debug3: Wrote 176 bytes for a total of 16565
+debug3: Wrote 160 bytes for a total of 16725
+debug3: Wrote 176 bytes for a total of 16901
+debug3: Wrote 176 bytes for a total of 17077
+debug3: Wrote 128 bytes for a total of 17205
+debug3: Wrote 160 bytes for a total of 17365
+debug3: Wrote 192 bytes for a total of 17557
+debug3: Wrote 192 bytes for a total of 17749
+debug3: Wrote 176 bytes for a total of 17925
+debug3: Wrote 208 bytes for a total of 18133
+debug3: Wrote 176 bytes for a total of 18309
+debug3: Wrote 176 bytes for a total of 18485
+debug3: Wrote 176 bytes for a total of 18661
+debug3: Wrote 320 bytes for a total of 18981
+debug3: Wrote 368 bytes for a total of 19349
+debug3: Wrote 272 bytes for a total of 19621
+debug3: Wrote 288 bytes for a total of 19909
+debug3: Wrote 144 bytes for a total of 20053
+debug3: Wrote 304 bytes for a total of 20357
+debug3: Wrote 144 bytes for a total of 20501
+debug3: Wrote 192 bytes for a total of 20693
+debug3: Wrote 224 bytes for a total of 20917
+debug3: Wrote 128 bytes for a total of 21045
+debug3: Wrote 160 bytes for a total of 21205
+debug3: Wrote 272 bytes for a total of 21477
+debug3: Wrote 320 bytes for a total of 21797
+debug3: Wrote 352 bytes for a total of 22149
+debug3: Wrote 320 bytes for a total of 22469
+debug3: Wrote 336 bytes for a total of 22805
+debug3: Wrote 320 bytes for a total of 23125
+debug3: Wrote 288 bytes for a total of 23413
+debug3: Wrote 192 bytes for a total of 23605
+debug3: Wrote 432 bytes for a total of 24037
+debug3: Wrote 352 bytes for a total of 24389
+debug3: Wrote 272 bytes for a total of 24661
+debug3: Wrote 416 bytes for a total of 25077
+debug3: Wrote 416 bytes for a total of 25493
+debug3: Wrote 272 bytes for a total of 25765
+debug3: Wrote 384 bytes for a total of 26149
+debug3: Wrote 368 bytes for a total of 26517
+debug3: Wrote 352 bytes for a total of 26869
+debug3: Wrote 336 bytes for a total of 27205
+debug3: Wrote 208 bytes for a total of 27413
+debug3: Wrote 320 bytes for a total of 27733
+debug3: Wrote 416 bytes for a total of 28149
+debug3: Wrote 480 bytes for a total of 28629
+debug3: Wrote 560 bytes for a total of 29189
+debug3: Wrote 272 bytes for a total of 29461
+debug3: Wrote 432 bytes for a total of 29893
+debug3: Wrote 512 bytes for a total of 30405
+debug3: Wrote 368 bytes for a total of 30773
+debug3: Wrote 448 bytes for a total of 31221
+debug3: Wrote 272 bytes for a total of 31493
+debug3: Wrote 448 bytes for a total of 31941
+debug3: Wrote 560 bytes for a total of 32501
+debug3: Wrote 400 bytes for a total of 32901
+debug3: Wrote 400 bytes for a total of 33301
+debug3: Wrote 256 bytes for a total of 33557
+debug3: Wrote 352 bytes for a total of 33909
+debug3: Wrote 464 bytes for a total of 34373
+debug3: Wrote 400 bytes for a total of 34773
+debug3: Wrote 608 bytes for a total of 35381
+debug3: Wrote 256 bytes for a total of 35637
+debug3: Wrote 224 bytes for a total of 35861
+debug3: Wrote 368 bytes for a total of 36229
+debug3: Wrote 320 bytes for a total of 36549
+debug3: Wrote 304 bytes for a total of 36853
+debug3: Wrote 256 bytes for a total of 37109
+debug3: Wrote 224 bytes for a total of 37333
+debug3: Wrote 400 bytes for a total of 37733
+debug3: Wrote 480 bytes for a total of 38213
+debug3: Wrote 352 bytes for a total of 38565
+debug3: Wrote 256 bytes for a total of 38821
+debug3: Wrote 304 bytes for a total of 39125
+debug3: Wrote 256 bytes for a total of 39381
+debug3: Wrote 224 bytes for a total of 39605
+debug3: Wrote 352 bytes for a total of 39957
+debug3: Wrote 320 bytes for a total of 40277
+debug3: Wrote 416 bytes for a total of 40693
+debug3: Wrote 272 bytes for a total of 40965
+debug3: Wrote 464 bytes for a total of 41429
+debug3: Wrote 272 bytes for a total of 41701
+debug3: Wrote 336 bytes for a total of 42037
+debug3: Wrote 336 bytes for a total of 42373
+debug3: Wrote 320 bytes for a total of 42693
+debug3: Wrote 192 bytes for a total of 42885
+debug3: Wrote 336 bytes for a total of 43221
+debug3: Wrote 336 bytes for a total of 43557
+debug3: Wrote 224 bytes for a total of 43781
+debug3: Wrote 352 bytes for a total of 44133
+debug3: Wrote 272 bytes for a total of 44405
+debug3: Wrote 304 bytes for a total of 44709
+debug3: Wrote 192 bytes for a total of 44901
+debug3: Wrote 304 bytes for a total of 45205
+debug3: Wrote 368 bytes for a total of 45573
+debug3: Wrote 336 bytes for a total of 45909
+debug3: Wrote 384 bytes for a total of 46293
+debug3: Wrote 352 bytes for a total of 46645
+debug3: Wrote 256 bytes for a total of 46901
+debug3: Wrote 256 bytes for a total of 47157
+debug3: Wrote 352 bytes for a total of 47509
+debug3: Wrote 352 bytes for a total of 47861
+debug3: Wrote 224 bytes for a total of 48085
+debug3: Wrote 384 bytes for a total of 48469
+debug3: Wrote 336 bytes for a total of 48805
+debug3: Wrote 304 bytes for a total of 49109
+debug3: Wrote 272 bytes for a total of 49381
+debug3: Wrote 240 bytes for a total of 49621
+debug3: Wrote 256 bytes for a total of 49877
+debug3: Wrote 320 bytes for a total of 50197
+debug3: Wrote 352 bytes for a total of 50549
+debug3: Wrote 464 bytes for a total of 51013
+debug3: Wrote 208 bytes for a total of 51221
+debug3: Wrote 688 bytes for a total of 51909
+debug3: Wrote 496 bytes for a total of 52405
+debug3: Wrote 304 bytes for a total of 52709
+debug3: Wrote 352 bytes for a total of 53061
+debug3: Wrote 288 bytes for a total of 53349
+debug3: Wrote 352 bytes for a total of 53701
+debug3: Wrote 224 bytes for a total of 53925
+debug3: Wrote 352 bytes for a total of 54277
+debug3: Wrote 320 bytes for a total of 54597
+debug3: Wrote 368 bytes for a total of 54965
+debug3: Wrote 176 bytes for a total of 55141
+debug3: Wrote 400 bytes for a total of 55541
+debug3: Wrote 352 bytes for a total of 55893
+debug3: Wrote 240 bytes for a total of 56133
+debug3: Wrote 336 bytes for a total of 56469
+debug3: Wrote 352 bytes for a total of 56821
+debug3: Wrote 400 bytes for a total of 57221
+debug3: Wrote 320 bytes for a total of 57541
+debug3: Wrote 336 bytes for a total of 57877
+debug3: Wrote 240 bytes for a total of 58117
+debug3: Wrote 320 bytes for a total of 58437
+debug3: Wrote 304 bytes for a total of 58741
+debug3: Wrote 320 bytes for a total of 59061
+debug3: Wrote 272 bytes for a total of 59333
+debug3: Wrote 304 bytes for a total of 59637
+debug3: Wrote 336 bytes for a total of 59973
+debug3: Wrote 256 bytes for a total of 60229
+debug3: Wrote 400 bytes for a total of 60629
+debug3: Wrote 304 bytes for a total of 60933
+debug3: Wrote 320 bytes for a total of 61253
+debug3: Wrote 256 bytes for a total of 61509
+debug3: Wrote 256 bytes for a total of 61765
+debug3: Wrote 256 bytes for a total of 62021
+debug3: Wrote 272 bytes for a total of 62293
+debug3: Wrote 240 bytes for a total of 62533
+debug3: Wrote 288 bytes for a total of 62821
+debug3: Wrote 320 bytes for a total of 63141
+debug3: Wrote 336 bytes for a total of 63477
+debug3: Wrote 224 bytes for a total of 63701
+debug3: Wrote 416 bytes for a total of 64117
+debug3: Wrote 400 bytes for a total of 64517
+debug3: Wrote 304 bytes for a total of 64821
+debug3: Wrote 400 bytes for a total of 65221
+debug3: Wrote 320 bytes for a total of 65541
+debug3: Wrote 304 bytes for a total of 65845
+debug3: Wrote 240 bytes for a total of 66085
+debug3: Wrote 304 bytes for a total of 66389
+debug3: Wrote 288 bytes for a total of 66677
+debug3: Wrote 304 bytes for a total of 66981
+debug3: Wrote 288 bytes for a total of 67269
+debug3: Wrote 320 bytes for a total of 67589
+debug3: Wrote 336 bytes for a total of 67925
+debug3: Wrote 368 bytes for a total of 68293
+debug3: Wrote 400 bytes for a total of 68693
+debug3: Wrote 304 bytes for a total of 68997
+debug3: Wrote 384 bytes for a total of 69381
+debug3: Wrote 288 bytes for a total of 69669
+debug3: Wrote 320 bytes for a total of 69989
+debug3: Wrote 256 bytes for a total of 70245
+debug3: Wrote 272 bytes for a total of 70517
+debug3: Wrote 256 bytes for a total of 70773
+debug3: Wrote 384 bytes for a total of 71157
+debug3: Wrote 432 bytes for a total of 71589
+debug3: Wrote 416 bytes for a total of 72005
+debug3: Wrote 224 bytes for a total of 72229
+debug3: Wrote 640 bytes for a total of 72869
+debug3: Wrote 368 bytes for a total of 73237
+debug3: Wrote 288 bytes for a total of 73525
+debug3: Wrote 320 bytes for a total of 73845
+debug3: Wrote 352 bytes for a total of 74197
+debug3: Wrote 384 bytes for a total of 74581
+debug3: Wrote 320 bytes for a total of 74901
+debug3: Wrote 272 bytes for a total of 75173
+debug3: Wrote 352 bytes for a total of 75525
+debug3: Wrote 624 bytes for a total of 76149
+debug3: Wrote 560 bytes for a total of 76709
+debug3: Wrote 656 bytes for a total of 77365
+debug3: Wrote 416 bytes for a total of 77781
+debug3: Wrote 304 bytes for a total of 78085
+debug3: Wrote 320 bytes for a total of 78405
+debug3: Wrote 304 bytes for a total of 78709
+debug3: Wrote 336 bytes for a total of 79045
+debug3: Wrote 288 bytes for a total of 79333
+debug3: Wrote 224 bytes for a total of 79557
+debug3: Wrote 288 bytes for a total of 79845
+debug3: Wrote 272 bytes for a total of 80117
+debug3: Wrote 448 bytes for a total of 80565
+debug3: Wrote 272 bytes for a total of 80837
+debug3: Wrote 240 bytes for a total of 81077
+debug3: Wrote 576 bytes for a total of 81653
+debug3: Wrote 320 bytes for a total of 81973
+debug3: Wrote 352 bytes for a total of 82325
+debug3: Wrote 320 bytes for a total of 82645
+debug3: Wrote 272 bytes for a total of 82917
+debug3: Wrote 288 bytes for a total of 83205
+debug3: Wrote 400 bytes for a total of 83605
+debug3: Wrote 288 bytes for a total of 83893
+debug3: Wrote 336 bytes for a total of 84229
+debug3: Wrote 272 bytes for a total of 84501
+debug3: Wrote 304 bytes for a total of 84805
+debug3: Wrote 256 bytes for a total of 85061
+debug3: Wrote 288 bytes for a total of 85349
+debug3: Wrote 272 bytes for a total of 85621
+debug3: Wrote 256 bytes for a total of 85877
+debug3: Wrote 288 bytes for a total of 86165
+debug3: Wrote 336 bytes for a total of 86501
+debug3: Wrote 336 bytes for a total of 86837
+debug3: Wrote 288 bytes for a total of 87125
+debug3: Wrote 256 bytes for a total of 87381
+debug3: Wrote 288 bytes for a total of 87669
+debug3: Wrote 256 bytes for a total of 87925
+debug3: Wrote 272 bytes for a total of 88197
+debug3: Wrote 336 bytes for a total of 88533
+debug3: Wrote 288 bytes for a total of 88821
+debug3: Wrote 304 bytes for a total of 89125
+debug3: Wrote 368 bytes for a total of 89493
+debug3: Wrote 240 bytes for a total of 89733
+debug3: Wrote 304 bytes for a total of 90037
+debug3: Wrote 288 bytes for a total of 90325
+debug3: Wrote 336 bytes for a total of 90661
+debug3: Wrote 304 bytes for a total of 90965
+debug3: Wrote 256 bytes for a total of 91221
+debug3: Wrote 320 bytes for a total of 91541
+debug3: Wrote 208 bytes for a total of 91749
+debug3: Wrote 256 bytes for a total of 92005
+debug3: Wrote 336 bytes for a total of 92341
+debug3: Wrote 352 bytes for a total of 92693
+debug3: Wrote 352 bytes for a total of 93045
+debug3: Wrote 368 bytes for a total of 93413
+debug3: Wrote 288 bytes for a total of 93701
+debug3: Wrote 320 bytes for a total of 94021
+debug3: Wrote 336 bytes for a total of 94357
+debug3: Wrote 272 bytes for a total of 94629
+debug3: Wrote 224 bytes for a total of 94853
+debug3: Wrote 304 bytes for a total of 95157
+debug3: Wrote 336 bytes for a total of 95493
+debug3: Wrote 272 bytes for a total of 95765
+debug3: Wrote 288 bytes for a total of 96053
+debug3: Wrote 176 bytes for a total of 96229
+debug3: Wrote 336 bytes for a total of 96565
+debug3: Wrote 320 bytes for a total of 96885
+debug3: Wrote 272 bytes for a total of 97157
+debug3: Wrote 208 bytes for a total of 97365
+debug3: Wrote 304 bytes for a total of 97669
+debug3: Wrote 304 bytes for a total of 97973
+debug3: Wrote 304 bytes for a total of 98277
+debug3: Wrote 288 bytes for a total of 98565
+debug3: Wrote 272 bytes for a total of 98837
+debug3: Wrote 304 bytes for a total of 99141
+debug3: Wrote 272 bytes for a total of 99413
+debug3: Wrote 400 bytes for a total of 99813
+debug3: Wrote 432 bytes for a total of 100245
+debug3: Wrote 272 bytes for a total of 100517
+debug3: Wrote 320 bytes for a total of 100837
+debug3: Wrote 400 bytes for a total of 101237
+debug3: Wrote 592 bytes for a total of 101829
+debug3: Wrote 592 bytes for a total of 102421
+debug3: Wrote 624 bytes for a total of 103045
+debug3: Wrote 368 bytes for a total of 103413
+debug3: Wrote 256 bytes for a total of 103669
+debug3: Wrote 288 bytes for a total of 103957
+debug3: Wrote 256 bytes for a total of 104213
+debug3: Wrote 256 bytes for a total of 104469
+debug3: Wrote 320 bytes for a total of 104789
+debug3: Wrote 240 bytes for a total of 105029
+debug3: Wrote 224 bytes for a total of 105253
+debug3: Wrote 240 bytes for a total of 105493
+debug3: Wrote 240 bytes for a total of 105733
+debug3: Wrote 256 bytes for a total of 105989
+debug3: Wrote 256 bytes for a total of 106245
+debug3: Wrote 256 bytes for a total of 106501
+debug3: Wrote 256 bytes for a total of 106757
+debug3: Wrote 416 bytes for a total of 107173
+debug3: Wrote 368 bytes for a total of 107541
+debug3: Wrote 352 bytes for a total of 107893
+debug3: Wrote 368 bytes for a total of 108261
+debug3: Wrote 240 bytes for a total of 108501
+debug3: Wrote 288 bytes for a total of 108789
+debug3: Wrote 224 bytes for a total of 109013
+debug3: Wrote 240 bytes for a total of 109253
+debug3: Wrote 240 bytes for a total of 109493
+debug3: Wrote 208 bytes for a total of 109701
+debug3: Wrote 256 bytes for a total of 109957
+debug3: Wrote 256 bytes for a total of 110213
+debug3: Wrote 272 bytes for a total of 110485
+debug3: Wrote 208 bytes for a total of 110693
+debug3: Wrote 304 bytes for a total of 110997
+debug3: Wrote 240 bytes for a total of 111237
+debug3: Wrote 272 bytes for a total of 111509
+debug3: Wrote 464 bytes for a total of 111973
+debug3: Wrote 288 bytes for a total of 112261
+debug3: Wrote 368 bytes for a total of 112629
+debug3: Wrote 432 bytes for a total of 113061
+debug3: Wrote 256 bytes for a total of 113317
+debug3: Wrote 320 bytes for a total of 113637
+debug3: Wrote 416 bytes for a total of 114053
+debug3: Wrote 288 bytes for a total of 114341
+debug3: Wrote 432 bytes for a total of 114773
+debug3: Wrote 272 bytes for a total of 115045
+debug3: Wrote 368 bytes for a total of 115413
+debug3: Wrote 304 bytes for a total of 115717
+debug3: Wrote 448 bytes for a total of 116165
+debug3: Wrote 576 bytes for a total of 116741
+debug3: Wrote 528 bytes for a total of 117269
+debug3: Wrote 304 bytes for a total of 117573
+debug3: Wrote 640 bytes for a total of 118213
+debug3: Wrote 304 bytes for a total of 118517
+debug3: Wrote 272 bytes for a total of 118789
+debug3: Wrote 256 bytes for a total of 119045
+debug3: Wrote 240 bytes for a total of 119285
+debug3: Wrote 256 bytes for a total of 119541
+debug3: Wrote 256 bytes for a total of 119797
+debug3: Wrote 384 bytes for a total of 120181
+debug3: Wrote 160 bytes for a total of 120341
+debug3: Wrote 320 bytes for a total of 120661
+debug3: Wrote 240 bytes for a total of 120901
+debug3: Wrote 304 bytes for a total of 121205
+debug3: Wrote 240 bytes for a total of 121445
+debug3: Wrote 304 bytes for a total of 121749
+debug3: Wrote 240 bytes for a total of 121989
+debug3: Wrote 304 bytes for a total of 122293
+debug3: Wrote 304 bytes for a total of 122597
+debug3: Wrote 320 bytes for a total of 122917
+debug3: Wrote 272 bytes for a total of 123189
+debug3: Wrote 224 bytes for a total of 123413
+debug3: Wrote 256 bytes for a total of 123669
+debug3: Wrote 400 bytes for a total of 124069
+debug3: Wrote 368 bytes for a total of 124437
+debug3: Wrote 256 bytes for a total of 124693
+debug3: Wrote 352 bytes for a total of 125045
+debug3: Wrote 384 bytes for a total of 125429
+debug3: Wrote 400 bytes for a total of 125829
+debug3: Wrote 208 bytes for a total of 126037
+debug3: Wrote 160 bytes for a total of 126197
+debug3: Wrote 320 bytes for a total of 126517
+debug3: Wrote 288 bytes for a total of 126805
+debug3: Wrote 256 bytes for a total of 127061
+debug3: Wrote 256 bytes for a total of 127317
+debug3: Wrote 288 bytes for a total of 127605
+debug3: Wrote 368 bytes for a total of 127973
+debug3: Wrote 288 bytes for a total of 128261
+debug3: Wrote 320 bytes for a total of 128581
+debug3: Wrote 336 bytes for a total of 128917
+debug3: Wrote 368 bytes for a total of 129285
+debug3: Wrote 336 bytes for a total of 129621
+debug3: Wrote 320 bytes for a total of 129941
+debug3: Wrote 272 bytes for a total of 130213
+debug3: Wrote 336 bytes for a total of 130549
+debug3: Wrote 256 bytes for a total of 130805
+debug3: Wrote 352 bytes for a total of 131157
+debug3: Wrote 320 bytes for a total of 131477
+debug3: Wrote 400 bytes for a total of 131877
+debug3: Wrote 384 bytes for a total of 132261
+debug3: Wrote 464 bytes for a total of 132725
+debug3: Wrote 336 bytes for a total of 133061
+debug3: Wrote 336 bytes for a total of 133397
+debug3: Wrote 336 bytes for a total of 133733
+debug3: Wrote 336 bytes for a total of 134069
+debug3: Wrote 288 bytes for a total of 134357
+debug3: Wrote 240 bytes for a total of 134597
+debug3: Wrote 416 bytes for a total of 135013
+debug3: Wrote 320 bytes for a total of 135333
+debug3: Wrote 368 bytes for a total of 135701
+debug3: Wrote 352 bytes for a total of 136053
+debug3: Wrote 272 bytes for a total of 136325
+debug3: Wrote 272 bytes for a total of 136597
+debug3: Wrote 336 bytes for a total of 136933
+debug3: Wrote 368 bytes for a total of 137301
+debug3: Wrote 256 bytes for a total of 137557
+debug3: Wrote 304 bytes for a total of 137861
+debug3: Wrote 272 bytes for a total of 138133
+debug3: Wrote 416 bytes for a total of 138549
+debug3: Wrote 336 bytes for a total of 138885
+debug3: Wrote 336 bytes for a total of 139221
+debug3: Wrote 352 bytes for a total of 139573
+debug3: Wrote 336 bytes for a total of 139909
+debug3: Wrote 224 bytes for a total of 140133
+debug3: Wrote 304 bytes for a total of 140437
+debug3: Wrote 368 bytes for a total of 140805
+debug3: Wrote 272 bytes for a total of 141077
+debug3: Wrote 288 bytes for a total of 141365
+debug3: Wrote 272 bytes for a total of 141637
+debug3: Wrote 240 bytes for a total of 141877
+debug3: Wrote 288 bytes for a total of 142165
+debug3: Wrote 288 bytes for a total of 142453
+debug3: Wrote 320 bytes for a total of 142773
+debug3: Wrote 432 bytes for a total of 143205
+debug3: Wrote 400 bytes for a total of 143605
+debug3: Wrote 288 bytes for a total of 143893
+debug3: Wrote 416 bytes for a total of 144309
+debug3: Wrote 448 bytes for a total of 144757
+debug3: Wrote 448 bytes for a total of 145205
+debug3: Wrote 512 bytes for a total of 145717
+debug3: Wrote 320 bytes for a total of 146037
+debug3: Wrote 400 bytes for a total of 146437
+debug3: Wrote 320 bytes for a total of 146757
+debug3: Wrote 208 bytes for a total of 146965
+debug3: Wrote 352 bytes for a total of 147317
+debug3: Wrote 320 bytes for a total of 147637
+debug3: Wrote 320 bytes for a total of 147957
+debug3: Wrote 224 bytes for a total of 148181
+debug3: Wrote 208 bytes for a total of 148389
+debug3: Wrote 320 bytes for a total of 148709
+debug3: Wrote 160 bytes for a total of 148869
+debug3: Wrote 320 bytes for a total of 149189
+debug3: Wrote 288 bytes for a total of 149477
+debug3: Wrote 208 bytes for a total of 149685
+debug3: Wrote 320 bytes for a total of 150005
+debug3: Wrote 208 bytes for a total of 150213
+debug3: Wrote 320 bytes for a total of 150533
+debug3: Wrote 304 bytes for a total of 150837
+debug3: Wrote 288 bytes for a total of 151125
+debug3: Wrote 320 bytes for a total of 151445
+debug3: Wrote 304 bytes for a total of 151749
+debug3: Wrote 304 bytes for a total of 152053
+debug3: Wrote 336 bytes for a total of 152389
+debug3: Wrote 336 bytes for a total of 152725
+debug3: Wrote 208 bytes for a total of 152933
+debug3: Wrote 320 bytes for a total of 153253
+debug3: Wrote 320 bytes for a total of 153573
+debug3: Wrote 272 bytes for a total of 153845
+debug3: Wrote 240 bytes for a total of 154085
+debug3: Wrote 432 bytes for a total of 154517
+debug3: Wrote 400 bytes for a total of 154917
+debug3: Wrote 320 bytes for a total of 155237
+debug3: Wrote 256 bytes for a total of 155493
+debug3: Wrote 288 bytes for a total of 155781
+debug3: Wrote 256 bytes for a total of 156037
+debug3: Wrote 256 bytes for a total of 156293
+debug3: Wrote 256 bytes for a total of 156549
+debug3: Wrote 368 bytes for a total of 156917
+debug3: Wrote 288 bytes for a total of 157205
+debug3: Wrote 256 bytes for a total of 157461
+debug3: Wrote 288 bytes for a total of 157749
+debug3: Wrote 272 bytes for a total of 158021
+debug3: Wrote 288 bytes for a total of 158309
+debug3: Wrote 368 bytes for a total of 158677
+debug3: Wrote 336 bytes for a total of 159013
+debug3: Wrote 240 bytes for a total of 159253
+debug3: Wrote 352 bytes for a total of 159605
+debug3: Wrote 256 bytes for a total of 159861
+debug3: Wrote 304 bytes for a total of 160165
+debug3: Wrote 160 bytes for a total of 160325
+debug3: Wrote 368 bytes for a total of 160693
+debug3: Wrote 240 bytes for a total of 160933
+debug3: Wrote 240 bytes for a total of 161173
+debug3: Wrote 256 bytes for a total of 161429
+debug3: Wrote 288 bytes for a total of 161717
+debug3: Wrote 208 bytes for a total of 161925
+debug3: Wrote 256 bytes for a total of 162181
+debug3: Wrote 336 bytes for a total of 162517
+debug3: Wrote 272 bytes for a total of 162789
+debug3: Wrote 336 bytes for a total of 163125
+debug3: Wrote 208 bytes for a total of 163333
+debug3: Wrote 240 bytes for a total of 163573
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15488
+debug1: session_exit_message: session 4 channel 6 pid 15488
+debug2: channel 6: request exit-status confirm 0
+debug1: session_exit_message: release channel 6
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug2: notify_done: reading
+debug3: Wrote 128 bytes for a total of 163701
+debug3: channel 6: will not send data after close
+debug2: channel 6: rcvd close
+debug3: channel 6: will not send data after close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug3: session_unused: session id 4 unused
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug1: channel 6: free: server-session, nchannels 7
+debug3: channel 6: status: The following connections are open:
+  #0 server-session (t4 r72 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r73 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r74 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r75 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r77 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 6: close_fds r -1 w -1 e -1 c -1
+debug3: Wrote 80 bytes for a total of 163781
+debug3: Wrote 80 bytes for a total of 163861
+debug1: server_input_channel_open: ctype session rchan 78 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 163909
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 163957
+debug1: server_input_channel_open: ctype session rchan 79 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 7: new [server-session]
+debug2: session_new: allocate (allocated 5 max 10)
+debug3: session_unused: session id 5 unused
+debug1: session_new: session 5
+debug1: session_open: channel 7
+debug1: session_open: session 5: link with channel 7
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 164005
+debug1: server_input_channel_req: channel 7 request exec reply 0
+debug1: session_by_channel: session 5 channel 7
+debug1: session_input_channel_req: session 5 req exec
+debug2: fd 26 setting O_NONBLOCK
+debug2: fd 24 setting O_NONBLOCK
+debug2: fd 28 setting O_NONBLOCK
+debug2: channel 6: read 75 from efd 25
+debug3: Wrote 48 bytes for a total of 164053
+debug2: channel 6: rwin 1048576 elen 75 euse 1
+debug2: channel 6: sent ext data 75
+debug2: channel 6: read 301 from efd 25
+debug3: Wrote 128 bytes for a total of 164181
+debug2: channel 6: rwin 1048501 elen 301 euse 1
+debug2: channel 6: sent ext data 301
+debug2: channel 6: read 150 from efd 25
+debug3: Wrote 352 bytes for a total of 164533
+debug2: channel 6: rwin 1048200 elen 150 euse 1
+debug2: channel 6: sent ext data 150
+debug2: channel 6: read 98 from efd 25
+debug3: Wrote 192 bytes for a total of 164725
+debug2: channel 6: rwin 1048050 elen 98 euse 1
+debug2: channel 6: sent ext data 98
+debug2: channel 6: read 50 from efd 25
+debug2: channel 7: read 41 from efd 28
+debug3: Wrote 144 bytes for a total of 164869
+debug2: channel 6: rwin 1047952 elen 50 euse 1
+debug2: channel 6: sent ext data 50
+debug2: channel 7: rwin 1048576 elen 41 euse 1
+debug2: channel 7: sent ext data 41
+debug3: Wrote 176 bytes for a total of 165045
+debug2: channel 7: read 34 from efd 28
+debug2: channel 7: rwin 1048535 elen 34 euse 1
+debug2: channel 7: sent ext data 34
+debug3: Wrote 80 bytes for a total of 165125
+debug2: channel 7: read 53 from efd 28
+debug2: channel 7: rwin 1048501 elen 53 euse 1
+debug2: channel 7: sent ext data 53
+debug2: channel 7: read 248 from efd 28
+debug3: Wrote 96 bytes for a total of 165221
+debug2: channel 7: rwin 1048448 elen 248 euse 1
+debug2: channel 7: sent ext data 248
+debug2: channel 7: read 150 from efd 28
+debug3: Wrote 288 bytes for a total of 165509
+debug2: channel 7: rwin 1048200 elen 150 euse 1
+debug2: channel 7: sent ext data 150
+debug2: channel 7: read 148 from efd 28
+debug3: Wrote 192 bytes for a total of 165701
+debug2: channel 7: rwin 1048050 elen 148 euse 1
+debug2: channel 7: sent ext data 148
+debug2: channel 7: read 50 from efd 28
+debug3: Wrote 192 bytes for a total of 165893
+debug2: channel 7: rwin 1047902 elen 50 euse 1
+debug2: channel 7: sent ext data 50
+debug3: Wrote 96 bytes for a total of 165989
+debug3: Wrote 64 bytes for a total of 166053
+debug3: Wrote 64 bytes for a total of 166117
+debug3: Wrote 64 bytes for a total of 166181
+debug3: Wrote 48 bytes for a total of 166229
+debug3: Wrote 80 bytes for a total of 166309
+debug3: Wrote 96 bytes for a total of 166405
+debug3: Wrote 80 bytes for a total of 166485
+debug3: Wrote 176 bytes for a total of 166661
+debug3: Wrote 224 bytes for a total of 166885
+debug3: Wrote 144 bytes for a total of 167029
+debug1: Connection to port 65476 forwarding to localhost port 0 requested.
+debug2: fd 21 setting TCP_NODELAY
+debug2: fd 21 setting O_NONBLOCK
+debug3: fd 21 is O_NONBLOCK
+debug1: channel 8: new [forwarded-tcpip]
+debug3: Wrote 96 bytes for a total of 167125
+debug3: Wrote 224 bytes for a total of 167349
+debug2: channel 8: open confirm rwindow 131072 rmax 16384
+debug3: Wrote 256 bytes for a total of 167605
+debug3: Wrote 240 bytes for a total of 167845
+debug3: Wrote 64 bytes for a total of 167909
+debug3: Wrote 80 bytes for a total of 167989
+debug3: Wrote 144 bytes for a total of 168133
+debug3: Wrote 80 bytes for a total of 168213
+debug3: Wrote 544 bytes for a total of 168757
+debug3: Wrote 192 bytes for a total of 168949
+debug3: Wrote 208 bytes for a total of 169157
+debug3: Wrote 240 bytes for a total of 169397
+debug3: Wrote 272 bytes for a total of 169669
+debug3: Wrote 64 bytes for a total of 169733
+debug3: Wrote 160 bytes for a total of 169893
+debug3: Wrote 336 bytes for a total of 170229
+debug3: Wrote 224 bytes for a total of 170453
+debug3: Wrote 240 bytes for a total of 170693
+debug3: Wrote 80 bytes for a total of 170773
+debug3: Wrote 160 bytes for a total of 170933
+debug3: Wrote 80 bytes for a total of 171013
+debug3: Wrote 512 bytes for a total of 171525
+debug3: Wrote 272 bytes for a total of 171797
+debug3: Wrote 144 bytes for a total of 171941
+debug3: Wrote 48 bytes for a total of 171989
+debug3: Wrote 400 bytes for a total of 172389
+debug3: Wrote 96 bytes for a total of 172485
+debug3: Wrote 48 bytes for a total of 172533
+debug3: Wrote 112 bytes for a total of 172645
+debug3: Wrote 192 bytes for a total of 172837
+debug3: Wrote 240 bytes for a total of 173077
+debug3: Wrote 144 bytes for a total of 173221
+debug3: Wrote 304 bytes for a total of 173525
+debug3: Wrote 272 bytes for a total of 173797
+debug3: Wrote 144 bytes for a total of 173941
+debug3: Wrote 48 bytes for a total of 173989
+debug3: Wrote 160 bytes for a total of 174149
+debug3: Wrote 160 bytes for a total of 174309
+debug3: Wrote 384 bytes for a total of 174693
+debug3: Wrote 1152 bytes for a total of 175845
+debug3: Wrote 336 bytes for a total of 176181
+debug3: Wrote 48 bytes for a total of 176229
+debug3: Wrote 96 bytes for a total of 176325
+debug3: Wrote 480 bytes for a total of 176805
+debug3: Wrote 224 bytes for a total of 177029
+debug3: Wrote 256 bytes for a total of 177285
+debug3: Wrote 128 bytes for a total of 177413
+debug3: Wrote 224 bytes for a total of 177637
+debug3: Wrote 256 bytes for a total of 177893
+debug3: Wrote 64 bytes for a total of 177957
+debug3: Wrote 384 bytes for a total of 178341
+debug3: Wrote 96 bytes for a total of 178437
+debug3: Wrote 96 bytes for a total of 178533
+debug3: Wrote 448 bytes for a total of 178981
+debug3: Wrote 304 bytes for a total of 179285
+debug3: Wrote 48 bytes for a total of 179333
+debug3: Wrote 224 bytes for a total of 179557
+debug3: Wrote 192 bytes for a total of 179749
+debug3: Wrote 128 bytes for a total of 179877
+debug3: Wrote 64 bytes for a total of 179941
+debug3: Wrote 288 bytes for a total of 180229
+debug3: Wrote 208 bytes for a total of 180437
+debug3: Wrote 128 bytes for a total of 180565
+debug3: Wrote 224 bytes for a total of 180789
+debug3: Wrote 320 bytes for a total of 181109
+debug3: Wrote 96 bytes for a total of 181205
+debug3: Wrote 48 bytes for a total of 181253
+debug3: Wrote 224 bytes for a total of 181477
+debug3: Wrote 144 bytes for a total of 181621
+debug3: Wrote 176 bytes for a total of 181797
+debug3: Wrote 64 bytes for a total of 181861
+debug3: Wrote 224 bytes for a total of 182085
+debug3: Wrote 272 bytes for a total of 182357
+debug3: Wrote 80 bytes for a total of 182437
+debug3: Wrote 240 bytes for a total of 182677
+debug3: Wrote 160 bytes for a total of 182837
+debug3: Wrote 240 bytes for a total of 183077
+debug3: Wrote 272 bytes for a total of 183349
+debug3: Wrote 48 bytes for a total of 183397
+debug3: Wrote 224 bytes for a total of 183621
+debug3: Wrote 192 bytes for a total of 183813
+debug3: Wrote 128 bytes for a total of 183941
+debug3: Wrote 112 bytes for a total of 184053

@@ -1,0 +1,73 @@
+debug1: Server will not fork when running in debugging mode.
+debug1: rexec start in 5 out 5 newsock 5 pipe -1 sock 8
+debug1: inetd sockets after dupping: 3, 3
+Connection from 192.168.0.125 port 63969
+debug1: Client protocol version 2.0; client software version OpenSSH_6.2
+debug1: match: OpenSSH_6.2 pat OpenSSH*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_5.3
+debug1: permanently_set_uid: 74/74
+debug1: list_hostkey_types: ssh-rsa,ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST received
+debug1: SSH2_MSG_KEX_DH_GEX_GROUP sent
+debug1: expecting SSH2_MSG_KEX_DH_GEX_INIT
+debug1: SSH2_MSG_KEX_DH_GEX_REPLY sent
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug1: userauth-request for user root service ssh-connection method none
+debug1: attempt 0 failures 0
+debug1: PAM: initializing for "root"
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 1 failures 0
+debug1: test whether pkalg/pkblob are acceptable
+debug1: PAM: setting PAM_RHOST to "192.168.0.125"
+debug1: PAM: setting PAM_TTY to "ssh"
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+Postponed publickey for root from 192.168.0.125 port 63969 ssh2
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 2 failures 0
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug1: ssh_rsa_verify: signature correct
+debug1: do_pam_account: called
+Accepted publickey for root from 192.168.0.125 port 63969 ssh2
+debug1: monitor_child_preauth: root has been authenticated by privileged process
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: ssh_gssapi_storecreds: Not a GSSAPI mechanism
+debug1: restore_uid: 0/0
+debug1: SELinux support disabled
+debug1: PAM: establishing credentials
+debug1: Entering interactive session for SSH2.
+debug1: server_init_dispatch_20
+debug1: server_input_channel_open: ctype session rchan 0 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 0: new [server-session]
+debug1: session_new: session 0
+debug1: session_open: channel 0
+debug1: session_open: session 0: link with channel 0
+debug1: server_input_channel_open: confirm session
+debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug1: server_input_channel_req: channel 0 request pty-req reply 1
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req pty-req
+debug1: Allocating pty.
+debug1: session_pty_req: session 0 alloc /dev/pts/3
+debug1: server_input_channel_req: channel 0 request exec reply 1
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req exec
+debug1: Setting controlling tty using TIOCSCTTY.

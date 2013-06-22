@@ -1,0 +1,367 @@
+debug3: fd 5 is not O_NONBLOCK
+debug1: Server will not fork when running in debugging mode.
+debug3: send_rexec_state: entering fd = 8 config len 634
+debug3: ssh_msg_send: type 0
+debug3: send_rexec_state: done
+debug1: rexec start in 5 out 5 newsock 5 pipe -1 sock 8
+debug1: inetd sockets after dupping: 3, 3
+Connection from 192.168.0.125 port 65470
+debug1: Client protocol version 2.0; client software version JSCH-0.1.46
+debug1: no match: JSCH-0.1.46
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_5.3
+debug2: fd 3 setting O_NONBLOCK
+debug2: Network child is on pid 15027
+debug3: preauth child monitor started
+debug3: mm_request_receive entering
+debug3: privsep user:group 74:74
+debug1: permanently_set_uid: 74/74
+debug1: list_hostkey_types: ssh-rsa,ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug3: Wrote 784 bytes for a total of 805
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: kex_parse_kexinit: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 78
+debug3: mm_request_send entering: type 79
+debug3: mm_request_receive entering
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: monitor_read: checking request 78
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 79
+debug3: mm_request_receive entering
+debug2: dh_gen_key: priv key bits set: 125/256
+debug2: bits set: 527/1024
+debug1: expecting SSH2_MSG_KEXDH_INIT
+debug2: bits set: 505/1024
+debug3: mm_key_sign entering
+debug3: mm_request_send entering: type 5
+debug3: mm_key_sign: waiting for MONITOR_ANS_SIGN
+debug3: mm_request_receive_expect entering: type 6
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 5
+debug3: mm_answer_sign
+debug3: mm_answer_sign: signature 0x7fd7d0990670(271)
+debug3: mm_request_send entering: type 6
+debug2: monitor_read: 5 used once, disabling now
+debug3: mm_request_receive entering
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug3: Wrote 720 bytes for a total of 1525
+debug2: set_newkeys: mode 0
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug3: Wrote 48 bytes for a total of 1573
+debug1: userauth-request for user root service ssh-connection method none
+debug1: attempt 0 failures 0
+debug3: mm_getpwnamallow entering
+debug3: mm_request_send entering: type 7
+debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM
+debug3: monitor_read: checking request 7
+debug3: mm_request_receive_expect entering: type 8
+debug3: mm_answer_pwnamallow
+debug3: mm_request_receive entering
+debug3: Trying to reverse map address 192.168.0.125.
+debug2: parse_server_config: config reprocess config len 634
+debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+debug3: mm_request_send entering: type 8
+debug2: monitor_read: 7 used once, disabling now
+debug3: mm_request_receive entering
+debug2: input_userauth_request: setting up authctxt for root
+debug3: mm_start_pam entering
+debug3: mm_request_send entering: type 50
+debug3: mm_inform_authserv entering
+debug3: mm_request_send entering: type 3
+debug3: mm_inform_authrole entering
+debug3: monitor_read: checking request 50
+debug3: mm_request_send entering: type 4
+debug1: PAM: initializing for "root"
+debug2: input_userauth_request: try method none
+debug3: Wrote 80 bytes for a total of 1653
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 1 failures 0
+debug2: input_userauth_request: try method publickey
+debug1: test whether pkalg/pkblob are acceptable
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: mm_request_receive_expect entering: type 22
+debug3: mm_request_receive entering
+debug1: PAM: setting PAM_RHOST to "192.168.0.125"
+debug1: PAM: setting PAM_TTY to "ssh"
+debug2: monitor_read: 50 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 3
+debug3: mm_answer_authserv: service=ssh-connection, style=
+debug2: monitor_read: 3 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 4
+debug3: mm_answer_authrole: role=
+debug2: monitor_read: 4 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 21
+debug3: mm_answer_keyallowed entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fd7d0998ae0
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fd7d0998ae0 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_request_receive entering
+debug3: Wrote 320 bytes for a total of 1973
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-rsa
+Postponed publickey for root from 192.168.0.125 port 65470 ssh2
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 2 failures 0
+debug2: input_userauth_request: try method publickey
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: mm_request_receive_expect entering: type 22
+debug3: monitor_read: checking request 21
+debug3: mm_request_receive entering
+debug3: mm_answer_keyallowed entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fd7d099a530
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fd7d099a530 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_key_verify entering
+debug3: mm_request_send entering: type 23
+debug3: mm_request_receive entering
+debug3: mm_key_verify: waiting for MONITOR_ANS_KEYVERIFY
+debug3: mm_request_receive_expect entering: type 24
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 23
+debug1: ssh_rsa_verify: signature correct
+debug3: mm_answer_keyverify: key 0x7fd7d0997e70 signature verified
+debug3: mm_request_send entering: type 24
+debug3: mm_request_receive_expect entering: type 51
+debug2: userauth_pubkey: authenticated 1 pkalg ssh-rsa
+debug3: mm_request_receive entering
+debug3: mm_do_pam_account entering
+debug3: mm_request_send entering: type 51
+debug3: mm_request_receive_expect entering: type 52
+debug3: mm_request_receive entering
+debug1: do_pam_account: called
+debug3: PAM: do_pam_account pam_acct_mgmt = 0 (Success)
+debug3: mm_request_send entering: type 52
+Accepted publickey for root from 192.168.0.125 port 65470 ssh2
+debug3: mm_do_pam_account returning 1
+debug1: monitor_child_preauth: root has been authenticated by privileged process
+debug3: mm_get_keystate: Waiting for new keys
+debug3: Wrote 32 bytes for a total of 2005
+debug3: mm_request_receive_expect entering: type 25
+debug3: mm_request_receive entering
+debug3: mm_send_keystate: Sending new keys: 0x7fd7d0985c90 0x7fd7d09859e0
+debug3: mm_newkeys_to_blob: converting 0x7fd7d0985c90
+debug3: mm_newkeys_to_blob: converting 0x7fd7d09859e0
+debug3: mm_send_keystate: New keys have been sent
+debug3: mm_send_keystate: Sending compression state
+debug3: mm_request_send entering: type 25
+debug3: mm_send_keystate: Finished sending state
+debug3: mm_newkeys_from_blob: 0x7fd7d0999320(122)
+debug3: mm_request_send entering: type 80
+debug2: mac_setup: found hmac-md5
+debug3: mm_get_keystate: Waiting for second key
+debug3: mm_newkeys_from_blob: 0x7fd7d0999320(122)
+debug3: mm_request_receive_expect entering: type 81
+debug2: mac_setup: found hmac-md5
+debug3: mm_request_receive entering
+debug3: mm_get_keystate: Getting compression state
+debug3: mm_get_keystate: Getting Network I/O buffers
+debug3: mm_request_receive_expect entering: type 80
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 81
+debug3: mm_share_sync: Share sync
+debug3: mm_share_sync: Share sync end
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: ssh_gssapi_storecreds: Not a GSSAPI mechanism
+debug1: restore_uid: 0/0
+debug1: SELinux support disabled
+debug1: PAM: establishing credentials
+debug3: PAM: opening session
+debug2: set_newkeys: mode 0
+debug2: set_newkeys: mode 1
+debug1: Entering interactive session for SSH2.
+debug2: fd 5 setting O_NONBLOCK
+debug2: fd 6 setting O_NONBLOCK
+debug1: server_init_dispatch_20
+debug1: server_input_channel_open: ctype session rchan 72 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 0: new [server-session]
+debug2: session_new: allocate (allocated 0 max 10)
+debug3: session_unused: session id 0 unused
+debug1: session_new: session 0
+debug1: session_open: channel 0
+debug1: session_open: session 0: link with channel 0
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 2053
+debug1: server_input_channel_req: channel 0 request pty-req reply 0
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req pty-req
+debug1: Allocating pty.
+debug1: session_pty_req: session 0 alloc /dev/pts/3
+debug1: server_input_channel_req: channel 0 request exec reply 0
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req exec
+debug2: fd 3 setting TCP_NODELAY
+debug2: channel 0: rfd 9 isatty
+debug2: fd 9 setting O_NONBLOCK
+debug3: fd 7 is O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 2101
+debug1: Setting controlling tty using TIOCSCTTY.
+debug1: server_input_channel_open: ctype session rchan 73 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 1: new [server-session]
+debug2: session_new: allocate (allocated 1 max 10)
+debug3: session_unused: session id 1 unused
+debug1: session_new: session 1
+debug1: session_open: channel 1
+debug1: session_open: session 1: link with channel 1
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 2149
+debug1: server_input_channel_req: channel 1 request subsystem reply 1
+debug1: session_by_channel: session 1 channel 1
+debug1: session_input_channel_req: session 1 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 12 setting O_NONBLOCK
+debug2: fd 11 setting O_NONBLOCK
+debug2: fd 14 setting O_NONBLOCK
+debug3: Wrote 80 bytes for a total of 2229
+debug3: Wrote 96 bytes for a total of 2325
+debug2: channel 1: read 41 from efd 14
+debug3: channel 1: discard efd
+debug2: channel 1: read 34 from efd 14
+debug3: channel 1: discard efd
+debug2: channel 1: read 253 from efd 14
+debug3: channel 1: discard efd
+debug2: channel 1: read 98 from efd 14
+debug3: channel 1: discard efd
+debug3: Wrote 80 bytes for a total of 2405
+debug3: Wrote 112 bytes for a total of 2517
+debug3: Wrote 160 bytes for a total of 2677
+debug3: Wrote 224 bytes for a total of 2901
+debug3: Wrote 48 bytes for a total of 2949
+debug3: Wrote 48 bytes for a total of 2997
+debug3: Wrote 144 bytes for a total of 3141
+debug3: Wrote 48 bytes for a total of 3189
+debug3: Wrote 48 bytes for a total of 3237
+debug3: Wrote 48 bytes for a total of 3285
+debug1: server_input_channel_open: ctype session rchan 74 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 2: new [server-session]
+debug2: session_new: allocate (allocated 2 max 10)
+debug3: session_unused: session id 2 unused
+debug1: session_new: session 2
+debug1: session_open: channel 2
+debug1: session_open: session 2: link with channel 2
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 3333
+debug1: server_input_channel_req: channel 2 request subsystem reply 1
+debug1: session_by_channel: session 2 channel 2
+debug1: session_input_channel_req: session 2 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 15 setting O_NONBLOCK
+debug2: fd 13 setting O_NONBLOCK
+debug2: fd 17 setting O_NONBLOCK
+debug3: Wrote 128 bytes for a total of 3461
+debug3: Wrote 64 bytes for a total of 3525
+debug3: Wrote 48 bytes for a total of 3573
+debug3: Wrote 48 bytes for a total of 3621
+debug3: Wrote 48 bytes for a total of 3669
+debug2: channel 2: read 41 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 48 bytes for a total of 3717
+debug3: Wrote 48 bytes for a total of 3765
+debug3: Wrote 48 bytes for a total of 3813
+debug3: Wrote 48 bytes for a total of 3861
+debug2: channel 2: read 74 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 48 bytes for a total of 3909
+debug2: channel 2: read 311 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 48 bytes for a total of 3957
+debug2: channel 2: read 50 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 64 bytes for a total of 4021
+debug3: Wrote 144 bytes for a total of 4165
+debug1: server_input_channel_open: ctype session rchan 75 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 3: new [server-session]
+debug2: session_new: allocate (allocated 3 max 10)
+debug3: session_unused: session id 3 unused
+debug1: session_new: session 3
+debug1: session_open: channel 3
+debug1: session_open: session 3: link with channel 3
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 4213
+debug1: server_input_channel_req: channel 3 request subsystem reply 1
+debug1: session_by_channel: session 3 channel 3
+debug1: session_input_channel_req: session 3 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 18 setting O_NONBLOCK
+debug2: fd 16 setting O_NONBLOCK
+debug2: fd 20 setting O_NONBLOCK
+debug3: Wrote 80 bytes for a total of 4293
+debug2: channel 3: read 41 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 34 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 53 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 200 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 98 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 100 from efd 20
+debug3: channel 3: discard efd
+debug3: Wrote 144 bytes for a total of 4437

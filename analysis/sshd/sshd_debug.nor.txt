@@ -1,0 +1,278 @@
+debug3: fd 5 is not O_NONBLOCK
+debug1: Server will not fork when running in debugging mode.
+debug3: send_rexec_state: entering fd = 8 config len 634
+debug3: ssh_msg_send: type 0
+debug3: send_rexec_state: done
+debug1: rexec start in 5 out 5 newsock 5 pipe -1 sock 8
+debug1: inetd sockets after dupping: 3, 3
+Connection from 192.168.0.125 port 63832
+debug1: Client protocol version 2.0; client software version OpenSSH_6.2
+debug1: match: OpenSSH_6.2 pat OpenSSH*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_5.3
+debug2: fd 3 setting O_NONBLOCK
+debug2: Network child is on pid 5779
+debug3: preauth child monitor started
+debug3: mm_request_receive entering
+debug3: privsep user:group 74:74
+debug1: permanently_set_uid: 74/74
+debug1: list_hostkey_types: ssh-rsa,ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug3: Wrote 784 bytes for a total of 805
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: kex_parse_kexinit: ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-dss-cert-v01@openssh.com,ssh-rsa-cert-v00@openssh.com,ssh-dss-cert-v00@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: hmac-md5-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-sha1,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-ripemd160-etm@openssh.com,hmac-sha1-96-etm@openssh.com,hmac-md5-96-etm@openssh.com,hmac-md5,hmac-sha1,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib@openssh.com,zlib
+debug2: kex_parse_kexinit: none,zlib@openssh.com,zlib
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: monitor_read: checking request 78
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 79
+debug3: mm_request_receive entering
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: monitor_read: checking request 78
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 79
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST received
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 0
+debug3: mm_choose_dh: waiting for MONITOR_ANS_MODULI
+debug3: mm_request_receive_expect entering: type 1
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 0
+debug3: mm_answer_moduli: got parameters: 1024 1024 8192
+debug3: mm_request_send entering: type 1
+debug2: monitor_read: 0 used once, disabling now
+debug3: mm_choose_dh: remaining 0
+debug3: mm_request_receive entering
+debug1: SSH2_MSG_KEX_DH_GEX_GROUP sent
+debug3: Wrote 152 bytes for a total of 957
+debug2: dh_gen_key: priv key bits set: 140/256
+debug2: bits set: 496/1024
+debug1: expecting SSH2_MSG_KEX_DH_GEX_INIT
+debug2: bits set: 517/1024
+debug3: mm_key_sign entering
+debug3: mm_request_send entering: type 5
+debug3: mm_key_sign: waiting for MONITOR_ANS_SIGN
+debug3: monitor_read: checking request 5
+debug3: mm_request_receive_expect entering: type 6
+debug3: mm_answer_sign
+debug3: mm_request_receive entering
+debug3: mm_answer_sign: signature 0x7fc4748d8750(271)
+debug3: mm_request_send entering: type 6
+debug2: monitor_read: 5 used once, disabling now
+debug1: SSH2_MSG_KEX_DH_GEX_REPLY sent
+debug3: mm_request_receive entering
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug3: Wrote 720 bytes for a total of 1677
+debug2: set_newkeys: mode 0
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug3: Wrote 48 bytes for a total of 1725
+debug1: userauth-request for user root service ssh-connection method none
+debug1: attempt 0 failures 0
+debug3: mm_getpwnamallow entering
+debug3: mm_request_send entering: type 7
+debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM
+debug3: monitor_read: checking request 7
+debug3: mm_request_receive_expect entering: type 8
+debug3: mm_answer_pwnamallow
+debug3: mm_request_receive entering
+debug3: Trying to reverse map address 192.168.0.125.
+debug2: parse_server_config: config reprocess config len 634
+debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+debug3: mm_request_send entering: type 8
+debug2: monitor_read: 7 used once, disabling now
+debug3: mm_request_receive entering
+debug2: input_userauth_request: setting up authctxt for root
+debug3: mm_start_pam entering
+debug3: mm_request_send entering: type 50
+debug3: mm_inform_authserv entering
+debug3: monitor_read: checking request 50
+debug3: mm_request_send entering: type 3
+debug1: PAM: initializing for "root"
+debug3: mm_inform_authrole entering
+debug3: mm_request_send entering: type 4
+debug2: input_userauth_request: try method none
+debug3: Wrote 80 bytes for a total of 1805
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 1 failures 0
+debug2: input_userauth_request: try method publickey
+debug1: test whether pkalg/pkblob are acceptable
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: mm_request_receive_expect entering: type 22
+debug3: mm_request_receive entering
+debug1: PAM: setting PAM_RHOST to "192.168.0.125"
+debug1: PAM: setting PAM_TTY to "ssh"
+debug2: monitor_read: 50 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 3
+debug3: mm_answer_authserv: service=ssh-connection, style=
+debug2: monitor_read: 3 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 4
+debug3: mm_answer_authrole: role=
+debug2: monitor_read: 4 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 21
+debug3: mm_answer_keyallowed entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fc4748e0be0
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fc4748e0be0 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_request_receive entering
+debug3: Wrote 320 bytes for a total of 2125
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-rsa
+Postponed publickey for root from 192.168.0.125 port 63832 ssh2
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 2 failures 0
+debug2: input_userauth_request: try method publickey
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: monitor_read: checking request 21
+debug3: mm_request_receive_expect entering: type 22
+debug3: mm_answer_keyallowed entering
+debug3: mm_request_receive entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fc4748e2630
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fc4748e2630 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_key_verify entering
+debug3: mm_request_send entering: type 23
+debug3: mm_request_receive entering
+debug3: mm_key_verify: waiting for MONITOR_ANS_KEYVERIFY
+debug3: mm_request_receive_expect entering: type 24
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 23
+debug1: ssh_rsa_verify: signature correct
+debug3: mm_answer_keyverify: key 0x7fc4748dff70 signature verified
+debug3: mm_request_send entering: type 24
+debug3: mm_request_receive_expect entering: type 51
+debug2: userauth_pubkey: authenticated 1 pkalg ssh-rsa
+debug3: mm_request_receive entering
+debug3: mm_do_pam_account entering
+debug3: mm_request_send entering: type 51
+debug3: mm_request_receive_expect entering: type 52
+debug3: mm_request_receive entering
+debug1: do_pam_account: called
+debug3: PAM: do_pam_account pam_acct_mgmt = 0 (Success)
+debug3: mm_request_send entering: type 52
+Accepted publickey for root from 192.168.0.125 port 63832 ssh2
+debug3: mm_do_pam_account returning 1
+debug1: monitor_child_preauth: root has been authenticated by privileged process
+debug3: mm_get_keystate: Waiting for new keys
+debug3: Wrote 32 bytes for a total of 2157
+debug3: mm_request_receive_expect entering: type 25
+debug3: mm_request_receive entering
+debug3: mm_send_keystate: Sending new keys: 0x7fc4748d83a0 0x7fc4748d8050
+debug3: mm_newkeys_to_blob: converting 0x7fc4748d83a0
+debug3: mm_newkeys_to_blob: converting 0x7fc4748d8050
+debug3: mm_send_keystate: New keys have been sent
+debug3: mm_send_keystate: Sending compression state
+debug3: mm_request_send entering: type 25
+debug3: mm_newkeys_from_blob: 0x7fc4748e1420(122)
+debug2: mac_setup: found hmac-md5
+debug3: mm_send_keystate: Finished sending state
+debug3: mm_get_keystate: Waiting for second key
+debug3: mm_newkeys_from_blob: 0x7fc4748e1420(122)
+debug2: mac_setup: found hmac-md5
+debug3: mm_get_keystate: Getting compression state
+debug3: mm_request_send entering: type 80
+debug3: mm_get_keystate: Getting Network I/O buffers
+debug3: mm_request_receive_expect entering: type 80
+debug3: mm_request_receive entering
+debug3: mm_request_receive_expect entering: type 81
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 81
+debug3: mm_share_sync: Share sync
+debug3: mm_share_sync: Share sync end
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: ssh_gssapi_storecreds: Not a GSSAPI mechanism
+debug1: restore_uid: 0/0
+debug1: SELinux support disabled
+debug1: PAM: establishing credentials
+debug3: PAM: opening session
+debug2: set_newkeys: mode 0
+debug2: set_newkeys: mode 1
+debug1: Entering interactive session for SSH2.
+debug2: fd 5 setting O_NONBLOCK
+debug2: fd 6 setting O_NONBLOCK
+debug1: server_init_dispatch_20
+debug1: server_input_channel_open: ctype session rchan 0 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 0: new [server-session]
+debug2: session_new: allocate (allocated 0 max 10)
+debug3: session_unused: session id 0 unused
+debug1: session_new: session 0
+debug1: session_open: channel 0
+debug1: session_open: session 0: link with channel 0
+debug1: server_input_channel_open: confirm session
+debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug3: Wrote 48 bytes for a total of 2205
+debug1: server_input_channel_req: channel 0 request pty-req reply 1
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req pty-req
+debug1: Allocating pty.
+debug1: session_pty_req: session 0 alloc /dev/pts/3
+debug1: server_input_channel_req: channel 0 request shell reply 1
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req shell
+debug2: fd 3 setting TCP_NODELAY
+debug2: channel 0: rfd 9 isatty
+debug2: fd 9 setting O_NONBLOCK
+debug3: fd 7 is O_NONBLOCK
+debug3: Wrote 112 bytes for a total of 2317
+debug1: Setting controlling tty using TIOCSCTTY.
+debug3: Wrote 192 bytes for a total of 2509
+debug3: Wrote 400 bytes for a total of 2909
+debug3: Wrote 112 bytes for a total of 3021
+debug3: Wrote 64 bytes for a total of 3085
+debug3: Wrote 64 bytes for a total of 3149
