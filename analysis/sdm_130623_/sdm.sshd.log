@@ -1,0 +1,1684 @@
+debug2: load_server_config: filename /etc/ssh/sshd_config
+debug2: load_server_config: done config len = 634
+debug2: parse_server_config: config /etc/ssh/sshd_config len 634
+debug3: /etc/ssh/sshd_config:21 setting Protocol 2
+debug3: /etc/ssh/sshd_config:37 setting SyslogFacility local5
+debug3: /etc/ssh/sshd_config:38 setting LogLevel INFO
+debug3: /etc/ssh/sshd_config:67 setting PasswordAuthentication yes
+debug3: /etc/ssh/sshd_config:70 setting ChallengeResponseAuthentication no
+debug3: /etc/ssh/sshd_config:71 setting ChallengeResponseAuthentication no
+debug3: /etc/ssh/sshd_config:82 setting GSSAPIAuthentication yes
+debug3: /etc/ssh/sshd_config:84 setting GSSAPICleanupCredentials yes
+debug3: /etc/ssh/sshd_config:98 setting UsePAM yes
+debug3: /etc/ssh/sshd_config:101 setting AcceptEnv LANG LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE LC_MONETARY LC_MESSAGES
+debug3: /etc/ssh/sshd_config:102 setting AcceptEnv LC_PAPER LC_NAME LC_ADDRESS LC_TELEPHONE LC_MEASUREMENT
+debug3: /etc/ssh/sshd_config:103 setting AcceptEnv LC_IDENTIFICATION LC_ALL LANGUAGE
+debug3: /etc/ssh/sshd_config:104 setting AcceptEnv XMODIFIERS
+debug3: /etc/ssh/sshd_config:110 setting X11Forwarding yes
+debug3: /etc/ssh/sshd_config:118 setting PermitUserEnvironment yes
+debug3: /etc/ssh/sshd_config:133 setting Subsystem sftp /usr/libexec/openssh/sftp-server
+debug1: sshd version OpenSSH_5.3p1
+debug3: Not a RSA1 key file /etc/ssh/ssh_host_rsa_key.
+debug1: read PEM private key done: type RSA
+debug1: private host key: #0 type 1 RSA
+debug3: Not a RSA1 key file /etc/ssh/ssh_host_dsa_key.
+debug1: read PEM private key done: type DSA
+debug1: private host key: #1 type 2 DSA
+debug1: rexec_argv[0]='/usr/sbin/sshd'
+debug1: rexec_argv[1]='-ddd'
+debug1: rexec_argv[2]='-p1025'
+debug2: fd 3 setting O_NONBLOCK
+debug1: Bind to port 1025 on 0.0.0.0.
+Server listening on 0.0.0.0 port 1025.
+debug2: fd 4 setting O_NONBLOCK
+debug1: Bind to port 1025 on ::.
+Server listening on :: port 1025.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debug3: fd 5 is not O_NONBLOCK
+debug1: Server will not fork when running in debugging mode.
+debug3: send_rexec_state: entering fd = 8 config len 634
+debug3: ssh_msg_send: type 0
+debug3: send_rexec_state: done
+debug1: rexec start in 5 out 5 newsock 5 pipe -1 sock 8
+debug1: inetd sockets after dupping: 3, 3
+Connection from 192.168.0.125 port 55328
+debug1: Client protocol version 2.0; client software version JSCH-0.1.46
+debug1: no match: JSCH-0.1.46
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_5.3
+debug2: fd 3 setting O_NONBLOCK
+debug2: Network child is on pid 14445
+debug3: preauth child monitor started
+debug3: mm_request_receive entering
+debug3: privsep user:group 74:74
+debug1: permanently_set_uid: 74/74
+debug1: list_hostkey_types: ssh-rsa,ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug3: Wrote 784 bytes for a total of 805
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: kex_parse_kexinit: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 78
+debug3: mm_request_send entering: type 79
+debug3: mm_request_receive entering
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug3: mm_request_send entering: type 78
+debug3: mm_request_receive_expect entering: type 79
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 78
+debug3: mm_request_send entering: type 79
+debug3: mm_request_receive entering
+debug2: dh_gen_key: priv key bits set: 137/256
+debug2: bits set: 507/1024
+debug1: expecting SSH2_MSG_KEXDH_INIT
+debug2: bits set: 506/1024
+debug3: mm_key_sign entering
+debug3: mm_request_send entering: type 5
+debug3: mm_key_sign: waiting for MONITOR_ANS_SIGN
+debug3: monitor_read: checking request 5
+debug3: mm_request_receive_expect entering: type 6
+debug3: mm_answer_sign
+debug3: mm_request_receive entering
+debug3: mm_answer_sign: signature 0x7fcc91442670(271)
+debug3: mm_request_send entering: type 6
+debug2: monitor_read: 5 used once, disabling now
+debug2: kex_derive_keys
+debug3: mm_request_receive entering
+debug2: set_newkeys: mode 1
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug3: Wrote 720 bytes for a total of 1525
+debug2: set_newkeys: mode 0
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug3: Wrote 48 bytes for a total of 1573
+debug1: userauth-request for user root service ssh-connection method none
+debug1: attempt 0 failures 0
+debug3: mm_getpwnamallow entering
+debug3: mm_request_send entering: type 7
+debug3: monitor_read: checking request 7
+debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM
+debug3: mm_answer_pwnamallow
+debug3: mm_request_receive_expect entering: type 8
+debug3: mm_request_receive entering
+debug3: Trying to reverse map address 192.168.0.125.
+debug2: parse_server_config: config reprocess config len 634
+debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+debug3: mm_request_send entering: type 8
+debug2: monitor_read: 7 used once, disabling now
+debug3: mm_request_receive entering
+debug2: input_userauth_request: setting up authctxt for root
+debug3: mm_start_pam entering
+debug3: mm_request_send entering: type 50
+debug3: mm_inform_authserv entering
+debug3: monitor_read: checking request 50
+debug3: mm_request_send entering: type 3
+debug1: PAM: initializing for "root"
+debug3: mm_inform_authrole entering
+debug3: mm_request_send entering: type 4
+debug2: input_userauth_request: try method none
+debug3: Wrote 80 bytes for a total of 1653
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 1 failures 0
+debug2: input_userauth_request: try method publickey
+debug1: test whether pkalg/pkblob are acceptable
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: mm_request_receive_expect entering: type 22
+debug3: mm_request_receive entering
+debug1: PAM: setting PAM_RHOST to "192.168.0.125"
+debug1: PAM: setting PAM_TTY to "ssh"
+debug2: monitor_read: 50 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 3
+debug3: mm_answer_authserv: service=ssh-connection, style=
+debug2: monitor_read: 3 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 4
+debug3: mm_answer_authrole: role=
+debug2: monitor_read: 4 used once, disabling now
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 21
+debug3: mm_answer_keyallowed entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fcc9144aae0
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fcc9144aae0 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_request_receive entering
+debug3: Wrote 320 bytes for a total of 1973
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-rsa
+Postponed publickey for root from 192.168.0.125 port 55328 ssh2
+debug1: userauth-request for user root service ssh-connection method publickey
+debug1: attempt 2 failures 0
+debug2: input_userauth_request: try method publickey
+debug3: mm_key_allowed entering
+debug3: mm_request_send entering: type 21
+debug3: mm_key_allowed: waiting for MONITOR_ANS_KEYALLOWED
+debug3: mm_request_receive_expect entering: type 22
+debug3: mm_request_receive entering
+debug3: monitor_read: checking request 21
+debug3: mm_answer_keyallowed entering
+debug3: mm_answer_keyallowed: key_from_blob: 0x7fcc9144c530
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: trying public key file /root/.ssh/authorized_keys
+debug1: fd 4 clearing O_NONBLOCK
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+debug3: secure_filename: terminating check at '/root'
+debug1: matching key found: file /root/.ssh/authorized_keys, line 2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+debug1: restore_uid: 0/0
+debug3: mm_answer_keyallowed: key 0x7fcc9144c530 is allowed
+debug3: mm_request_send entering: type 22
+debug3: mm_request_receive entering
+debug3: mm_key_verify entering
+debug3: mm_request_send entering: type 23
+debug3: mm_key_verify: waiting for MONITOR_ANS_KEYVERIFY
+debug3: monitor_read: checking request 23
+debug3: mm_request_receive_expect entering: type 24
+debug3: mm_request_receive entering
+debug1: ssh_rsa_verify: signature correct
+debug3: mm_answer_keyverify: key 0x7fcc91449e70 signature verified
+debug3: mm_request_send entering: type 24
+debug2: userauth_pubkey: authenticated 1 pkalg ssh-rsa
+debug3: mm_request_receive_expect entering: type 51
+debug3: mm_do_pam_account entering
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 51
+debug3: mm_request_receive_expect entering: type 52
+debug3: mm_request_receive entering
+debug1: do_pam_account: called
+debug3: PAM: do_pam_account pam_acct_mgmt = 0 (Success)
+debug3: mm_request_send entering: type 52
+Accepted publickey for root from 192.168.0.125 port 55328 ssh2
+debug3: mm_do_pam_account returning 1
+debug1: monitor_child_preauth: root has been authenticated by privileged process
+debug3: mm_get_keystate: Waiting for new keys
+debug3: Wrote 32 bytes for a total of 2005
+debug3: mm_request_receive_expect entering: type 25
+debug3: mm_send_keystate: Sending new keys: 0x7fcc91437c90 0x7fcc914379e0
+debug3: mm_request_receive entering
+debug3: mm_newkeys_to_blob: converting 0x7fcc91437c90
+debug3: mm_newkeys_to_blob: converting 0x7fcc914379e0
+debug3: mm_send_keystate: New keys have been sent
+debug3: mm_send_keystate: Sending compression state
+debug3: mm_request_send entering: type 25
+debug3: mm_send_keystate: Finished sending state
+debug3: mm_newkeys_from_blob: 0x7fcc9144b320(122)
+debug3: mm_request_send entering: type 80
+debug2: mac_setup: found hmac-md5
+debug3: mm_get_keystate: Waiting for second key
+debug3: mm_request_receive_expect entering: type 81
+debug3: mm_newkeys_from_blob: 0x7fcc9144b320(122)
+debug3: mm_request_receive entering
+debug2: mac_setup: found hmac-md5
+debug3: mm_get_keystate: Getting compression state
+debug3: mm_get_keystate: Getting Network I/O buffers
+debug3: mm_request_receive_expect entering: type 80
+debug3: mm_request_receive entering
+debug3: mm_request_send entering: type 81
+debug3: mm_share_sync: Share sync
+debug3: mm_share_sync: Share sync end
+debug1: temporarily_use_uid: 0/0 (e=0/0)
+debug1: ssh_gssapi_storecreds: Not a GSSAPI mechanism
+debug1: restore_uid: 0/0
+debug1: SELinux support disabled
+debug1: PAM: establishing credentials
+debug3: PAM: opening session
+debug2: set_newkeys: mode 0
+debug2: set_newkeys: mode 1
+debug1: Entering interactive session for SSH2.
+debug2: fd 5 setting O_NONBLOCK
+debug2: fd 6 setting O_NONBLOCK
+debug1: server_init_dispatch_20
+debug1: server_input_channel_open: ctype session rchan 25 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 0: new [server-session]
+debug2: session_new: allocate (allocated 0 max 10)
+debug3: session_unused: session id 0 unused
+debug1: session_new: session 0
+debug1: session_open: channel 0
+debug1: session_open: session 0: link with channel 0
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 2053
+debug1: server_input_channel_req: channel 0 request pty-req reply 0
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req pty-req
+debug1: Allocating pty.
+debug1: session_pty_req: session 0 alloc /dev/pts/3
+debug1: server_input_channel_req: channel 0 request exec reply 0
+debug1: session_by_channel: session 0 channel 0
+debug1: session_input_channel_req: session 0 req exec
+debug2: fd 3 setting TCP_NODELAY
+debug2: channel 0: rfd 9 isatty
+debug1: Setting controlling tty using TIOCSCTTY.
+debug2: fd 9 setting O_NONBLOCK
+debug3: fd 7 is O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 2101
+debug1: server_input_channel_open: ctype session rchan 26 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 1: new [server-session]
+debug2: session_new: allocate (allocated 1 max 10)
+debug3: session_unused: session id 1 unused
+debug1: session_new: session 1
+debug1: session_open: channel 1
+debug1: session_open: session 1: link with channel 1
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 2149
+debug1: server_input_channel_req: channel 1 request subsystem reply 1
+debug1: session_by_channel: session 1 channel 1
+debug1: session_input_channel_req: session 1 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 12 setting O_NONBLOCK
+debug2: fd 11 setting O_NONBLOCK
+debug2: fd 14 setting O_NONBLOCK
+debug3: Wrote 80 bytes for a total of 2229
+debug3: Wrote 96 bytes for a total of 2325
+debug3: Wrote 80 bytes for a total of 2405
+debug2: channel 1: read 41 from efd 14
+debug3: channel 1: discard efd
+debug2: channel 1: read 34 from efd 14
+debug3: channel 1: discard efd
+debug3: Wrote 128 bytes for a total of 2533
+debug2: channel 1: read 253 from efd 14
+debug3: channel 1: discard efd
+debug3: Wrote 288 bytes for a total of 2821
+debug2: channel 1: read 98 from efd 14
+debug3: channel 1: discard efd
+debug3: Wrote 96 bytes for a total of 2917
+debug3: Wrote 48 bytes for a total of 2965
+debug3: Wrote 48 bytes for a total of 3013
+debug3: Wrote 48 bytes for a total of 3061
+debug3: Wrote 48 bytes for a total of 3109
+debug3: Wrote 48 bytes for a total of 3157
+debug3: Wrote 48 bytes for a total of 3205
+debug3: Wrote 48 bytes for a total of 3253
+debug3: Wrote 48 bytes for a total of 3301
+debug3: Wrote 48 bytes for a total of 3349
+debug3: Wrote 48 bytes for a total of 3397
+debug3: Wrote 48 bytes for a total of 3445
+debug3: Wrote 48 bytes for a total of 3493
+debug3: Wrote 48 bytes for a total of 3541
+debug3: Wrote 48 bytes for a total of 3589
+debug3: Wrote 48 bytes for a total of 3637
+debug3: Wrote 48 bytes for a total of 3685
+debug3: Wrote 48 bytes for a total of 3733
+debug3: Wrote 48 bytes for a total of 3781
+debug3: Wrote 48 bytes for a total of 3829
+debug3: Wrote 144 bytes for a total of 3973
+debug1: server_input_channel_open: ctype session rchan 27 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 2: new [server-session]
+debug2: session_new: allocate (allocated 2 max 10)
+debug3: session_unused: session id 2 unused
+debug1: session_new: session 2
+debug1: session_open: channel 2
+debug1: session_open: session 2: link with channel 2
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 4021
+debug1: server_input_channel_req: channel 2 request subsystem reply 1
+debug1: session_by_channel: session 2 channel 2
+debug1: session_input_channel_req: session 2 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 15 setting O_NONBLOCK
+debug2: fd 13 setting O_NONBLOCK
+debug2: fd 17 setting O_NONBLOCK
+debug3: Wrote 80 bytes for a total of 4101
+debug2: channel 2: read 41 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 64 bytes for a total of 4165
+debug2: channel 2: read 34 from efd 17
+debug3: channel 2: discard efd
+debug2: channel 2: read 53 from efd 17
+debug3: channel 2: discard efd
+debug2: channel 2: read 248 from efd 17
+debug3: channel 2: discard efd
+debug2: channel 2: read 100 from efd 17
+debug3: channel 2: discard efd
+debug3: Wrote 144 bytes for a total of 4309
+debug1: server_input_channel_open: ctype session rchan 28 win 2097152 max 32768
+debug1: input_session_request
+debug1: channel 3: new [server-session]
+debug2: session_new: allocate (allocated 3 max 10)
+debug3: session_unused: session id 3 unused
+debug1: session_new: session 3
+debug1: session_open: channel 3
+debug1: session_open: session 3: link with channel 3
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 4357
+debug1: server_input_channel_req: channel 3 request subsystem reply 1
+debug1: session_by_channel: session 3 channel 3
+debug1: session_input_channel_req: session 3 req subsystem
+subsystem request for sftp
+debug1: subsystem: exec() /usr/libexec/openssh/sftp-server
+debug2: fd 18 setting O_NONBLOCK
+debug2: fd 16 setting O_NONBLOCK
+debug2: fd 20 setting O_NONBLOCK
+debug3: Wrote 80 bytes for a total of 4437
+debug2: channel 3: read 41 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 34 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 53 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 248 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 100 from efd 20
+debug3: channel 3: discard efd
+debug2: channel 3: read 50 from efd 20
+debug3: channel 3: discard efd
+debug3: Wrote 144 bytes for a total of 4581
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debug3: Wrote 80 bytes for a total of 4661
+debug1: server_input_global_request: rtype tcpip-forward want_reply 1
+debug1: server_input_global_request: tcpip-forward listen localhost port 55330
+debug3: channel_setup_fwd_listener: type 11 wildcard 0 addr NULL
+debug1: Local forwarding listening on ::1 port 55330.
+debug2: fd 8 setting O_NONBLOCK
+debug3: fd 8 is O_NONBLOCK
+debug1: channel 4: new [port listener]
+debug1: Local forwarding listening on 127.0.0.1 port 55330.
+debug2: fd 19 setting O_NONBLOCK
+debug3: fd 19 is O_NONBLOCK
+debug1: channel 5: new [port listener]
+debug3: Wrote 32 bytes for a total of 4693
+debug3: Wrote 80 bytes for a total of 4773
+debug1: server_input_channel_open: ctype session rchan 29 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug2: session_new: allocate (allocated 4 max 10)
+debug3: session_unused: session id 4 unused
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 4821
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 4869
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug3: Wrote 80 bytes for a total of 4949
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug2: channel 6: read 121 from efd 25
+debug3: Wrote 80 bytes for a total of 5029
+debug2: channel 6: rwin 1048501 elen 121 euse 1
+debug2: channel 6: sent ext data 121
+debug2: channel 6: read 280 from efd 25
+debug3: Wrote 160 bytes for a total of 5189
+debug2: channel 6: rwin 1048380 elen 280 euse 1
+debug2: channel 6: sent ext data 280
+debug2: channel 6: read 198 from efd 25
+debug3: Wrote 320 bytes for a total of 5509
+debug2: channel 6: rwin 1048100 elen 198 euse 1
+debug2: channel 6: sent ext data 198
+debug3: Wrote 240 bytes for a total of 5749
+debug2: notify_done: reading
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 14749
+debug1: session_exit_message: session 4 channel 6 pid 14749
+debug2: channel 6: request exit-status confirm 0
+debug1: session_exit_message: release channel 6
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug3: Wrote 176 bytes for a total of 5925
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug3: Wrote 64 bytes for a total of 5989
+debug3: channel 6: will not send data after close
+debug2: channel 6: rcvd close
+debug3: channel 6: will not send data after close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug3: session_unused: session id 4 unused
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug1: channel 6: free: server-session, nchannels 7
+debug3: channel 6: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r29 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 6: close_fds r -1 w -1 e -1 c -1
+debug1: server_input_channel_open: ctype session rchan 30 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 6037
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 6085
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug3: Wrote 80 bytes for a total of 6165
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug3: Wrote 80 bytes for a total of 6245
+debug2: channel 6: read 161 from efd 25
+debug2: channel 6: rwin 1048501 elen 161 euse 1
+debug2: channel 6: sent ext data 161
+debug2: channel 6: read 140 from efd 25
+debug3: Wrote 208 bytes for a total of 6453
+debug2: channel 6: rwin 1048340 elen 140 euse 1
+debug2: channel 6: sent ext data 140
+debug2: channel 6: read 150 from efd 25
+debug3: Wrote 192 bytes for a total of 6645
+debug2: channel 6: rwin 1048200 elen 150 euse 1
+debug2: channel 6: sent ext data 150
+debug2: channel 6: read 148 from efd 25
+debug3: Wrote 192 bytes for a total of 6837
+debug2: channel 6: rwin 1048050 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug3: Wrote 192 bytes for a total of 7029
+debug3: Wrote 64 bytes for a total of 7093
+debug3: Wrote 128 bytes for a total of 7221
+debug3: Wrote 128 bytes for a total of 7349
+debug3: Wrote 160 bytes for a total of 7509
+debug3: Wrote 176 bytes for a total of 7685
+debug3: Wrote 160 bytes for a total of 7845
+debug3: Wrote 208 bytes for a total of 8053
+debug3: Wrote 192 bytes for a total of 8245
+debug3: Wrote 192 bytes for a total of 8437
+debug3: Wrote 192 bytes for a total of 8629
+debug3: Wrote 80 bytes for a total of 8709
+debug3: Wrote 128 bytes for a total of 8837
+debug3: Wrote 112 bytes for a total of 8949
+debug3: Wrote 176 bytes for a total of 9125
+debug3: Wrote 144 bytes for a total of 9269
+debug3: Wrote 160 bytes for a total of 9429
+debug3: Wrote 192 bytes for a total of 9621
+debug3: Wrote 176 bytes for a total of 9797
+debug3: Wrote 192 bytes for a total of 9989
+debug3: Wrote 160 bytes for a total of 10149
+debug3: Wrote 160 bytes for a total of 10309
+debug3: Wrote 176 bytes for a total of 10485
+debug3: Wrote 160 bytes for a total of 10645
+debug3: Wrote 176 bytes for a total of 10821
+debug3: Wrote 208 bytes for a total of 11029
+debug3: Wrote 160 bytes for a total of 11189
+debug3: Wrote 128 bytes for a total of 11317
+debug3: Wrote 128 bytes for a total of 11445
+debug3: Wrote 160 bytes for a total of 11605
+debug3: Wrote 144 bytes for a total of 11749
+debug3: Wrote 160 bytes for a total of 11909
+debug3: Wrote 128 bytes for a total of 12037
+debug3: Wrote 160 bytes for a total of 12197
+debug3: Wrote 144 bytes for a total of 12341
+debug3: Wrote 176 bytes for a total of 12517
+debug3: Wrote 160 bytes for a total of 12677
+debug3: Wrote 160 bytes for a total of 12837
+debug3: Wrote 176 bytes for a total of 13013
+debug3: Wrote 176 bytes for a total of 13189
+debug3: Wrote 176 bytes for a total of 13365
+debug3: Wrote 208 bytes for a total of 13573
+debug3: Wrote 192 bytes for a total of 13765
+debug3: Wrote 160 bytes for a total of 13925
+debug3: Wrote 208 bytes for a total of 14133
+debug3: Wrote 192 bytes for a total of 14325
+debug3: Wrote 192 bytes for a total of 14517
+debug3: Wrote 144 bytes for a total of 14661
+debug3: Wrote 176 bytes for a total of 14837
+debug3: Wrote 176 bytes for a total of 15013
+debug3: Wrote 176 bytes for a total of 15189
+debug3: Wrote 128 bytes for a total of 15317
+debug3: Wrote 192 bytes for a total of 15509
+debug3: Wrote 176 bytes for a total of 15685
+debug3: Wrote 144 bytes for a total of 15829
+debug3: Wrote 176 bytes for a total of 16005
+debug3: Wrote 144 bytes for a total of 16149
+debug3: Wrote 160 bytes for a total of 16309
+debug3: Wrote 160 bytes for a total of 16469
+debug3: Wrote 208 bytes for a total of 16677
+debug3: Wrote 160 bytes for a total of 16837
+debug3: Wrote 176 bytes for a total of 17013
+debug3: Wrote 176 bytes for a total of 17189
+debug3: Wrote 112 bytes for a total of 17301
+debug3: Wrote 128 bytes for a total of 17429
+debug3: Wrote 336 bytes for a total of 17765
+debug3: Wrote 208 bytes for a total of 17973
+debug3: Wrote 192 bytes for a total of 18165
+debug3: Wrote 208 bytes for a total of 18373
+debug3: Wrote 176 bytes for a total of 18549
+debug3: Wrote 176 bytes for a total of 18725
+debug3: Wrote 288 bytes for a total of 19013
+debug3: Wrote 304 bytes for a total of 19317
+debug3: Wrote 352 bytes for a total of 19669
+debug3: Wrote 288 bytes for a total of 19957
+debug3: Wrote 144 bytes for a total of 20101
+debug3: Wrote 144 bytes for a total of 20245
+debug3: Wrote 256 bytes for a total of 20501
+debug3: Wrote 176 bytes for a total of 20677
+debug3: Wrote 160 bytes for a total of 20837
+debug3: Wrote 208 bytes for a total of 21045
+debug3: Wrote 128 bytes for a total of 21173
+debug3: Wrote 144 bytes for a total of 21317
+debug3: Wrote 208 bytes for a total of 21525
+debug3: Wrote 304 bytes for a total of 21829
+debug3: Wrote 224 bytes for a total of 22053
+debug3: Wrote 352 bytes for a total of 22405
+debug3: Wrote 304 bytes for a total of 22709
+debug3: Wrote 352 bytes for a total of 23061
+debug3: Wrote 352 bytes for a total of 23413
+debug3: Wrote 192 bytes for a total of 23605
+debug3: Wrote 256 bytes for a total of 23861
+debug3: Wrote 368 bytes for a total of 24229
+debug3: Wrote 352 bytes for a total of 24581
+debug3: Wrote 208 bytes for a total of 24789
+debug3: Wrote 464 bytes for a total of 25253
+debug3: Wrote 416 bytes for a total of 25669
+debug3: Wrote 272 bytes for a total of 25941
+debug3: Wrote 384 bytes for a total of 26325
+debug3: Wrote 320 bytes for a total of 26645
+debug3: Wrote 400 bytes for a total of 27045
+debug3: Wrote 336 bytes for a total of 27381
+debug3: Wrote 208 bytes for a total of 27589
+debug3: Wrote 320 bytes for a total of 27909
+debug3: Wrote 416 bytes for a total of 28325
+debug3: Wrote 208 bytes for a total of 28533
+debug3: Wrote 416 bytes for a total of 28949
+debug3: Wrote 512 bytes for a total of 29461
+debug3: Wrote 448 bytes for a total of 29909
+debug3: Wrote 256 bytes for a total of 30165
+debug3: Wrote 528 bytes for a total of 30693
+debug3: Wrote 368 bytes for a total of 31061
+debug3: Wrote 384 bytes for a total of 31445
+debug3: Wrote 272 bytes for a total of 31717
+debug3: Wrote 448 bytes for a total of 32165
+debug3: Wrote 512 bytes for a total of 32677
+debug3: Wrote 272 bytes for a total of 32949
+debug3: Wrote 320 bytes for a total of 33269
+debug3: Wrote 336 bytes for a total of 33605
+debug3: Wrote 384 bytes for a total of 33989
+debug3: Wrote 480 bytes for a total of 34469
+debug3: Wrote 304 bytes for a total of 34773
+debug3: Wrote 384 bytes for a total of 35157
+debug3: Wrote 592 bytes for a total of 35749
+debug3: Wrote 288 bytes for a total of 36037
+debug3: Wrote 416 bytes for a total of 36453
+debug3: Wrote 272 bytes for a total of 36725
+debug3: Wrote 256 bytes for a total of 36981
+debug3: Wrote 304 bytes for a total of 37285
+debug3: Wrote 288 bytes for a total of 37573
+debug3: Wrote 336 bytes for a total of 37909
+debug3: Wrote 464 bytes for a total of 38373
+debug3: Wrote 272 bytes for a total of 38645
+debug3: Wrote 352 bytes for a total of 38997
+debug3: Wrote 288 bytes for a total of 39285
+debug3: Wrote 320 bytes for a total of 39605
+debug3: Wrote 416 bytes for a total of 40021
+debug3: Wrote 336 bytes for a total of 40357
+debug3: Wrote 272 bytes for a total of 40629
+debug3: Wrote 384 bytes for a total of 41013
+debug3: Wrote 432 bytes for a total of 41445
+debug3: Wrote 320 bytes for a total of 41765
+debug3: Wrote 336 bytes for a total of 42101
+debug3: Wrote 336 bytes for a total of 42437
+debug3: Wrote 272 bytes for a total of 42709
+debug3: Wrote 304 bytes for a total of 43013
+debug3: Wrote 336 bytes for a total of 43349
+debug3: Wrote 336 bytes for a total of 43685
+debug3: Wrote 288 bytes for a total of 43973
+debug3: Wrote 288 bytes for a total of 44261
+debug3: Wrote 336 bytes for a total of 44597
+debug3: Wrote 304 bytes for a total of 44901
+debug3: Wrote 288 bytes for a total of 45189
+debug3: Wrote 272 bytes for a total of 45461
+debug3: Wrote 320 bytes for a total of 45781
+debug3: Wrote 336 bytes for a total of 46117
+debug3: Wrote 384 bytes for a total of 46501
+debug3: Wrote 400 bytes for a total of 46901
+debug3: Wrote 320 bytes for a total of 47221
+debug3: Wrote 272 bytes for a total of 47493
+debug3: Wrote 320 bytes for a total of 47813
+debug3: Wrote 320 bytes for a total of 48133
+debug3: Wrote 384 bytes for a total of 48517
+debug3: Wrote 352 bytes for a total of 48869
+debug3: Wrote 256 bytes for a total of 49125
+debug3: Wrote 288 bytes for a total of 49413
+debug3: Wrote 256 bytes for a total of 49669
+debug3: Wrote 272 bytes for a total of 49941
+debug3: Wrote 320 bytes for a total of 50261
+debug3: Wrote 256 bytes for a total of 50517
+debug3: Wrote 336 bytes for a total of 50853
+debug3: Wrote 416 bytes for a total of 51269
+debug3: Wrote 736 bytes for a total of 52005
+debug3: Wrote 416 bytes for a total of 52421
+debug3: Wrote 304 bytes for a total of 52725
+debug3: Wrote 368 bytes for a total of 53093
+debug3: Wrote 352 bytes for a total of 53445
+debug3: Wrote 192 bytes for a total of 53637
+debug3: Wrote 352 bytes for a total of 53989
+debug3: Wrote 352 bytes for a total of 54341
+debug3: Wrote 336 bytes for a total of 54677
+debug3: Wrote 368 bytes for a total of 55045
+debug3: Wrote 224 bytes for a total of 55269
+debug3: Wrote 352 bytes for a total of 55621
+debug3: Wrote 320 bytes for a total of 55941
+debug3: Wrote 256 bytes for a total of 56197
+debug3: Wrote 336 bytes for a total of 56533
+debug3: Wrote 256 bytes for a total of 56789
+debug3: Wrote 384 bytes for a total of 57173
+debug3: Wrote 336 bytes for a total of 57509
+debug3: Wrote 368 bytes for a total of 57877
+debug3: Wrote 288 bytes for a total of 58165
+debug3: Wrote 224 bytes for a total of 58389
+debug3: Wrote 368 bytes for a total of 58757
+debug3: Wrote 336 bytes for a total of 59093
+debug3: Wrote 288 bytes for a total of 59381
+debug3: Wrote 304 bytes for a total of 59685
+debug3: Wrote 288 bytes for a total of 59973
+debug3: Wrote 304 bytes for a total of 60277
+debug3: Wrote 368 bytes for a total of 60645
+debug3: Wrote 384 bytes for a total of 61029
+debug3: Wrote 320 bytes for a total of 61349
+debug3: Wrote 192 bytes for a total of 61541
+debug3: Wrote 304 bytes for a total of 61845
+debug3: Wrote 224 bytes for a total of 62069
+debug3: Wrote 160 bytes for a total of 62229
+debug3: Wrote 320 bytes for a total of 62549
+debug3: Wrote 240 bytes for a total of 62789
+debug3: Wrote 320 bytes for a total of 63109
+debug3: Wrote 256 bytes for a total of 63365
+debug3: Wrote 320 bytes for a total of 63685
+debug3: Wrote 192 bytes for a total of 63877
+debug3: Wrote 416 bytes for a total of 64293
+debug3: Wrote 352 bytes for a total of 64645
+debug3: Wrote 304 bytes for a total of 64949
+debug3: Wrote 336 bytes for a total of 65285
+debug3: Wrote 320 bytes for a total of 65605
+debug3: Wrote 160 bytes for a total of 65765
+debug3: Wrote 384 bytes for a total of 66149
+debug3: Wrote 304 bytes for a total of 66453
+debug3: Wrote 288 bytes for a total of 66741
+debug3: Wrote 352 bytes for a total of 67093
+debug3: Wrote 336 bytes for a total of 67429
+debug3: Wrote 224 bytes for a total of 67653
+debug3: Wrote 336 bytes for a total of 67989
+debug3: Wrote 368 bytes for a total of 68357
+debug3: Wrote 464 bytes for a total of 68821
+debug3: Wrote 400 bytes for a total of 69221
+debug3: Wrote 288 bytes for a total of 69509
+debug3: Wrote 288 bytes for a total of 69797
+debug3: Wrote 304 bytes for a total of 70101
+debug3: Wrote 256 bytes for a total of 70357
+debug3: Wrote 272 bytes for a total of 70629
+debug3: Wrote 496 bytes for a total of 71125
+debug3: Wrote 208 bytes for a total of 71333
+debug3: Wrote 384 bytes for a total of 71717
+debug3: Wrote 400 bytes for a total of 72117
+debug3: Wrote 416 bytes for a total of 72533
+debug3: Wrote 336 bytes for a total of 72869
+debug3: Wrote 416 bytes for a total of 73285
+debug3: Wrote 288 bytes for a total of 73573
+debug3: Wrote 384 bytes for a total of 73957
+debug3: Wrote 336 bytes for a total of 74293
+debug3: Wrote 336 bytes for a total of 74629
+debug3: Wrote 320 bytes for a total of 74949
+debug3: Wrote 224 bytes for a total of 75173
+debug3: Wrote 416 bytes for a total of 75589
+debug3: Wrote 624 bytes for a total of 76213
+debug3: Wrote 560 bytes for a total of 76773
+debug3: Wrote 592 bytes for a total of 77365
+debug3: Wrote 240 bytes for a total of 77605
+debug3: Wrote 352 bytes for a total of 77957
+debug3: Wrote 336 bytes for a total of 78293
+debug3: Wrote 288 bytes for a total of 78581
+debug3: Wrote 320 bytes for a total of 78901
+debug3: Wrote 288 bytes for a total of 79189
+debug3: Wrote 288 bytes for a total of 79477
+debug3: Wrote 288 bytes for a total of 79765
+debug3: Wrote 336 bytes for a total of 80101
+debug3: Wrote 208 bytes for a total of 80309
+debug3: Wrote 384 bytes for a total of 80693
+debug3: Wrote 320 bytes for a total of 81013
+debug3: Wrote 384 bytes for a total of 81397
+debug3: Wrote 576 bytes for a total of 81973
+debug3: Wrote 240 bytes for a total of 82213
+debug3: Wrote 336 bytes for a total of 82549
+debug3: Wrote 304 bytes for a total of 82853
+debug3: Wrote 272 bytes for a total of 83125
+debug3: Wrote 336 bytes for a total of 83461
+debug3: Wrote 368 bytes for a total of 83829
+debug3: Wrote 224 bytes for a total of 84053
+debug3: Wrote 304 bytes for a total of 84357
+debug3: Wrote 272 bytes for a total of 84629
+debug3: Wrote 304 bytes for a total of 84933
+debug3: Wrote 304 bytes for a total of 85237
+debug3: Wrote 256 bytes for a total of 85493
+debug3: Wrote 288 bytes for a total of 85781
+debug3: Wrote 192 bytes for a total of 85973
+debug3: Wrote 288 bytes for a total of 86261
+debug3: Wrote 304 bytes for a total of 86565
+debug3: Wrote 240 bytes for a total of 86805
+debug3: Wrote 288 bytes for a total of 87093
+debug3: Wrote 272 bytes for a total of 87365
+debug3: Wrote 320 bytes for a total of 87685
+debug3: Wrote 256 bytes for a total of 87941
+debug3: Wrote 272 bytes for a total of 88213
+debug3: Wrote 272 bytes for a total of 88485
+debug3: Wrote 272 bytes for a total of 88757
+debug3: Wrote 352 bytes for a total of 89109
+debug3: Wrote 304 bytes for a total of 89413
+debug3: Wrote 368 bytes for a total of 89781
+debug3: Wrote 304 bytes for a total of 90085
+debug3: Wrote 368 bytes for a total of 90453
+debug3: Wrote 272 bytes for a total of 90725
+debug3: Wrote 352 bytes for a total of 91077
+debug3: Wrote 320 bytes for a total of 91397
+debug3: Wrote 272 bytes for a total of 91669
+debug3: Wrote 272 bytes for a total of 91941
+debug3: Wrote 304 bytes for a total of 92245
+debug3: Wrote 336 bytes for a total of 92581
+debug3: Wrote 288 bytes for a total of 92869
+debug3: Wrote 304 bytes for a total of 93173
+debug3: Wrote 288 bytes for a total of 93461
+debug3: Wrote 352 bytes for a total of 93813
+debug3: Wrote 320 bytes for a total of 94133
+debug3: Wrote 336 bytes for a total of 94469
+debug3: Wrote 224 bytes for a total of 94693
+debug3: Wrote 272 bytes for a total of 94965
+debug3: Wrote 304 bytes for a total of 95269
+debug3: Wrote 240 bytes for a total of 95509
+debug3: Wrote 368 bytes for a total of 95877
+debug3: Wrote 336 bytes for a total of 96213
+debug3: Wrote 224 bytes for a total of 96437
+debug3: Wrote 352 bytes for a total of 96789
+debug3: Wrote 304 bytes for a total of 97093
+debug3: Wrote 272 bytes for a total of 97365
+debug3: Wrote 320 bytes for a total of 97685
+debug3: Wrote 352 bytes for a total of 98037
+debug3: Wrote 352 bytes for a total of 98389
+debug3: Wrote 304 bytes for a total of 98693
+debug3: Wrote 352 bytes for a total of 99045
+debug3: Wrote 352 bytes for a total of 99397
+debug3: Wrote 432 bytes for a total of 99829
+debug3: Wrote 432 bytes for a total of 100261
+debug3: Wrote 384 bytes for a total of 100645
+debug3: Wrote 272 bytes for a total of 100917
+debug3: Wrote 480 bytes for a total of 101397
+debug3: Wrote 576 bytes for a total of 101973
+debug3: Wrote 576 bytes for a total of 102549
+debug3: Wrote 608 bytes for a total of 103157
+debug3: Wrote 352 bytes for a total of 103509
+debug3: Wrote 304 bytes for a total of 103813
+debug3: Wrote 256 bytes for a total of 104069
+debug3: Wrote 256 bytes for a total of 104325
+debug3: Wrote 256 bytes for a total of 104581
+debug3: Wrote 256 bytes for a total of 104837
+debug3: Wrote 240 bytes for a total of 105077
+debug3: Wrote 224 bytes for a total of 105301
+debug3: Wrote 240 bytes for a total of 105541
+debug3: Wrote 240 bytes for a total of 105781
+debug3: Wrote 256 bytes for a total of 106037
+debug3: Wrote 256 bytes for a total of 106293
+debug3: Wrote 272 bytes for a total of 106565
+debug3: Wrote 224 bytes for a total of 106789
+debug3: Wrote 448 bytes for a total of 107237
+debug3: Wrote 352 bytes for a total of 107589
+debug3: Wrote 304 bytes for a total of 107893
+debug3: Wrote 368 bytes for a total of 108261
+debug3: Wrote 352 bytes for a total of 108613
+debug3: Wrote 192 bytes for a total of 108805
+debug3: Wrote 272 bytes for a total of 109077
+debug3: Wrote 240 bytes for a total of 109317
+debug3: Wrote 304 bytes for a total of 109621
+debug3: Wrote 304 bytes for a total of 109925
+debug3: Wrote 256 bytes for a total of 110181
+debug3: Wrote 272 bytes for a total of 110453
+debug3: Wrote 208 bytes for a total of 110661
+debug3: Wrote 256 bytes for a total of 110917
+debug3: Wrote 288 bytes for a total of 111205
+debug3: Wrote 272 bytes for a total of 111477
+debug3: Wrote 464 bytes for a total of 111941
+debug3: Wrote 336 bytes for a total of 112277
+debug3: Wrote 320 bytes for a total of 112597
+debug3: Wrote 432 bytes for a total of 113029
+debug3: Wrote 256 bytes for a total of 113285
+debug3: Wrote 256 bytes for a total of 113541
+debug3: Wrote 432 bytes for a total of 113973
+debug3: Wrote 288 bytes for a total of 114261
+debug3: Wrote 480 bytes for a total of 114741
+debug3: Wrote 272 bytes for a total of 115013
+debug3: Wrote 368 bytes for a total of 115381
+debug3: Wrote 304 bytes for a total of 115685
+debug3: Wrote 448 bytes for a total of 116133
+debug3: Wrote 576 bytes for a total of 116709
+debug3: Wrote 528 bytes for a total of 117237
+debug3: Wrote 304 bytes for a total of 117541
+debug3: Wrote 592 bytes for a total of 118133
+debug3: Wrote 288 bytes for a total of 118421
+debug3: Wrote 288 bytes for a total of 118709
+debug3: Wrote 272 bytes for a total of 118981
+debug3: Wrote 240 bytes for a total of 119221
+debug3: Wrote 256 bytes for a total of 119477
+debug3: Wrote 256 bytes for a total of 119733
+debug3: Wrote 384 bytes for a total of 120117
+debug3: Wrote 224 bytes for a total of 120341
+debug3: Wrote 320 bytes for a total of 120661
+debug3: Wrote 240 bytes for a total of 120901
+debug3: Wrote 304 bytes for a total of 121205
+debug3: Wrote 352 bytes for a total of 121557
+debug3: Wrote 272 bytes for a total of 121829
+debug3: Wrote 176 bytes for a total of 122005
+debug3: Wrote 304 bytes for a total of 122309
+debug3: Wrote 256 bytes for a total of 122565
+debug3: Wrote 368 bytes for a total of 122933
+debug3: Wrote 272 bytes for a total of 123205
+debug3: Wrote 288 bytes for a total of 123493
+debug3: Wrote 192 bytes for a total of 123685
+debug3: Wrote 400 bytes for a total of 124085
+debug3: Wrote 208 bytes for a total of 124293
+debug3: Wrote 352 bytes for a total of 124645
+debug3: Wrote 336 bytes for a total of 124981
+debug3: Wrote 416 bytes for a total of 125397
+debug3: Wrote 352 bytes for a total of 125749
+debug3: Wrote 256 bytes for a total of 126005
+debug3: Wrote 128 bytes for a total of 126133
+debug3: Wrote 304 bytes for a total of 126437
+debug3: Wrote 304 bytes for a total of 126741
+debug3: Wrote 240 bytes for a total of 126981
+debug3: Wrote 256 bytes for a total of 127237
+debug3: Wrote 256 bytes for a total of 127493
+debug3: Wrote 176 bytes for a total of 127669
+debug3: Wrote 304 bytes for a total of 127973
+debug3: Wrote 304 bytes for a total of 128277
+debug3: Wrote 272 bytes for a total of 128549
+debug3: Wrote 256 bytes for a total of 128805
+debug3: Wrote 320 bytes for a total of 129125
+debug3: Wrote 256 bytes for a total of 129381
+debug3: Wrote 288 bytes for a total of 129669
+debug3: Wrote 320 bytes for a total of 129989
+debug3: Wrote 240 bytes for a total of 130229
+debug3: Wrote 272 bytes for a total of 130501
+debug3: Wrote 272 bytes for a total of 130773
+debug3: Wrote 304 bytes for a total of 131077
+debug3: Wrote 320 bytes for a total of 131397
+debug3: Wrote 256 bytes for a total of 131653
+debug3: Wrote 336 bytes for a total of 131989
+debug3: Wrote 384 bytes for a total of 132373
+debug3: Wrote 416 bytes for a total of 132789
+debug3: Wrote 272 bytes for a total of 133061
+debug3: Wrote 272 bytes for a total of 133333
+debug3: Wrote 288 bytes for a total of 133621
+debug3: Wrote 336 bytes for a total of 133957
+debug3: Wrote 272 bytes for a total of 134229
+debug3: Wrote 288 bytes for a total of 134517
+debug3: Wrote 240 bytes for a total of 134757
+debug3: Wrote 352 bytes for a total of 135109
+debug3: Wrote 288 bytes for a total of 135397
+debug3: Wrote 272 bytes for a total of 135669
+debug3: Wrote 304 bytes for a total of 135973
+debug3: Wrote 320 bytes for a total of 136293
+debug3: Wrote 288 bytes for a total of 136581
+debug3: Wrote 224 bytes for a total of 136805
+debug3: Wrote 336 bytes for a total of 137141
+debug3: Wrote 320 bytes for a total of 137461
+debug3: Wrote 352 bytes for a total of 137813
+debug3: Wrote 256 bytes for a total of 138069
+debug3: Wrote 272 bytes for a total of 138341
+debug3: Wrote 336 bytes for a total of 138677
+debug3: Wrote 400 bytes for a total of 139077
+debug3: Wrote 336 bytes for a total of 139413
+debug3: Wrote 352 bytes for a total of 139765
+debug3: Wrote 288 bytes for a total of 140053
+debug3: Wrote 272 bytes for a total of 140325
+debug3: Wrote 352 bytes for a total of 140677
+debug3: Wrote 368 bytes for a total of 141045
+debug3: Wrote 288 bytes for a total of 141333
+debug3: Wrote 272 bytes for a total of 141605
+debug3: Wrote 288 bytes for a total of 141893
+debug3: Wrote 272 bytes for a total of 142165
+debug3: Wrote 304 bytes for a total of 142469
+debug3: Wrote 336 bytes for a total of 142805
+debug3: Wrote 288 bytes for a total of 143093
+debug3: Wrote 416 bytes for a total of 143509
+debug3: Wrote 352 bytes for a total of 143861
+debug3: Wrote 352 bytes for a total of 144213
+debug3: Wrote 272 bytes for a total of 144485
+debug3: Wrote 384 bytes for a total of 144869
+debug3: Wrote 432 bytes for a total of 145301
+debug3: Wrote 464 bytes for a total of 145765
+debug3: Wrote 336 bytes for a total of 146101
+debug3: Wrote 304 bytes for a total of 146405
+debug3: Wrote 320 bytes for a total of 146725
+debug3: Wrote 384 bytes for a total of 147109
+debug3: Wrote 320 bytes for a total of 147429
+debug3: Wrote 272 bytes for a total of 147701
+debug3: Wrote 368 bytes for a total of 148069
+debug3: Wrote 304 bytes for a total of 148373
+debug3: Wrote 208 bytes for a total of 148581
+debug3: Wrote 272 bytes for a total of 148853
+debug3: Wrote 336 bytes for a total of 149189
+debug3: Wrote 240 bytes for a total of 149429
+debug3: Wrote 288 bytes for a total of 149717
+debug3: Wrote 176 bytes for a total of 149893
+debug3: Wrote 384 bytes for a total of 150277
+debug3: Wrote 272 bytes for a total of 150549
+debug3: Wrote 304 bytes for a total of 150853
+debug3: Wrote 304 bytes for a total of 151157
+debug3: Wrote 288 bytes for a total of 151445
+debug3: Wrote 176 bytes for a total of 151621
+debug3: Wrote 304 bytes for a total of 151925
+debug3: Wrote 304 bytes for a total of 152229
+debug3: Wrote 336 bytes for a total of 152565
+debug3: Wrote 256 bytes for a total of 152821
+debug3: Wrote 288 bytes for a total of 153109
+debug3: Wrote 272 bytes for a total of 153381
+debug3: Wrote 320 bytes for a total of 153701
+debug3: Wrote 320 bytes for a total of 154021
+debug3: Wrote 192 bytes for a total of 154213
+debug3: Wrote 416 bytes for a total of 154629
+debug3: Wrote 416 bytes for a total of 155045
+debug3: Wrote 192 bytes for a total of 155237
+debug3: Wrote 272 bytes for a total of 155509
+debug3: Wrote 288 bytes for a total of 155797
+debug3: Wrote 240 bytes for a total of 156037
+debug3: Wrote 272 bytes for a total of 156309
+debug3: Wrote 176 bytes for a total of 156485
+debug3: Wrote 304 bytes for a total of 156789
+debug3: Wrote 272 bytes for a total of 157061
+debug3: Wrote 336 bytes for a total of 157397
+debug3: Wrote 256 bytes for a total of 157653
+debug3: Wrote 336 bytes for a total of 157989
+debug3: Wrote 272 bytes for a total of 158261
+debug3: Wrote 288 bytes for a total of 158549
+debug3: Wrote 320 bytes for a total of 158869
+debug3: Wrote 336 bytes for a total of 159205
+debug3: Wrote 240 bytes for a total of 159445
+debug3: Wrote 352 bytes for a total of 159797
+debug3: Wrote 320 bytes for a total of 160117
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 14896
+debug1: session_exit_message: session 4 channel 6 pid 14896
+debug2: channel 6: request exit-status confirm 0
+debug1: session_exit_message: release channel 6
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug2: notify_done: reading
+debug3: channel 6: will not send data after close
+debug3: Wrote 3952 bytes for a total of 164069
+debug3: channel 6: will not send data after close
+debug2: channel 6: rcvd close
+debug3: channel 6: will not send data after close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug3: session_unused: session id 4 unused
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug1: channel 6: free: server-session, nchannels 7
+debug3: channel 6: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r30 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 6: close_fds r -1 w -1 e -1 c -1
+debug3: Wrote 80 bytes for a total of 164149
+debug3: Wrote 80 bytes for a total of 164229
+debug1: server_input_channel_open: ctype session rchan 31 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 6: new [server-session]
+debug1: session_new: session 4
+debug1: session_open: channel 6
+debug1: session_open: session 4: link with channel 6
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 164277
+debug1: server_input_channel_req: channel 6 request exec reply 0
+debug1: session_by_channel: session 4 channel 6
+debug1: session_input_channel_req: session 4 req exec
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug3: Wrote 48 bytes for a total of 164325
+debug1: server_input_channel_open: ctype session rchan 32 win 1048576 max 16384
+debug1: input_session_request
+debug1: channel 7: new [server-session]
+debug2: session_new: allocate (allocated 5 max 10)
+debug3: session_unused: session id 5 unused
+debug1: session_new: session 5
+debug1: session_open: channel 7
+debug1: session_open: session 5: link with channel 7
+debug1: server_input_channel_open: confirm session
+debug3: Wrote 48 bytes for a total of 164373
+debug1: server_input_channel_req: channel 7 request exec reply 0
+debug1: session_by_channel: session 5 channel 7
+debug1: session_input_channel_req: session 5 req exec
+debug2: fd 26 setting O_NONBLOCK
+debug2: fd 24 setting O_NONBLOCK
+debug2: fd 28 setting O_NONBLOCK
+debug2: channel 6: read 41 from efd 25
+debug3: Wrote 48 bytes for a total of 164421
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug3: Wrote 80 bytes for a total of 164501
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug2: channel 6: read 53 from efd 25
+debug2: channel 7: read 41 from efd 28
+debug3: Wrote 80 bytes for a total of 164581
+debug2: channel 6: rwin 1048501 elen 53 euse 1
+debug2: channel 6: sent ext data 53
+debug2: channel 7: rwin 1048576 elen 41 euse 1
+debug2: channel 7: sent ext data 41
+debug2: channel 6: read 298 from efd 25
+debug3: Wrote 176 bytes for a total of 164757
+debug2: channel 6: rwin 1048448 elen 298 euse 1
+debug2: channel 6: sent ext data 298
+debug2: channel 6: read 148 from efd 25
+debug2: channel 7: read 34 from efd 28
+debug3: Wrote 336 bytes for a total of 165093
+debug2: channel 6: rwin 1048150 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 7: rwin 1048535 elen 34 euse 1
+debug2: channel 7: sent ext data 34
+debug2: channel 6: read 100 from efd 25
+debug2: channel 7: read 199 from efd 28
+debug3: Wrote 272 bytes for a total of 165365
+debug2: channel 6: rwin 1048002 elen 100 euse 1
+debug2: channel 6: sent ext data 100
+debug2: channel 7: rwin 1048501 elen 199 euse 1
+debug2: channel 7: sent ext data 199
+debug2: channel 7: read 252 from efd 28
+debug3: Wrote 384 bytes for a total of 165749
+debug2: channel 7: rwin 1048302 elen 252 euse 1
+debug2: channel 7: sent ext data 252
+debug2: channel 7: read 98 from efd 28
+debug3: Wrote 304 bytes for a total of 166053
+debug2: channel 7: rwin 1048050 elen 98 euse 1
+debug2: channel 7: sent ext data 98
+debug2: channel 7: read 100 from efd 28
+debug3: Wrote 144 bytes for a total of 166197
+debug2: channel 7: rwin 1047952 elen 100 euse 1
+debug2: channel 7: sent ext data 100
+debug3: Wrote 144 bytes for a total of 166341
+debug3: Wrote 80 bytes for a total of 166421
+debug3: Wrote 64 bytes for a total of 166485
+debug3: Wrote 64 bytes for a total of 166549
+debug3: Wrote 96 bytes for a total of 166645
+debug3: Wrote 64 bytes for a total of 166709
+debug3: Wrote 176 bytes for a total of 166885
+debug3: Wrote 240 bytes for a total of 167125
+debug3: Wrote 176 bytes for a total of 167301
+debug3: Wrote 224 bytes for a total of 167525
+debug1: Connection to port 55330 forwarding to localhost port 0 requested.
+debug2: fd 21 setting TCP_NODELAY
+debug2: fd 21 setting O_NONBLOCK
+debug3: fd 21 is O_NONBLOCK
+debug1: channel 8: new [forwarded-tcpip]
+debug3: Wrote 96 bytes for a total of 167621
+debug2: channel 8: open confirm rwindow 131072 rmax 16384
+debug3: Wrote 160 bytes for a total of 167781
+debug3: Wrote 272 bytes for a total of 168053
+debug3: Wrote 96 bytes for a total of 168149
+debug3: Wrote 64 bytes for a total of 168213
+debug3: Wrote 80 bytes for a total of 168293
+debug3: Wrote 240 bytes for a total of 168533
+debug3: Wrote 112 bytes for a total of 168645
+debug3: Wrote 480 bytes for a total of 169125
+debug3: Wrote 128 bytes for a total of 169253
+debug3: Wrote 208 bytes for a total of 169461
+debug3: Wrote 272 bytes for a total of 169733
+debug3: Wrote 240 bytes for a total of 169973
+debug3: Wrote 64 bytes for a total of 170037
+debug3: Wrote 336 bytes for a total of 170373
+debug3: Wrote 176 bytes for a total of 170549
+debug3: Wrote 112 bytes for a total of 170661
+debug3: Wrote 384 bytes for a total of 171045
+debug3: Wrote 160 bytes for a total of 171205
+debug3: Wrote 80 bytes for a total of 171285
+debug3: Wrote 368 bytes for a total of 171653
+debug3: Wrote 480 bytes for a total of 172133
+debug3: Wrote 96 bytes for a total of 172229
+debug3: Wrote 224 bytes for a total of 172453
+debug3: Wrote 224 bytes for a total of 172677
+debug3: Wrote 144 bytes for a total of 172821
+debug3: Wrote 48 bytes for a total of 172869
+debug3: Wrote 160 bytes for a total of 173029
+debug3: Wrote 224 bytes for a total of 173253
+debug3: Wrote 160 bytes for a total of 173413
+debug3: Wrote 64 bytes for a total of 173477
+debug3: Wrote 240 bytes for a total of 173717
+debug3: Wrote 352 bytes for a total of 174069
+debug3: Wrote 208 bytes for a total of 174277
+debug3: Wrote 48 bytes for a total of 174325
+debug3: Wrote 240 bytes for a total of 174565
+debug3: Wrote 224 bytes for a total of 174789
+debug3: Wrote 256 bytes for a total of 175045
+debug3: Wrote 224 bytes for a total of 175269
+debug3: Wrote 544 bytes for a total of 175813
+debug3: Wrote 752 bytes for a total of 176565
+debug3: Wrote 48 bytes for a total of 176613
+debug3: Wrote 96 bytes for a total of 176709
+debug3: Wrote 480 bytes for a total of 177189
+debug3: Wrote 160 bytes for a total of 177349
+debug3: Wrote 320 bytes for a total of 177669
+debug3: Wrote 128 bytes for a total of 177797
+debug3: Wrote 368 bytes for a total of 178165
+debug3: Wrote 128 bytes for a total of 178293
+debug3: Wrote 160 bytes for a total of 178453
+debug3: Wrote 272 bytes for a total of 178725
+debug3: Wrote 96 bytes for a total of 178821
+debug3: Wrote 208 bytes for a total of 179029
+debug3: Wrote 208 bytes for a total of 179237
+debug3: Wrote 384 bytes for a total of 179621
+debug3: Wrote 96 bytes for a total of 179717
+debug3: Wrote 48 bytes for a total of 179765
+debug3: Wrote 112 bytes for a total of 179877
+debug3: Wrote 192 bytes for a total of 180069
+debug3: Wrote 240 bytes for a total of 180309
+debug3: Wrote 64 bytes for a total of 180373
+debug3: Wrote 112 bytes for a total of 180485
+debug3: Wrote 352 bytes for a total of 180837
+debug3: Wrote 80 bytes for a total of 180917
+debug3: Wrote 128 bytes for a total of 181045
+debug3: Wrote 256 bytes for a total of 181301
+debug3: Wrote 336 bytes for a total of 181637
+debug3: Wrote 48 bytes for a total of 181685
+debug3: Wrote 368 bytes for a total of 182053
+debug3: Wrote 128 bytes for a total of 182181
+debug3: Wrote 64 bytes for a total of 182245
+debug3: Wrote 336 bytes for a total of 182581
+debug3: Wrote 160 bytes for a total of 182741
+debug3: Wrote 80 bytes for a total of 182821
+debug3: Wrote 304 bytes for a total of 183125
+debug3: Wrote 224 bytes for a total of 183349
+debug3: Wrote 336 bytes for a total of 183685
+debug3: Wrote 48 bytes for a total of 183733
+debug3: Wrote 112 bytes for a total of 183845
+debug3: Wrote 144 bytes for a total of 183989
+debug3: Wrote 224 bytes for a total of 184213
+debug3: Wrote 96 bytes for a total of 184309
+debug3: Wrote 112 bytes for a total of 184421
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debug3: Wrote 160 bytes for a total of 184581
+debug3: Wrote 272 bytes for a total of 184853
+debug3: Wrote 96 bytes for a total of 184949
+debug3: Wrote 272 bytes for a total of 185221
+debug3: Wrote 256 bytes for a total of 185477
+debug3: Wrote 208 bytes for a total of 185685
+debug3: Wrote 64 bytes for a total of 185749
+debug3: Wrote 432 bytes for a total of 186181
+debug3: Wrote 240 bytes for a total of 186421
+debug3: Wrote 64 bytes for a total of 186485
+debug3: Wrote 240 bytes for a total of 186725
+debug3: Wrote 144 bytes for a total of 186869
+debug3: Wrote 80 bytes for a total of 186949
+debug3: Wrote 288 bytes for a total of 187237
+debug3: Wrote 208 bytes for a total of 187445
+debug3: Wrote 96 bytes for a total of 187541
+debug3: Wrote 352 bytes for a total of 187893
+debug3: Wrote 224 bytes for a total of 188117
+debug3: Wrote 224 bytes for a total of 188341
+debug3: Wrote 256 bytes for a total of 188597
+debug3: Wrote 320 bytes for a total of 188917
+debug3: Wrote 96 bytes for a total of 189013
+debug3: Wrote 224 bytes for a total of 189237
+debug3: Wrote 192 bytes for a total of 189429
+debug3: Wrote 128 bytes for a total of 189557
+debug3: Wrote 64 bytes for a total of 189621
+debug1: server_input_global_request: rtype cancel-tcpip-forward want_reply 0
+debug1: server_input_global_request: cancel-tcpip-forward addr localhost port 55330
+debug2: channel_cancel_rport_listener: close channel 4
+debug1: channel 4: free: port listener, nchannels 9
+debug3: channel 4: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r31 i0/0 o0/0 fd 23/22 cfd -1)
+  #7 server-session (t4 r32 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 55330 for localhost port 0, connect from 127.0.0.1 port 57964 (t4 r33 i0/0 o0/0 fd 21/21 cfd -1)
+
+debug3: channel 4: close_fds r 8 w 8 e -1 c -1
+debug2: channel_cancel_rport_listener: close channel 5
+debug1: channel 5: free: port listener, nchannels 8
+debug3: channel 5: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r31 i0/0 o0/0 fd 23/22 cfd -1)
+  #7 server-session (t4 r32 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 55330 for localhost port 0, connect from 127.0.0.1 port 57964 (t4 r33 i0/0 o0/0 fd 21/21 cfd -1)
+
+debug3: channel 5: close_fds r 19 w 19 e -1 c -1
+debug3: Wrote 448 bytes for a total of 190069
+debug3: Wrote 288 bytes for a total of 190357
+debug3: Wrote 208 bytes for a total of 190565
+debug3: Wrote 208 bytes for a total of 190773
+debug2: channel 8: read<=0 rfd 21 len 0
+debug2: channel 8: read failed
+debug2: channel 8: close_read
+debug2: channel 8: input open -> drain
+debug2: channel 8: ibuf empty
+debug2: channel 8: send eof
+debug2: channel 8: input drain -> closed
+debug3: Wrote 32 bytes for a total of 190805
+debug2: notify_done: reading
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15042
+debug1: session_exit_message: session 4 channel 6 pid 15042
+debug2: channel 6: request exit-status confirm 0
+debug1: session_exit_message: release channel 6
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug3: Wrote 400 bytes for a total of 191205
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug3: Wrote 256 bytes for a total of 191461
+debug2: channel 8: rcvd close
+debug2: channel 8: output open -> drain
+debug3: channel 6: will not send data after close
+debug3: channel 8: will not send data after close
+debug2: channel 8: obuf empty
+debug2: channel 8: close_write
+debug2: channel 8: output drain -> closed
+debug2: channel 8: send close
+debug2: channel 8: is dead
+debug2: channel 8: garbage collecting
+debug1: channel 8: free: forwarded-tcpip: listening port 55330 for localhost port 0, connect from 127.0.0.1 port 57964, nchannels 7
+debug3: channel 8: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r31 i3/0 o3/0 fd -1/-1 cfd -1)
+  #7 server-session (t4 r32 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 55330 for localhost port 0, connect from 127.0.0.1 port 57964 (t4 r33 i3/0 o3/0 fd 21/21 cfd -1)
+
+debug3: channel 8: close_fds r 21 w 21 e -1 c -1
+debug3: Wrote 32 bytes for a total of 191493
+debug3: channel 6: will not send data after close
+debug2: channel 6: rcvd close
+debug3: channel 6: will not send data after close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug1: session_by_channel: session 4 channel 6
+debug1: session_close_by_channel: channel 6 child 0
+debug1: session_close: session 4 pid 0
+debug3: session_unused: session id 4 unused
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug1: channel 6: free: server-session, nchannels 6
+debug3: channel 6: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r31 i3/0 o3/0 fd -1/-1 cfd -1)
+  #7 server-session (t4 r32 i0/0 o0/0 fd 26/24 cfd -1)
+
+debug3: channel 6: close_fds r -1 w -1 e -1 c -1
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 15043
+debug1: session_exit_message: session 5 channel 7 pid 15043
+debug2: channel 7: request exit-status confirm 0
+debug1: session_exit_message: release channel 7
+debug2: channel 7: write failed
+debug2: channel 7: close_write
+debug2: channel 7: send eow
+debug2: channel 7: output open -> closed
+debug2: channel 7: read<=0 rfd 26 len 0
+debug2: channel 7: read failed
+debug2: channel 7: close_read
+debug2: channel 7: input open -> drain
+debug2: channel 7: read 0 from efd 28
+debug2: channel 7: closing read-efd 28
+debug2: channel 7: ibuf empty
+debug2: channel 7: send eof
+debug2: channel 7: input drain -> closed
+debug2: channel 7: send close
+debug2: notify_done: reading
+debug3: Wrote 128 bytes for a total of 191621
+debug3: channel 7: will not send data after close
+debug2: channel 7: rcvd close
+debug3: channel 7: will not send data after close
+debug2: channel 7: is dead
+debug2: channel 7: gc: notify user
+debug1: session_by_channel: session 5 channel 7
+debug1: session_close_by_channel: channel 7 child 0
+debug1: session_close: session 5 pid 0
+debug3: session_unused: session id 5 unused
+debug2: channel 7: gc: user detached
+debug2: channel 7: is dead
+debug2: channel 7: garbage collecting
+debug1: channel 7: free: server-session, nchannels 5
+debug3: channel 7: status: The following connections are open:
+  #0 server-session (t4 r25 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r26 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r27 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r28 i0/0 o0/0 fd 18/16 cfd -1)
+  #7 server-session (t4 r32 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 7: close_fds r -1 w -1 e -1 c -1
+debug2: channel 0: rcvd close
+debug2: channel 0: output open -> drain
+debug2: channel 0: close_read
+debug2: channel 0: input open -> closed
+debug2: channel 2: rcvd close
+debug2: channel 2: output open -> drain
+debug2: channel 2: close_read
+debug2: channel 2: input open -> closed
+debug2: channel 3: rcvd close
+debug2: channel 3: output open -> drain
+debug2: channel 3: close_read
+debug2: channel 3: input open -> closed
+debug2: channel 1: rcvd close
+debug2: channel 1: output open -> drain
+debug2: channel 1: close_read
+debug2: channel 1: input open -> closed
+debug3: channel 0: will not send data after close
+debug3: channel 1: will not send data after close
+debug3: channel 2: will not send data after close
+debug3: channel 3: will not send data after close
+debug2: channel 0: obuf empty
+debug2: channel 0: close_write
+debug2: channel 0: output drain -> closed
+debug2: channel 0: almost dead
+debug2: channel 0: gc: notify user
+debug1: session_by_channel: session 0 channel 0
+debug1: session_close_by_channel: channel 0 child 14446
+debug1: session_close_by_channel: channel 0: has child
+debug1: session_pty_cleanup: session 0 release /dev/pts/3
+debug2: channel 1: obuf empty
+debug2: channel 1: close_write
+debug2: channel 1: output drain -> closed
+debug2: channel 1: almost dead
+debug2: channel 1: gc: notify user
+debug1: session_by_channel: session 1 channel 1
+debug1: session_close_by_channel: channel 1 child 14447
+debug1: session_close_by_channel: channel 1: has child
+debug2: channel 2: obuf empty
+debug2: channel 2: output drain -> closed
+debug2: channel 2: almost dead
+debug2: channel 2: gc: notify user
+debug1: session_by_channel: session 2 channel 2
+debug1: session_close_by_channel: channel 2 child 14597
+debug1: session_close_by_channel: channel 2: has child
+debug2: channel 3: obuf empty
+debug2: channel 3: output drain -> closed
+debug2: channel 3: almost dead
+debug2: channel 3: gc: notify user
+debug1: session_by_channel: session 3 channel 3
+debug1: session_close_by_channel: channel 3 child 14672
+debug1: session_close_by_channel: channel 3: has child
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug1: Received SIGCHLD.
+debug1: session_by_pid: pid 14446
+debug1: session_exit_message: session 0 channel 0 pid 14446
+debug2: channel 0: request exit-signal confirm 0
+debug1: session_exit_message: release channel 0
+debug1: session_by_pid: pid 14447
+debug1: session_exit_message: session 1 channel 1 pid 14447
+debug2: channel 1: request exit-status confirm 0
+debug1: session_exit_message: release channel 1
+debug1: session_by_pid: pid 14597
+debug1: session_exit_message: session 2 channel 2 pid 14597
+debug2: channel 2: request exit-status confirm 0
+debug1: session_exit_message: release channel 2
+debug1: session_by_pid: pid 14672
+debug1: session_exit_message: session 3 channel 3 pid 14672
+debug2: channel 3: request exit-status confirm 0
+debug1: session_exit_message: release channel 3
+debug2: channel 0: send close
+debug2: channel 0: is dead
+debug2: channel 0: gc: notify user
+debug1: session_by_channel: session 0 channel 0
+debug1: session_close_by_channel: channel 0 child 0
+debug1: session_close: session 0 pid 0
+debug3: session_unused: session id 0 unused
+debug2: channel 0: gc: user detached
+debug2: channel 0: is dead
+debug2: channel 0: garbage collecting
+debug1: channel 0: free: server-session, nchannels 4
+debug3: channel 0: status: The following connections are open:
+  #0 server-session (t4 r25 i3/0 o3/0 fd -1/-1 cfd -1)
+  #1 server-session (t4 r26 i3/0 o3/0 fd -1/-1 cfd -1)
+  #2 server-session (t4 r27 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r28 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 0: close_fds r -1 w -1 e -1 c -1
+debug2: channel 1: read 0 from efd 14
+debug2: channel 1: closing read-efd 14
+debug2: channel 1: send close
+debug2: channel 1: is dead
+debug2: channel 1: gc: notify user
+debug1: session_by_channel: session 1 channel 1
+debug1: session_close_by_channel: channel 1 child 0
+debug1: session_close: session 1 pid 0
+debug3: session_unused: session id 1 unused
+debug2: channel 1: gc: user detached
+debug2: channel 1: is dead
+debug2: channel 1: garbage collecting
+debug1: channel 1: free: server-session, nchannels 3
+debug3: channel 1: status: The following connections are open:
+  #1 server-session (t4 r26 i3/0 o3/0 fd -1/-1 cfd -1)
+  #2 server-session (t4 r27 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r28 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 1: close_fds r -1 w -1 e -1 c -1
+debug2: channel 2: read 0 from efd 17
+debug2: channel 2: closing read-efd 17
+debug2: channel 2: send close
+debug2: channel 2: is dead
+debug2: channel 2: gc: notify user
+debug1: session_by_channel: session 2 channel 2
+debug1: session_close_by_channel: channel 2 child 0
+debug1: session_close: session 2 pid 0
+debug3: session_unused: session id 2 unused
+debug2: channel 2: gc: user detached
+debug2: channel 2: is dead
+debug2: channel 2: garbage collecting
+debug1: channel 2: free: server-session, nchannels 2
+debug3: channel 2: status: The following connections are open:
+  #2 server-session (t4 r27 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r28 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 2: close_fds r -1 w -1 e -1 c -1
+debug2: channel 3: read 0 from efd 20
+debug2: channel 3: closing read-efd 20
+debug2: channel 3: send close
+debug2: channel 3: is dead
+debug2: channel 3: gc: notify user
+debug1: session_by_channel: session 3 channel 3
+debug1: session_close_by_channel: channel 3 child 0
+debug1: session_close: session 3 pid 0
+debug3: session_unused: session id 3 unused
+debug2: channel 3: gc: user detached
+debug2: channel 3: is dead
+debug2: channel 3: garbage collecting
+debug1: channel 3: free: server-session, nchannels 1
+debug3: channel 3: status: The following connections are open:
+  #3 server-session (t4 r28 i3/0 o3/0 fd -1/-1 cfd -1)
+
+debug3: channel 3: close_fds r -1 w -1 e -1 c -1
+Connection closed by 192.168.0.125
+debug1: do_cleanup
+debug1: PAM: cleanup
+debug1: PAM: closing session
+debug1: PAM: deleting credentials
+debug3: PAM: sshpam_thread_cleanup entering
+Transferred: sent 179776, received 5048 bytes
+Closing connection to 192.168.0.125 port 55328

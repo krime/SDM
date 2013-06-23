@@ -1,0 +1,355 @@
+debug2: load_server_config: filename /etc/ssh/sshd_config
+debug2: load_server_config: done config len = 634
+debug2: parse_server_config: config /etc/ssh/sshd_config len 634
+debug2: fd 3 setting O_NONBLOCK
+debug2: fd 4 setting O_NONBLOCK
+debug2: fd 3 setting O_NONBLOCK
+debug2: Network child is on pid 12306
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc,blowfish-cbc,cast128-cbc,aes192-cbc,aes256-cbc,arcfour,rijndael-cbc@lysator.liu.se
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160,hmac-ripemd160@openssh.com,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit: none,zlib@openssh.com
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: kex_parse_kexinit: diffie-hellman-group1-sha1,diffie-hellman-group-exchange-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes128-cbc,3des-ctr,3des-cbc,blowfish-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit:
+debug2: kex_parse_kexinit: first_kex_follows 0
+debug2: kex_parse_kexinit: reserved 0
+debug2: mac_setup: found hmac-md5
+debug2: mac_setup: found hmac-md5
+debug2: dh_gen_key: priv key bits set: 129/256
+debug2: bits set: 498/1024
+debug2: bits set: 523/1024
+debug2: monitor_read: 5 used once, disabling now
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug2: set_newkeys: mode 0
+debug2: parse_server_config: config reprocess config len 634
+debug2: monitor_read: 7 used once, disabling now
+debug2: input_userauth_request: setting up authctxt for root
+debug2: input_userauth_request: try method none
+debug2: input_userauth_request: try method publickey
+debug2: monitor_read: 50 used once, disabling now
+debug2: monitor_read: 3 used once, disabling now
+debug2: monitor_read: 4 used once, disabling now
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-rsa
+debug2: input_userauth_request: try method publickey
+debug2: userauth_pubkey: authenticated 1 pkalg ssh-rsa
+debug2: mac_setup: found hmac-md5
+debug2: mac_setup: found hmac-md5
+debug2: set_newkeys: mode 0
+debug2: set_newkeys: mode 1
+debug2: fd 5 setting O_NONBLOCK
+debug2: fd 6 setting O_NONBLOCK
+debug2: session_new: allocate (allocated 0 max 10)
+debug2: fd 3 setting TCP_NODELAY
+debug2: channel 0: rfd 9 isatty
+debug2: fd 9 setting O_NONBLOCK
+debug2: session_new: allocate (allocated 1 max 10)
+debug2: fd 12 setting O_NONBLOCK
+debug2: fd 11 setting O_NONBLOCK
+debug2: fd 14 setting O_NONBLOCK
+debug2: channel 1: read 41 from efd 14
+debug2: channel 1: read 34 from efd 14
+debug2: channel 1: read 53 from efd 14
+debug2: channel 1: read 200 from efd 14
+debug2: channel 1: read 98 from efd 14
+debug2: session_new: allocate (allocated 2 max 10)
+debug2: fd 15 setting O_NONBLOCK
+debug2: fd 13 setting O_NONBLOCK
+debug2: fd 17 setting O_NONBLOCK
+debug2: channel 2: read 41 from efd 17
+debug2: channel 2: read 34 from efd 17
+debug2: channel 2: read 53 from efd 17
+debug2: channel 2: read 298 from efd 17
+debug2: channel 2: read 50 from efd 17
+debug2: session_new: allocate (allocated 3 max 10)
+debug2: fd 18 setting O_NONBLOCK
+debug2: fd 16 setting O_NONBLOCK
+debug2: fd 20 setting O_NONBLOCK
+debug2: channel 3: read 41 from efd 20
+debug2: channel 3: read 34 from efd 20
+debug2: channel 3: read 53 from efd 20
+debug2: channel 3: read 200 from efd 20
+debug2: channel 3: read 98 from efd 20
+debug2: channel 3: read 100 from efd 20
+debug2: fd 8 setting O_NONBLOCK
+debug2: fd 19 setting O_NONBLOCK
+debug2: session_new: allocate (allocated 4 max 10)
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug2: channel 6: read 25 from efd 25
+debug2: channel 6: rwin 1048501 elen 25 euse 1
+debug2: channel 6: sent ext data 25
+debug2: channel 6: read 228 from efd 25
+debug2: channel 6: rwin 1048476 elen 228 euse 1
+debug2: channel 6: sent ext data 228
+debug2: channel 6: read 148 from efd 25
+debug2: channel 6: rwin 1048248 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 6: read 198 from efd 25
+debug2: channel 6: rwin 1048100 elen 198 euse 1
+debug2: channel 6: sent ext data 198
+debug2: notify_done: reading
+debug2: channel 6: request exit-status confirm 0
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug2: channel 6: rcvd close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug2: channel 6: read 41 from efd 25
+debug2: channel 6: rwin 1048576 elen 41 euse 1
+debug2: channel 6: sent ext data 41
+debug2: channel 6: read 34 from efd 25
+debug2: channel 6: rwin 1048535 elen 34 euse 1
+debug2: channel 6: sent ext data 34
+debug2: channel 6: read 121 from efd 25
+debug2: channel 6: rwin 1048501 elen 121 euse 1
+debug2: channel 6: sent ext data 121
+debug2: channel 6: read 180 from efd 25
+debug2: channel 6: rwin 1048380 elen 180 euse 1
+debug2: channel 6: sent ext data 180
+debug2: channel 6: read 150 from efd 25
+debug2: channel 6: rwin 1048200 elen 150 euse 1
+debug2: channel 6: sent ext data 150
+debug2: channel 6: read 148 from efd 25
+debug2: channel 6: rwin 1048050 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 6: request exit-status confirm 0
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug2: notify_done: reading
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug2: channel 6: rcvd close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug2: fd 23 setting O_NONBLOCK
+debug2: fd 22 setting O_NONBLOCK
+debug2: fd 25 setting O_NONBLOCK
+debug2: session_new: allocate (allocated 5 max 10)
+debug2: fd 26 setting O_NONBLOCK
+debug2: fd 24 setting O_NONBLOCK
+debug2: fd 28 setting O_NONBLOCK
+debug2: channel 6: read 75 from efd 25
+debug2: channel 6: rwin 1048576 elen 75 euse 1
+debug2: channel 6: sent ext data 75
+debug2: channel 6: read 143 from efd 25
+debug2: channel 6: rwin 1048501 elen 143 euse 1
+debug2: channel 6: sent ext data 143
+debug2: channel 6: read 258 from efd 25
+debug2: channel 6: rwin 1048358 elen 258 euse 1
+debug2: channel 6: sent ext data 258
+debug2: channel 6: read 148 from efd 25
+debug2: channel 6: rwin 1048100 elen 148 euse 1
+debug2: channel 6: sent ext data 148
+debug2: channel 6: read 50 from efd 25
+debug2: channel 7: read 41 from efd 28
+debug2: channel 6: rwin 1047952 elen 50 euse 1
+debug2: channel 6: sent ext data 50
+debug2: channel 7: rwin 1048576 elen 41 euse 1
+debug2: channel 7: sent ext data 41
+debug2: channel 7: read 34 from efd 28
+debug2: channel 7: rwin 1048535 elen 34 euse 1
+debug2: channel 7: sent ext data 34
+debug2: channel 7: read 161 from efd 28
+debug2: channel 7: rwin 1048501 elen 161 euse 1
+debug2: channel 7: sent ext data 161
+debug2: channel 7: read 190 from efd 28
+debug2: channel 7: rwin 1048340 elen 190 euse 1
+debug2: channel 7: sent ext data 190
+debug2: channel 7: read 148 from efd 28
+debug2: channel 7: rwin 1048150 elen 148 euse 1
+debug2: channel 7: sent ext data 148
+debug2: channel 7: read 150 from efd 28
+debug2: channel 7: rwin 1048002 elen 150 euse 1
+debug2: channel 7: sent ext data 150
+debug2: fd 21 setting TCP_NODELAY
+debug2: fd 21 setting O_NONBLOCK
+debug2: channel 8: open confirm rwindow 131072 rmax 16384
+debug2: channel_cancel_rport_listener: close channel 4
+debug2: channel_cancel_rport_listener: close channel 5
+debug2: channel 8: read<=0 rfd 21 len 0
+debug2: channel 8: read failed
+debug2: channel 8: close_read
+debug2: channel 8: input open -> drain
+debug2: channel 8: ibuf empty
+debug2: channel 8: send eof
+debug2: channel 8: input drain -> closed
+debug2: channel 8: rcvd close
+debug2: channel 8: output open -> drain
+debug2: channel 8: obuf empty
+debug2: channel 8: close_write
+debug2: channel 8: output drain -> closed
+debug2: channel 8: send close
+debug2: channel 8: is dead
+debug2: channel 8: garbage collecting
+debug2: notify_done: reading
+debug2: channel 6: request exit-status confirm 0
+debug2: channel 6: write failed
+debug2: channel 6: close_write
+debug2: channel 6: send eow
+debug2: channel 6: output open -> closed
+debug2: channel 6: read<=0 rfd 23 len 0
+debug2: channel 6: read failed
+debug2: channel 6: close_read
+debug2: channel 6: input open -> drain
+debug2: channel 6: read 0 from efd 25
+debug2: channel 6: closing read-efd 25
+debug2: channel 6: ibuf empty
+debug2: channel 6: send eof
+debug2: channel 6: input drain -> closed
+debug2: channel 6: send close
+debug2: channel 6: rcvd close
+debug2: channel 6: is dead
+debug2: channel 6: gc: notify user
+debug2: channel 6: gc: user detached
+debug2: channel 6: is dead
+debug2: channel 6: garbage collecting
+debug2: channel 7: request exit-status confirm 0
+debug2: channel 7: write failed
+debug2: channel 7: close_write
+debug2: channel 7: send eow
+debug2: channel 7: output open -> closed
+debug2: channel 7: read<=0 rfd 26 len 0
+debug2: channel 7: read failed
+debug2: channel 7: close_read
+debug2: channel 7: input open -> drain
+debug2: channel 7: read 0 from efd 28
+debug2: channel 7: closing read-efd 28
+debug2: channel 7: ibuf empty
+debug2: channel 7: send eof
+debug2: channel 7: input drain -> closed
+debug2: channel 7: send close
+debug2: notify_done: reading
+debug2: channel 7: rcvd close
+debug2: channel 7: is dead
+debug2: channel 7: gc: notify user
+debug2: channel 7: gc: user detached
+debug2: channel 7: is dead
+debug2: channel 7: garbage collecting
+debug2: channel 0: rcvd close
+debug2: channel 0: output open -> drain
+debug2: channel 0: close_read
+debug2: channel 0: input open -> closed
+debug2: channel 2: rcvd close
+debug2: channel 2: output open -> drain
+debug2: channel 2: close_read
+debug2: channel 2: input open -> closed
+debug2: channel 3: rcvd close
+debug2: channel 3: output open -> drain
+debug2: channel 3: close_read
+debug2: channel 3: input open -> closed
+debug2: channel 1: rcvd close
+debug2: channel 1: output open -> drain
+debug2: channel 1: close_read
+debug2: channel 1: input open -> closed
+debug2: channel 0: obuf empty
+debug2: channel 0: close_write
+debug2: channel 0: output drain -> closed
+debug2: channel 0: almost dead
+debug2: channel 0: gc: notify user
+debug2: channel 1: obuf empty
+debug2: channel 1: close_write
+debug2: channel 1: output drain -> closed
+debug2: channel 1: almost dead
+debug2: channel 1: gc: notify user
+debug2: channel 2: obuf empty
+debug2: channel 2: close_write
+debug2: channel 2: output drain -> closed
+debug2: channel 2: almost dead
+debug2: channel 2: gc: notify user
+debug2: channel 3: obuf empty
+debug2: channel 3: output drain -> closed
+debug2: channel 3: almost dead
+debug2: channel 3: gc: notify user
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug2: notify_done: reading
+debug2: channel 0: request exit-signal confirm 0
+debug2: channel 1: request exit-status confirm 0
+debug2: channel 2: request exit-status confirm 0
+debug2: channel 3: request exit-status confirm 0
+debug2: channel 0: send close
+debug2: channel 0: is dead
+debug2: channel 0: gc: notify user
+debug2: channel 0: gc: user detached
+debug2: channel 0: is dead
+debug2: channel 0: garbage collecting
+debug2: channel 1: read 0 from efd 14
+debug2: channel 1: closing read-efd 14
+debug2: channel 1: send close
+debug2: channel 1: is dead
+debug2: channel 1: gc: notify user
+debug2: channel 1: gc: user detached
+debug2: channel 1: is dead
+debug2: channel 1: garbage collecting
+debug2: channel 2: read 0 from efd 17
+debug2: channel 2: closing read-efd 17
+debug2: channel 2: send close
+debug2: channel 2: is dead
+debug2: channel 2: gc: notify user
+debug2: channel 2: gc: user detached
+debug2: channel 2: is dead
+debug2: channel 2: garbage collecting
+debug2: channel 3: read 0 from efd 20
+debug2: channel 3: closing read-efd 20
+debug2: channel 3: send close
+debug2: channel 3: is dead
+debug2: channel 3: gc: notify user
+debug2: channel 3: gc: user detached
+debug2: channel 3: is dead
+debug2: channel 3: garbage collecting

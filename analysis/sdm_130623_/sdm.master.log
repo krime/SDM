@@ -1,0 +1,18 @@
+SDM: [master] effsize: 2, size: 1, rv: 0
+SDM: [master] Found routing file, size=1
+SDM: [1] size 2
+SDM: [1] route for 0 is {} 
+SDM: [1] in sdm_create_sockd_map
+SDM: [1] sdm_route_get_route dest {0-1}, parent 1
+SDM: [1] adjacent nodes: {0}
+SDM: [1] adding 0 to my map
+SDM: [master] effsize: 2, size: 1, rv: 0
+SDM: [1] nodeID: 0, hostname: node2, port: 51826
+SDM: [1] Connection to child 0 successful
+SDM: [1] nodeID: 0, hostname: node2, port: 51826
+SDM: [1] Initialization successful
+SDM: starting client
+SDM: DbgMasterInit num_svrs=1
+SDM: DbgMasterCreateSession host=localhost port=12345
+SDM: DbgMasterFinish
+SDM: all finished

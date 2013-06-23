@@ -1,0 +1,65 @@
+Server listening on 0.0.0.0 port 1025.
+Server listening on :: port 1025.
+Connection from 192.168.0.125 port 54492
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+Postponed publickey for root from 192.168.0.125 port 54492 ssh2
+Found matching RSA key: d4:13:ff:eb:0a:70:5e:65:85:cb:8e:4d:00:cd:65:35
+Accepted publickey for root from 192.168.0.125 port 54492 ssh2
+subsystem request for sftp
+subsystem request for sftp
+subsystem request for sftp
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r20 i3/0 o3/0 fd -1/-1 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r21 i3/0 o3/0 fd -1/-1 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r22 i0/0 o0/0 fd 23/22 cfd -1)
+  #7 server-session (t4 r23 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 54498 for localhost port 0, connect from 127.0.0.1 port 45816 (t4 r24 i0/0 o0/0 fd 21/21 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r22 i0/0 o0/0 fd 23/22 cfd -1)
+  #7 server-session (t4 r23 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 54498 for localhost port 0, connect from 127.0.0.1 port 45816 (t4 r24 i0/0 o0/0 fd 21/21 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r22 i0/0 o0/0 fd 23/22 cfd -1)
+  #7 server-session (t4 r23 i0/0 o0/0 fd 26/24 cfd -1)
+  #8 forwarded-tcpip: listening port 54498 for localhost port 0, connect from 127.0.0.1 port 45816 (t4 r24 i3/0 o3/0 fd 21/21 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #6 server-session (t4 r22 i3/0 o3/0 fd -1/-1 cfd -1)
+  #7 server-session (t4 r23 i0/0 o0/0 fd 26/24 cfd -1)
+  #0 server-session (t4 r16 i0/0 o0/0 fd 9/7 cfd -1)
+  #1 server-session (t4 r17 i0/0 o0/0 fd 12/11 cfd -1)
+  #2 server-session (t4 r18 i0/0 o0/0 fd 15/13 cfd -1)
+  #3 server-session (t4 r19 i0/0 o0/0 fd 18/16 cfd -1)
+  #7 server-session (t4 r23 i3/0 o3/0 fd -1/-1 cfd -1)
+  #0 server-session (t4 r16 i3/0 o3/0 fd -1/-1 cfd -1)
+  #1 server-session (t4 r17 i3/0 o3/0 fd -1/-1 cfd -1)
+  #2 server-session (t4 r18 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r19 i3/0 o3/0 fd -1/-1 cfd -1)
+  #1 server-session (t4 r17 i3/0 o3/0 fd -1/-1 cfd -1)
+  #2 server-session (t4 r18 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r19 i3/0 o3/0 fd -1/-1 cfd -1)
+  #2 server-session (t4 r18 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r19 i3/0 o3/0 fd -1/-1 cfd -1)
+  #3 server-session (t4 r19 i3/0 o3/0 fd -1/-1 cfd -1)
+Connection closed by 192.168.0.125
+Transferred: sent 169920, received 5048 bytes
+Closing connection to 192.168.0.125 port 54492

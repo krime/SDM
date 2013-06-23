@@ -1,0 +1,3125 @@
+[pid 12292] execve("/usr/sbin/sshd", ["/usr/sbin/sshd", "-ddd", "-p1025", "-R"], [/* 49 vars */]) = 0
+Process 12306 attached (waiting for parent)
+Process 12306 resumed (parent 12292 ready)
+Process 12306 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12307 attached
+[pid 12307] --- SIGHUP (Hangup) @ 0 (0) ---
+[pid 12307] --- SIGCONT (Continued) @ 0 (0) ---
+Process 12308 attached
+[pid 12307] execve("/bin/bash", ["bash", "-c", "/bin/sh"], [/* 10 vars */]) = 0
+[pid 12308] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */]) = 0
+Process 12309 attached
+Process 12310 attached
+Process 12311 attached
+[pid 12310] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]Process 12312 attached
+) = 0
+Process 12309 detached
+[pid 12312] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 15 vars */]) = 0
+Process 12311 detached
+Process 12310 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12312 detached
+Process 12313 attached (waiting for parent)
+Process 12313 resumed (parent 12308 ready)
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12314 attached (waiting for parent)
+Process 12314 resumed (parent 12308 ready)
+Process 12315 attached (waiting for parent)
+Process 12315 resumed (parent 12307 ready)
+[pid 12314] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12316 attached (waiting for parent)
+Process 12316 resumed (parent 12307 ready)
+) = 0
+[pid 12316] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 15 vars */]Process 12315 detached
+Process 12313 detached
+) = 0
+Process 12314 detached
+Process 12316 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12317 attached
+Process 12318 attached (waiting for parent)
+Process 12318 resumed (parent 12307 ready)
+Process 12319 attached (waiting for parent)
+Process 12319 resumed (parent 12308 ready)
+Process 12320 attached (waiting for parent)
+Process 12320 resumed (parent 12307 ready)
+[pid 12319] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */] <unfinished ...>
+[pid 12320] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 15 vars */]Process 12318 detached
+Process 12317 detached
+ <unfinished ...>
+[pid 12319] <... execve resumed> )      = 0
+[pid 12320] <... execve resumed> )      = 0
+Process 12319 detached
+Process 12320 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12321 attached
+Process 12322 attached
+Process 12323 attached
+Process 12324 attached
+Process 12321 detached
+[pid 12322] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+Process 12323 detached
+[pid 12324] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 15 vars */]) = 0
+Process 12322 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12325 attached
+Process 12324 detached
+Process 12326 attached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12326] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 12325 detached
+Process 12327 attached
+) = 0
+Process 12328 attached (waiting for parent)
+Process 12328 resumed (parent 12307 ready)
+[pid 12328] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 15 vars */]) = 0
+Process 12327 detached
+Process 12326 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12328 detached
+Process 12329 attached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12330 attached
+Process 12329 detached
+[pid 12330] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 12331 attached
+) = 0
+Process 12332 attached
+[pid 12332] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 15 vars */]Process 12331 detached
+) = 0
+Process 12330 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12332 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12333 attached (waiting for parent)
+Process 12333 resumed (parent 12308 ready)
+Process 12334 attached
+Process 12335 attached
+Process 12333 detached
+[pid 12334] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 12336 attached
+) = 0
+Process 12335 detached
+[pid 12336] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 15 vars */]) = 0
+Process 12334 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12336 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12337 attached
+Process 12338 attached
+Process 12339 attached
+Process 12340 attached (waiting for parent)
+Process 12337 detached
+Process 12340 resumed (parent 12307 ready)
+Process 12339 detached
+[pid 12338] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */] <unfinished ...>
+[pid 12340] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 15 vars */] <unfinished ...>
+[pid 12338] <... execve resumed> )      = 0
+[pid 12340] <... execve resumed> )      = 0
+Process 12340 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12338 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12341 attached
+Process 12342 attached
+Process 12343 attached
+Process 12344 attached
+[pid 12343] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 15 vars */]Process 12341 detached
+ <unfinished ...>
+[pid 12344] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */] <unfinished ...>
+[pid 12343] <... execve resumed> )      = 0
+[pid 12344] <... execve resumed> )      = 0
+Process 12342 detached
+Process 12343 detached
+Process 12344 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12345 attached
+Process 12346 attached (waiting for parent)
+Process 12346 resumed (parent 12308 ready)
+Process 12347 attached
+Process 12348 attached (waiting for parent)
+Process 12348 resumed (parent 12308 ready)
+[pid 12347] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 15 vars */] <unfinished ...>
+[pid 12348] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12345 detached
+ <unfinished ...>
+[pid 12347] <... execve resumed> )      = 0
+Process 12346 detached
+[pid 12348] <... execve resumed> )      = 0
+Process 12348 detached
+Process 12347 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12349 attached
+Process 12350 attached
+Process 12351 attached
+Process 12352 attached (waiting for parent)
+Process 12352 resumed (parent 12307 ready)
+[pid 12350] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+[pid 12352] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 15 vars */]Process 12349 detached
+Process 12351 detached
+) = 0
+Process 12350 detached
+Process 12352 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12354 attached
+Process 12353 attached
+Process 12355 attached
+Process 12356 attached (waiting for parent)
+Process 12356 resumed (parent 12308 ready)
+[pid 12356] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+Process 12354 detached
+Process 12353 detached
+[pid 12355] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 15 vars */]) = 0
+Process 12356 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12355 detached
+Process 12357 attached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12358 attached
+[pid 12358] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 12359 attached
+) = 0
+Process 12357 detached
+Process 12360 attached
+Process 12359 detached
+[pid 12360] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 15 vars */]) = 0
+Process 12358 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12360 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12361 attached (waiting for parent)
+Process 12361 resumed (parent 12308 ready)
+Process 12362 attached
+Process 12363 attached (waiting for parent)
+Process 12363 resumed (parent 12307 ready)
+Process 12364 attached
+[pid 12362] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 12361 detached
+) = 0
+Process 12363 detached
+[pid 12364] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 15 vars */]) = 0
+Process 12362 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12364 detached
+Process 12365 attached
+Process 12366 attached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12366] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]Process 12367 attached (waiting for parent)
+Process 12367 resumed (parent 12307 ready)
+) = 0
+Process 12365 detached
+Process 12368 attached
+[pid 12368] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 15 vars */]Process 12367 detached
+) = 0
+Process 12366 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12369 attached
+Process 12370 attached (waiting for parent)
+Process 12370 resumed (parent 12308 ready)
+Process 12368 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12370] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 12369 detached
+) = 0
+Process 12371 attached
+Process 12372 attached
+[pid 12372] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 15 vars */]Process 12371 detached
+) = 0
+Process 12370 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12373 attached
+Process 12372 detached
+Process 12374 attached (waiting for parent)
+Process 12374 resumed (parent 12373 ready)
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12374] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 12375 attached
+Process 12376 attached
+[pid 12376] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 18 vars */]) = 0
+Process 12374 detached
+[pid 12373] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12373 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12376 detached
+[pid 12375] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12375 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12377 attached
+Process 12378 attached
+[pid 12378] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 12377 detached
+) = 0
+Process 12379 attached (waiting for parent)
+Process 12379 resumed (parent 12307 ready)
+Process 12380 attached
+Process 12379 detached
+[pid 12380] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 22 vars */]) = 0
+Process 12378 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12380 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12381 attached
+Process 12382 attached (waiting for parent)
+Process 12382 resumed (parent 12308 ready)
+[pid 12382] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+Process 12381 detached
+Process 12383 attached
+Process 12384 attached (waiting for parent)
+Process 12384 resumed (parent 12307 ready)
+Process 12382 detached
+[pid 12384] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 22 vars */]Process 12383 detached
+) = 0
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12385 attached (waiting for parent)
+Process 12385 resumed (parent 12308 ready)
+Process 12386 attached
+[pid 12386] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 12385 detached
+) = 0
+Process 12384 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12387 attached
+Process 12388 attached
+Process 12386 detached
+[pid 12388] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 22 vars */] <unfinished ...>
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12387 detached
+[pid 12388] <... execve resumed> )      = 0
+Process 12388 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12389 attached
+Process 12390 attached
+[pid 12390] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+Process 12389 detached
+Process 12391 attached
+Process 12392 attached
+Process 12390 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12392] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 25 vars */]Process 12391 detached
+) = 0
+Process 12392 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12393 attached (waiting for parent)
+Process 12393 resumed (parent 12308 ready)
+Process 12394 attached
+[pid 12394] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12394 detached
+[pid 12393] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12393 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12395 attached
+Process 12396 attached (waiting for parent)
+Process 12396 resumed (parent 12395 ready)
+[pid 12396] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 26 vars */]) = 0
+Process 12396 detached
+[pid 12395] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12395 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12397 attached
+Process 12398 attached (waiting for parent)
+Process 12398 resumed (parent 12308 ready)
+[pid 12398] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 12397 detached
+) = 0
+Process 12399 attached
+Process 12398 detached
+Process 12400 attached (waiting for parent)
+Process 12400 resumed (parent 12307 ready)
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12400] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 28 vars */]) = 0
+Process 12399 detached
+Process 12401 attached
+Process 12402 attached
+Process 12403 attached
+Process 12400 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12403] execve("/bin/ps", ["/bin/ps", "-p", "12308", "-ocomm="], [/* 26 vars */]) = 0
+Process 12404 attached
+Process 12405 attached
+Process 12406 attached
+[pid 12406] execve("/bin/ps", ["/bin/ps", "-p", "12307", "-ocomm="], [/* 28 vars */]) = 0
+Process 12406 detached
+Process 12403 detached
+[pid 12405] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12402] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12405 detached
+Process 12402 detached
+[pid 12404] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12401] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12407 attached
+Process 12408 attached
+[pid 12407] execve("/bin/basename", ["/bin/basename", "bash"], [/* 28 vars */]) = 0
+[pid 12408] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 12408 detached
+[pid 12401] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12407 detached
+Process 12401 detached
+[pid 12404] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12404 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12409 attached
+Process 12410 attached
+Process 12411 attached
+[pid 12411] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]Process 12412 attached (waiting for parent)
+Process 12412 resumed (parent 12410 ready)
+) = 0
+[pid 12412] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 31 vars */]) = 0
+Process 12412 detached
+[pid 12410] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12411 detached
+Process 12410 detached
+[pid 12409] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12409 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12413 attached (waiting for parent)
+Process 12413 resumed (parent 12308 ready)
+Process 12414 attached
+Process 12413 detached
+[pid 12414] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 12415 attached
+) = 0
+Process 12416 attached (waiting for parent)
+Process 12416 resumed (parent 12307 ready)
+[pid 12416] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 33 vars */]Process 12415 detached
+) = 0
+Process 12414 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12416 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12417 attached
+Process 12418 attached
+Process 12419 attached
+[pid 12419] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]Process 12420 attached
+) = 0
+[pid 12420] execve("/bin/uname", ["uname", "-m"], [/* 33 vars */]) = 0
+Process 12419 detached
+[pid 12417] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12420 detached
+Process 12417 detached
+[pid 12418] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12418 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12421 attached
+Process 12422 attached (waiting for parent)
+Process 12422 resumed (parent 12308 ready)
+Process 12423 attached
+Process 12424 attached (waiting for parent)
+Process 12424 resumed (parent 12307 ready)
+[pid 12422] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+[pid 12424] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 33 vars */]Process 12423 detached
+Process 12421 detached
+) = 0
+Process 12424 detached
+Process 12422 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12425 attached
+Process 12426 attached
+Process 12427 attached
+Process 12428 attached (waiting for parent)
+Process 12428 resumed (parent 12308 ready)
+[pid 12427] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 37 vars */] <unfinished ...>
+[pid 12428] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+[pid 12427] <... execve resumed> )      = 0
+Process 12426 detached
+Process 12425 detached
+Process 12428 detached
+Process 12427 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12429 attached
+Process 12430 attached
+Process 12431 attached (waiting for parent)
+Process 12431 resumed (parent 12308 ready)
+Process 12432 attached (waiting for parent)
+Process 12432 resumed (parent 12307 ready)
+[pid 12431] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */] <unfinished ...>
+[pid 12432] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 37 vars */] <unfinished ...>
+[pid 12431] <... execve resumed> )      = 0
+[pid 12432] <... execve resumed> )      = 0
+Process 12429 detached
+Process 12430 detached
+Process 12432 detached
+Process 12431 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12433 attached
+Process 12434 attached
+Process 12435 attached
+Process 12436 attached
+[pid 12436] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 37 vars */] <unfinished ...>
+[pid 12435] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */] <unfinished ...>
+[pid 12436] <... execve resumed> )      = 0
+[pid 12435] <... execve resumed> )      = 0
+Process 12436 detached
+[pid 12433] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12433 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12435 detached
+[pid 12434] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12434 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12437 attached
+Process 12438 attached
+Process 12439 attached
+[pid 12438] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 40 vars */]Process 12440 attached (waiting for parent)
+Process 12440 resumed (parent 12308 ready)
+Process 12437 detached
+) = 0
+[pid 12440] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 12439 detached
+Process 12438 detached
+Process 12440 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12441 attached
+Process 12442 attached
+Process 12443 attached
+Process 12444 attached (waiting for parent)
+Process 12444 resumed (parent 12308 ready)
+[pid 12443] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 40 vars */] <unfinished ...>
+[pid 12444] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */] <unfinished ...>
+[pid 12443] <... execve resumed> )      = 0
+[pid 12444] <... execve resumed> )      = 0
+Process 12442 detached
+Process 12441 detached
+Process 12444 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12443 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12445 attached
+Process 12446 attached (waiting for parent)
+Process 12446 resumed (parent 12307 ready)
+Process 12447 attached
+[pid 12447] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 12448 attached (waiting for parent)
+Process 12448 resumed (parent 12446 ready)
+[pid 12448] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 42 vars */]) = 0
+Process 12448 detached
+[pid 12446] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12446 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12447 detached
+[pid 12445] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12445 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12449 attached
+Process 12450 attached (waiting for parent)
+Process 12450 resumed (parent 12307 ready)
+Process 12451 attached
+[pid 12451] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 12452 attached
+[pid 12452] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 44 vars */]) = 0
+Process 12451 detached
+[pid 12449] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12449 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12452 detached
+[pid 12450] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12450 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12453 attached
+Process 12454 attached
+[pid 12454] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 12455 attached
+Process 12456 attached
+[pid 12456] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 44 vars */]) = 0
+Process 12454 detached
+[pid 12453] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12453 detached
+[pid 12308] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12456 detached
+[pid 12455] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12455 detached
+[pid 12308] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */] <unfinished ...>
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12308] <... execve resumed> )      = 0
+[pid 12307] execve("/bin/sh", ["/bin/sh"], [/* 44 vars */]) = 0
+Process 12457 attached
+Process 12458 attached
+[pid 12458] execve("/bin/sh", ["/bin/sh", "-c", "echo \"SSH_TTY=$SSH_TTY\""], [/* 45 vars */]) = 0
+[pid 12457] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */]) = 0
+Process 12458 detached
+[pid 12307] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12459 attached
+Process 12460 attached
+[pid 12460] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]Process 12459 detached
+) = 0
+Process 12460 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12461 attached
+Process 12462 attached (waiting for parent)
+Process 12462 resumed (parent 12457 ready)
+[pid 12462] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+Process 12461 detached
+Process 12462 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12463 attached
+Process 12464 attached (waiting for parent)
+Process 12464 resumed (parent 12457 ready)
+[pid 12464] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12463 detached
+) = 0
+Process 12464 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12465 attached
+Process 12466 attached
+[pid 12466] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+Process 12465 detached
+Process 12466 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12467 attached
+Process 12468 attached (waiting for parent)
+Process 12468 resumed (parent 12457 ready)
+[pid 12468] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 12467 detached
+) = 0
+Process 12468 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12469 attached
+Process 12470 attached
+[pid 12470] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+Process 12469 detached
+Process 12470 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12471 attached
+Process 12472 attached
+[pid 12472] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 12471 detached
+) = 0
+Process 12472 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12473 attached
+Process 12474 attached
+Process 12473 detached
+[pid 12474] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+Process 12474 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12475 attached
+Process 12476 attached (waiting for parent)
+Process 12476 resumed (parent 12457 ready)
+[pid 12476] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+Process 12475 detached
+Process 12476 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12477 attached
+Process 12478 attached (waiting for parent)
+Process 12478 resumed (parent 12457 ready)
+[pid 12478] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]) = 0
+Process 12477 detached
+Process 12478 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12479 attached
+Process 12480 attached
+[pid 12480] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 12479 detached
+) = 0
+Process 12480 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12481 attached
+Process 12482 attached (waiting for parent)
+Process 12482 resumed (parent 12457 ready)
+[pid 12482] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+Process 12481 detached
+Process 12482 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12483 attached
+Process 12484 attached (waiting for parent)
+Process 12484 resumed (parent 12457 ready)
+[pid 12484] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]) = 0
+Process 12483 detached
+Process 12484 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12485 attached (waiting for parent)
+Process 12485 resumed (parent 12457 ready)
+Process 12486 attached
+Process 12485 detached
+[pid 12486] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+Process 12486 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12487 attached
+Process 12488 attached (waiting for parent)
+Process 12488 resumed (parent 12457 ready)
+[pid 12488] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]Process 12487 detached
+) = 0
+Process 12488 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12489 attached
+Process 12490 attached (waiting for parent)
+Process 12490 resumed (parent 12457 ready)
+[pid 12490] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]) = 0
+Process 12489 detached
+Process 12490 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12491 attached
+Process 12492 attached
+[pid 12492] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 12492 detached
+[pid 12491] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12491 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12493 attached
+Process 12494 attached
+[pid 12494] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]) = 0
+Process 12493 detached
+Process 12494 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12495 attached
+Process 12496 attached (waiting for parent)
+Process 12496 resumed (parent 12457 ready)
+[pid 12496] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]Process 12495 detached
+) = 0
+Process 12496 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12497 attached
+Process 12498 attached (waiting for parent)
+Process 12498 resumed (parent 12457 ready)
+[pid 12498] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+Process 12497 detached
+Process 12498 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12499 attached
+Process 12500 attached
+[pid 12500] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+Process 12499 detached
+Process 12500 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12501 attached
+Process 12502 attached
+[pid 12502] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12502 detached
+[pid 12501] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12501 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12503 attached
+Process 12504 attached
+[pid 12504] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 12503 detached
+) = 0
+Process 12504 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12505 attached
+Process 12506 attached
+Process 12507 attached
+[pid 12507] execve("/bin/ps", ["/bin/ps", "-p", "12457", "-ocomm="], [/* 26 vars */]) = 0
+Process 12507 detached
+[pid 12506] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12506 detached
+[pid 12505] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12508 attached
+[pid 12508] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 12508 detached
+[pid 12505] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12505 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12509 attached
+Process 12510 attached
+[pid 12510] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 12510 detached
+[pid 12509] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12509 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12511 attached
+Process 12512 attached (waiting for parent)
+Process 12512 resumed (parent 12457 ready)
+[pid 12512] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 12511 detached
+) = 0
+Process 12512 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12513 attached
+Process 12514 attached
+[pid 12514] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 12514 detached
+[pid 12513] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12513 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12515 attached
+Process 12516 attached
+[pid 12516] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+Process 12515 detached
+Process 12516 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12517 attached
+Process 12518 attached (waiting for parent)
+Process 12518 resumed (parent 12457 ready)
+[pid 12518] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+Process 12517 detached
+Process 12518 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12519 attached
+Process 12520 attached
+[pid 12520] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]) = 0
+Process 12519 detached
+Process 12520 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12521 attached
+Process 12522 attached
+[pid 12522] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 12522 detached
+[pid 12521] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12521 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12523 attached
+Process 12524 attached
+[pid 12524] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]Process 12523 detached
+) = 0
+Process 12524 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12525 attached
+Process 12526 attached (waiting for parent)
+Process 12526 resumed (parent 12457 ready)
+[pid 12526] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 12525 detached
+) = 0
+Process 12526 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12527 attached
+Process 12528 attached
+[pid 12528] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 12528 detached
+[pid 12527] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12527 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12529 attached
+Process 12530 attached
+[pid 12530] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 12530 detached
+[pid 12529] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12529 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12531 attached
+Process 12532 attached
+[pid 12532] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 12532 detached
+[pid 12531] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12531 detached
+[pid 12457] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12457] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */]) = 0
+Process 12533 attached
+[pid 12533] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */]) = 0
+Process 12534 attached
+Process 12535 attached
+[pid 12535] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+Process 12534 detached
+Process 12535 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12536 attached
+Process 12537 attached (waiting for parent)
+Process 12537 resumed (parent 12533 ready)
+[pid 12537] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12536 detached
+) = 0
+Process 12537 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12538 attached
+Process 12539 attached
+[pid 12539] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12538 detached
+) = 0
+Process 12539 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12540 attached
+Process 12541 attached (waiting for parent)
+Process 12541 resumed (parent 12533 ready)
+[pid 12541] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+Process 12540 detached
+Process 12541 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12542 attached
+Process 12543 attached
+[pid 12543] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 12542 detached
+) = 0
+Process 12543 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12544 attached
+Process 12545 attached (waiting for parent)
+Process 12545 resumed (parent 12533 ready)
+[pid 12545] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+Process 12544 detached
+Process 12545 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12546 attached
+Process 12547 attached
+[pid 12547] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 12546 detached
+) = 0
+Process 12547 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12548 attached
+Process 12549 attached
+[pid 12549] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+Process 12548 detached
+Process 12549 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12550 attached
+Process 12551 attached (waiting for parent)
+Process 12551 resumed (parent 12533 ready)
+[pid 12551] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+Process 12550 detached
+Process 12551 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12552 attached
+Process 12553 attached (waiting for parent)
+Process 12553 resumed (parent 12533 ready)
+[pid 12553] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12552 detached
+) = 0
+Process 12553 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12554 attached
+Process 12555 attached
+[pid 12555] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 12554 detached
+) = 0
+Process 12555 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12556 attached
+Process 12557 attached (waiting for parent)
+Process 12557 resumed (parent 12533 ready)
+[pid 12557] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+Process 12556 detached
+Process 12557 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12558 attached
+Process 12559 attached (waiting for parent)
+Process 12559 resumed (parent 12533 ready)
+[pid 12559] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 12558 detached
+) = 0
+Process 12559 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12560 attached
+Process 12561 attached
+[pid 12561] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+Process 12560 detached
+Process 12561 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12562 attached
+Process 12563 attached
+[pid 12563] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+Process 12562 detached
+Process 12563 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12564 attached
+Process 12565 attached (waiting for parent)
+Process 12565 resumed (parent 12533 ready)
+[pid 12565] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]) = 0
+Process 12564 detached
+Process 12565 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12566 attached
+Process 12567 attached
+[pid 12567] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 12567 detached
+[pid 12566] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12566 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12568 attached
+Process 12569 attached
+[pid 12569] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]) = 0
+Process 12568 detached
+Process 12569 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12570 attached
+Process 12571 attached
+[pid 12571] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]Process 12570 detached
+) = 0
+Process 12571 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12572 attached
+Process 12573 attached
+[pid 12573] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 12572 detached
+) = 0
+Process 12573 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12574 attached
+Process 12575 attached
+Process 12574 detached
+[pid 12575] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+Process 12575 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12576 attached
+Process 12577 attached
+[pid 12577] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12577 detached
+[pid 12576] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12576 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12578 attached
+Process 12579 attached
+[pid 12579] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+Process 12578 detached
+Process 12579 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12580 attached
+Process 12581 attached
+Process 12582 attached
+[pid 12582] execve("/bin/ps", ["/bin/ps", "-p", "12533", "-ocomm="], [/* 26 vars */]) = 0
+Process 12582 detached
+[pid 12581] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12581 detached
+[pid 12580] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12583 attached
+[pid 12583] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 12583 detached
+[pid 12580] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12580 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12584 attached
+Process 12585 attached
+[pid 12585] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 12585 detached
+[pid 12584] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12584 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12586 attached
+Process 12587 attached
+[pid 12587] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 12586 detached
+) = 0
+Process 12587 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12588 attached
+Process 12589 attached
+[pid 12589] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 12589 detached
+[pid 12588] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12588 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12590 attached
+Process 12591 attached
+[pid 12591] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+Process 12590 detached
+Process 12591 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12592 attached
+Process 12593 attached
+[pid 12593] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 12592 detached
+) = 0
+Process 12593 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12594 attached
+Process 12595 attached
+[pid 12595] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]) = 0
+Process 12594 detached
+Process 12595 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12596 attached
+Process 12597 attached
+[pid 12597] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 12597 detached
+[pid 12596] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12596 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12598 attached
+Process 12599 attached
+[pid 12599] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 12598 detached
+Process 12599 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12600 attached
+Process 12601 attached
+[pid 12601] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+Process 12600 detached
+Process 12601 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12602 attached
+Process 12603 attached
+[pid 12603] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 12603 detached
+[pid 12602] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12602 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12604 attached
+Process 12605 attached
+[pid 12605] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 12605 detached
+[pid 12604] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12604 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12606 attached
+Process 12607 attached
+[pid 12607] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 12607 detached
+[pid 12606] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12606 detached
+[pid 12533] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12533] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */]) = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Process 12611 attached
+[pid 12611] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=1\" > /dev/pts/3; pwd'"], [/* 8 vars */]) = 0
+Process 12612 attached
+Process 12613 attached
+[pid 12613] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+Process 12612 detached
+Process 12613 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12614 attached
+Process 12615 attached (waiting for parent)
+Process 12615 resumed (parent 12611 ready)
+[pid 12615] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12614 detached
+) = 0
+Process 12615 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12616 attached
+Process 12617 attached
+[pid 12617] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12616 detached
+) = 0
+Process 12617 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12618 attached
+Process 12619 attached
+[pid 12619] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 12618 detached
+) = 0
+Process 12619 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12620 attached
+Process 12621 attached
+Process 12620 detached
+[pid 12621] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+Process 12621 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12622 attached
+Process 12623 attached (waiting for parent)
+Process 12623 resumed (parent 12611 ready)
+[pid 12623] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+Process 12622 detached
+Process 12623 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12624 attached
+Process 12625 attached (waiting for parent)
+Process 12625 resumed (parent 12611 ready)
+[pid 12625] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]) = 0
+Process 12624 detached
+Process 12625 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12626 attached
+Process 12627 attached (waiting for parent)
+Process 12627 resumed (parent 12611 ready)
+[pid 12627] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]Process 12626 detached
+) = 0
+Process 12627 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12628 attached
+Process 12629 attached (waiting for parent)
+Process 12629 resumed (parent 12611 ready)
+[pid 12629] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+Process 12628 detached
+Process 12629 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12630 attached
+Process 12631 attached (waiting for parent)
+Process 12631 resumed (parent 12611 ready)
+[pid 12631] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12630 detached
+) = 0
+Process 12631 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12632 attached
+Process 12633 attached
+[pid 12633] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+Process 12632 detached
+Process 12633 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12634 attached
+Process 12635 attached (waiting for parent)
+Process 12635 resumed (parent 12611 ready)
+[pid 12635] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+Process 12634 detached
+Process 12635 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12636 attached
+Process 12637 attached
+[pid 12637] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 12636 detached
+) = 0
+Process 12637 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12638 attached
+Process 12639 attached (waiting for parent)
+Process 12639 resumed (parent 12611 ready)
+[pid 12639] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+Process 12638 detached
+Process 12639 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12640 attached
+Process 12641 attached (waiting for parent)
+Process 12641 resumed (parent 12611 ready)
+[pid 12641] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+Process 12640 detached
+Process 12641 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12642 attached
+Process 12643 attached
+[pid 12643] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 12642 detached
+) = 0
+Process 12643 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12644 attached
+Process 12645 attached
+[pid 12645] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 12645 detached
+[pid 12644] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12644 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12646 attached
+Process 12647 attached
+[pid 12647] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]) = 0
+Process 12646 detached
+Process 12647 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12648 attached
+Process 12649 attached (waiting for parent)
+Process 12649 resumed (parent 12611 ready)
+[pid 12649] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+Process 12648 detached
+Process 12649 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12650 attached
+Process 12651 attached (waiting for parent)
+Process 12651 resumed (parent 12611 ready)
+[pid 12651] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+Process 12650 detached
+Process 12651 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12652 attached
+Process 12653 attached
+[pid 12653] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]Process 12652 detached
+) = 0
+Process 12653 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12654 attached
+Process 12655 attached
+[pid 12655] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12655 detached
+[pid 12654] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12654 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12656 attached
+Process 12657 attached
+[pid 12657] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 12656 detached
+) = 0
+Process 12657 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12658 attached
+Process 12659 attached
+Process 12660 attached
+[pid 12660] execve("/bin/ps", ["/bin/ps", "-p", "12611", "-ocomm="], [/* 26 vars */]) = 0
+Process 12660 detached
+[pid 12659] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12659 detached
+[pid 12658] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12661 attached
+[pid 12661] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 12661 detached
+[pid 12658] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12658 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12662 attached
+Process 12663 attached
+[pid 12663] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 12663 detached
+[pid 12662] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12662 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12664 attached
+Process 12665 attached
+[pid 12665] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 12664 detached
+) = 0
+Process 12665 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12666 attached
+Process 12667 attached
+[pid 12667] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 12667 detached
+[pid 12666] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12666 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12668 attached
+Process 12669 attached
+[pid 12669] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+Process 12668 detached
+Process 12669 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12670 attached
+Process 12671 attached (waiting for parent)
+Process 12671 resumed (parent 12611 ready)
+[pid 12671] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+Process 12670 detached
+Process 12671 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12672 attached
+Process 12673 attached (waiting for parent)
+Process 12673 resumed (parent 12611 ready)
+[pid 12673] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]) = 0
+Process 12672 detached
+Process 12673 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12674 attached
+Process 12675 attached
+[pid 12675] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 12675 detached
+[pid 12674] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12674 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12676 attached
+Process 12677 attached
+[pid 12677] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 12676 detached
+Process 12677 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12678 attached
+Process 12679 attached
+[pid 12679] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+Process 12678 detached
+Process 12679 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12680 attached
+Process 12681 attached
+[pid 12681] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 12681 detached
+[pid 12680] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12680 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12682 attached
+Process 12683 attached
+[pid 12683] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 12683 detached
+[pid 12682] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12682 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12684 attached
+Process 12685 attached
+[pid 12685] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 12685 detached
+[pid 12684] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12684 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12611] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=1\" > /dev/pts/3; pwd"], [/* 42 vars */]) = 0
+Process 12686 attached
+Process 12687 attached
+[pid 12687] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+Process 12687 detached
+[pid 12686] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12686 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12688 attached
+Process 12689 attached
+[pid 12689] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+Process 12689 detached
+[pid 12688] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12688 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12690 attached
+Process 12691 attached
+[pid 12691] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]Process 12690 detached
+) = 0
+Process 12691 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12692 attached
+Process 12693 attached (waiting for parent)
+Process 12693 resumed (parent 12611 ready)
+[pid 12693] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]) = 0
+Process 12692 detached
+Process 12693 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12694 attached
+Process 12695 attached
+[pid 12695] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+Process 12694 detached
+Process 12695 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12696 attached
+Process 12697 attached (waiting for parent)
+Process 12697 resumed (parent 12611 ready)
+[pid 12697] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]) = 0
+Process 12696 detached
+Process 12697 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12698 attached
+Process 12699 attached
+[pid 12699] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 12698 detached
+) = 0
+Process 12699 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12700 attached
+Process 12701 attached (waiting for parent)
+Process 12701 resumed (parent 12611 ready)
+[pid 12701] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]) = 0
+Process 12700 detached
+Process 12701 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12702 attached
+Process 12703 attached (waiting for parent)
+Process 12703 resumed (parent 12611 ready)
+[pid 12703] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]) = 0
+Process 12702 detached
+Process 12703 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12704 attached
+Process 12705 attached (waiting for parent)
+Process 12705 resumed (parent 12611 ready)
+[pid 12705] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]) = 0
+Process 12704 detached
+Process 12705 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12706 attached
+Process 12707 attached (waiting for parent)
+Process 12707 resumed (parent 12611 ready)
+[pid 12707] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]Process 12706 detached
+) = 0
+Process 12707 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12708 attached
+Process 12709 attached
+[pid 12709] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+Process 12708 detached
+Process 12709 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12710 attached
+Process 12711 attached
+[pid 12711] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+Process 12710 detached
+Process 12711 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12712 attached
+Process 12713 attached
+[pid 12713] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]Process 12712 detached
+) = 0
+Process 12713 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12714 attached
+Process 12715 attached
+[pid 12715] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+Process 12714 detached
+Process 12715 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12716 attached
+Process 12717 attached
+[pid 12717] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+Process 12716 detached
+Process 12717 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12718 attached
+Process 12719 attached
+[pid 12719] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+Process 12718 detached
+Process 12719 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12720 attached
+Process 12721 attached
+[pid 12721] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]) = 0
+Process 12720 detached
+Process 12721 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12722 attached
+Process 12723 attached
+[pid 12723] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 12723 detached
+[pid 12722] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12722 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12726 attached
+Process 12727 attached
+[pid 12727] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]Process 12726 detached
+) = 0
+Process 12727 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12729 attached
+Process 12730 attached (waiting for parent)
+Process 12730 resumed (parent 12611 ready)
+[pid 12730] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 12729 detached
+) = 0
+Process 12730 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12731 attached
+Process 12732 attached
+[pid 12732] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]) = 0
+Process 12731 detached
+Process 12732 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12733 attached
+Process 12734 attached
+[pid 12734] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]) = 0
+Process 12733 detached
+Process 12734 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12735 attached
+Process 12736 attached (waiting for parent)
+Process 12736 resumed (parent 12611 ready)
+[pid 12736] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]) = 0
+Process 12735 detached
+Process 12736 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12737 attached
+Process 12738 attached
+Process 12739 attached
+[pid 12739] execve("/bin/ps", ["/bin/ps", "-p", "12611", "-ocomm="], [/* 45 vars */]) = 0
+Process 12739 detached
+[pid 12738] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12738 detached
+[pid 12737] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12740 attached
+[pid 12740] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+Process 12740 detached
+[pid 12737] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12737 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12741 attached
+Process 12742 attached
+[pid 12742] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]) = 0
+Process 12741 detached
+Process 12742 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12743 attached
+Process 12744 attached (waiting for parent)
+Process 12744 resumed (parent 12611 ready)
+[pid 12744] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]) = 0
+Process 12743 detached
+Process 12744 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12745 attached
+Process 12746 attached
+[pid 12746] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+Process 12745 detached
+Process 12746 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12747 attached
+Process 12748 attached
+[pid 12748] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+Process 12748 detached
+[pid 12747] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12747 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12749 attached
+Process 12750 attached
+[pid 12750] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 12749 detached
+) = 0
+Process 12750 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12751 attached
+Process 12752 attached
+[pid 12752] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]) = 0
+Process 12751 detached
+Process 12752 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12753 attached
+Process 12754 attached
+[pid 12754] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+Process 12754 detached
+[pid 12753] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12753 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12755 attached
+Process 12756 attached
+[pid 12756] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+Process 12756 detached
+[pid 12755] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12755 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12757 attached
+Process 12758 attached
+[pid 12758] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 12758 detached
+[pid 12757] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12757 detached
+[pid 12611] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12611 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12759 attached
+[pid 12759] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=2\" > /dev/pts/3; cd /root && ompi_info -a --parseable'"], [/* 8 vars */]) = 0
+Process 12760 attached
+Process 12761 attached
+Process 12760 detached
+[pid 12761] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+Process 12761 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12762 attached
+Process 12763 attached (waiting for parent)
+Process 12763 resumed (parent 12759 ready)
+[pid 12763] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12762 detached
+) = 0
+Process 12763 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12764 attached
+Process 12765 attached (waiting for parent)
+Process 12765 resumed (parent 12759 ready)
+[pid 12765] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12764 detached
+) = 0
+Process 12765 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12766 attached
+Process 12767 attached
+[pid 12767] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 12766 detached
+) = 0
+Process 12767 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12768 attached
+Process 12769 attached (waiting for parent)
+Process 12769 resumed (parent 12759 ready)
+[pid 12769] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+Process 12768 detached
+Process 12769 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12770 attached
+Process 12771 attached
+[pid 12771] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 12770 detached
+) = 0
+Process 12771 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12772 attached
+Process 12773 attached (waiting for parent)
+Process 12773 resumed (parent 12759 ready)
+[pid 12773] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 12772 detached
+) = 0
+Process 12773 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12774 attached
+Process 12775 attached
+Process 12774 detached
+[pid 12775] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+Process 12775 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12776 attached
+Process 12777 attached
+[pid 12777] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+Process 12776 detached
+Process 12777 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12778 attached
+Process 12779 attached (waiting for parent)
+Process 12779 resumed (parent 12759 ready)
+[pid 12779] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12778 detached
+) = 0
+Process 12779 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12780 attached
+Process 12781 attached
+[pid 12781] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+Process 12780 detached
+Process 12781 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12782 attached
+Process 12783 attached (waiting for parent)
+Process 12783 resumed (parent 12759 ready)
+[pid 12783] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]Process 12782 detached
+) = 0
+Process 12783 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12784 attached
+Process 12785 attached (waiting for parent)
+Process 12785 resumed (parent 12759 ready)
+[pid 12785] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]) = 0
+Process 12784 detached
+Process 12785 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12786 attached
+Process 12787 attached (waiting for parent)
+Process 12787 resumed (parent 12759 ready)
+[pid 12787] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 12786 detached
+) = 0
+Process 12787 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12788 attached
+Process 12789 attached (waiting for parent)
+Process 12789 resumed (parent 12759 ready)
+[pid 12789] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+Process 12788 detached
+Process 12789 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12790 attached
+Process 12791 attached
+[pid 12791] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 12790 detached
+) = 0
+Process 12791 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12792 attached
+Process 12793 attached
+[pid 12793] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+Process 12793 detached
+[pid 12792] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12792 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12794 attached
+Process 12795 attached
+[pid 12795] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 12794 detached
+) = 0
+Process 12795 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12796 attached
+Process 12797 attached
+[pid 12797] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+Process 12796 detached
+Process 12797 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12798 attached
+Process 12799 attached (waiting for parent)
+Process 12799 resumed (parent 12759 ready)
+[pid 12799] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+Process 12798 detached
+Process 12799 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12800 attached
+Process 12801 attached
+[pid 12801] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]Process 12800 detached
+) = 0
+Process 12801 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12802 attached
+Process 12803 attached
+[pid 12803] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12803 detached
+[pid 12802] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12802 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12804 attached
+Process 12805 attached
+Process 12804 detached
+[pid 12805] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+Process 12805 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12806 attached
+Process 12807 attached
+Process 12808 attached
+[pid 12808] execve("/bin/ps", ["/bin/ps", "-p", "12759", "-ocomm="], [/* 26 vars */]) = 0
+Process 12808 detached
+[pid 12807] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12807 detached
+[pid 12806] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12809 attached
+[pid 12809] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 12809 detached
+[pid 12806] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12806 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12810 attached
+Process 12811 attached
+[pid 12811] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 12811 detached
+[pid 12810] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12810 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12812 attached
+Process 12813 attached
+[pid 12813] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 12812 detached
+) = 0
+Process 12813 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12814 attached
+Process 12815 attached
+[pid 12815] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 12815 detached
+[pid 12814] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12814 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12816 attached
+Process 12817 attached (waiting for parent)
+Process 12817 resumed (parent 12759 ready)
+[pid 12817] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 12816 detached
+) = 0
+Process 12817 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12818 attached
+Process 12819 attached
+[pid 12819] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+Process 12818 detached
+Process 12819 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12820 attached
+Process 12821 attached
+[pid 12821] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 12820 detached
+) = 0
+Process 12821 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12822 attached
+Process 12823 attached
+[pid 12823] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 12823 detached
+[pid 12822] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12822 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12824 attached
+Process 12825 attached
+[pid 12825] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 12824 detached
+Process 12825 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12826 attached
+Process 12827 attached
+[pid 12827] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 12826 detached
+) = 0
+Process 12827 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12828 attached
+Process 12829 attached
+[pid 12829] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 12829 detached
+[pid 12828] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12828 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12830 attached
+Process 12831 attached
+[pid 12831] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 12831 detached
+[pid 12830] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12830 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12832 attached
+Process 12833 attached
+[pid 12833] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 12833 detached
+[pid 12832] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12832 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12759] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=2\" > /dev/pts/3; cd /root && ompi_info -a --parseable"], [/* 42 vars */]) = 0
+Process 12834 attached
+Process 12835 attached
+[pid 12835] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+Process 12835 detached
+[pid 12834] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12834 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12836 attached
+Process 12837 attached
+[pid 12837] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+Process 12837 detached
+[pid 12836] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12836 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12838 attached
+Process 12839 attached
+[pid 12839] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]) = 0
+Process 12838 detached
+Process 12839 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12840 attached
+Process 12841 attached
+[pid 12841] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]) = 0
+Process 12840 detached
+Process 12841 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12842 attached
+Process 12843 attached (waiting for parent)
+Process 12843 resumed (parent 12759 ready)
+[pid 12843] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+Process 12842 detached
+Process 12843 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12844 attached
+Process 12845 attached
+[pid 12845] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]) = 0
+Process 12844 detached
+Process 12845 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12846 attached
+Process 12847 attached
+[pid 12847] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 12846 detached
+) = 0
+Process 12847 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12848 attached
+Process 12849 attached (waiting for parent)
+Process 12849 resumed (parent 12759 ready)
+[pid 12849] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]) = 0
+Process 12848 detached
+Process 12849 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12850 attached
+Process 12851 attached
+[pid 12851] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]) = 0
+Process 12850 detached
+Process 12851 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12852 attached
+Process 12853 attached (waiting for parent)
+Process 12853 resumed (parent 12759 ready)
+[pid 12853] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]Process 12852 detached
+) = 0
+Process 12853 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12854 attached
+Process 12855 attached
+[pid 12855] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]) = 0
+Process 12854 detached
+Process 12855 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12856 attached
+Process 12857 attached
+[pid 12857] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+Process 12856 detached
+Process 12857 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12858 attached
+Process 12859 attached
+[pid 12859] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+Process 12858 detached
+Process 12859 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12860 attached
+Process 12861 attached
+[pid 12861] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]) = 0
+Process 12860 detached
+Process 12861 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12862 attached
+Process 12863 attached (waiting for parent)
+Process 12863 resumed (parent 12759 ready)
+[pid 12863] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+Process 12862 detached
+Process 12863 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12864 attached
+Process 12865 attached (waiting for parent)
+Process 12865 resumed (parent 12759 ready)
+[pid 12865] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+Process 12864 detached
+Process 12865 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12866 attached
+Process 12867 attached
+[pid 12867] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+Process 12866 detached
+Process 12867 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12868 attached
+Process 12869 attached (waiting for parent)
+Process 12869 resumed (parent 12759 ready)
+[pid 12869] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]) = 0
+Process 12868 detached
+Process 12869 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12870 attached
+Process 12871 attached
+[pid 12871] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 12871 detached
+[pid 12870] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12870 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12872 attached
+Process 12873 attached (waiting for parent)
+Process 12873 resumed (parent 12759 ready)
+[pid 12873] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+Process 12872 detached
+Process 12873 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12874 attached
+Process 12875 attached
+[pid 12875] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 12874 detached
+) = 0
+Process 12875 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12876 attached
+Process 12877 attached (waiting for parent)
+Process 12877 resumed (parent 12759 ready)
+[pid 12877] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]) = 0
+Process 12876 detached
+Process 12877 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12878 attached
+Process 12879 attached
+[pid 12879] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]Process 12878 detached
+) = 0
+Process 12879 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12880 attached
+Process 12881 attached (waiting for parent)
+Process 12881 resumed (parent 12759 ready)
+[pid 12881] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]) = 0
+Process 12880 detached
+Process 12881 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12882 attached (waiting for parent)
+Process 12882 resumed (parent 12759 ready)
+Process 12883 attached
+Process 12884 attached
+[pid 12884] execve("/bin/ps", ["/bin/ps", "-p", "12759", "-ocomm="], [/* 45 vars */]) = 0
+Process 12884 detached
+[pid 12883] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12883 detached
+[pid 12882] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12885 attached
+[pid 12885] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+Process 12885 detached
+[pid 12882] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12882 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12886 attached
+Process 12887 attached
+[pid 12887] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]Process 12886 detached
+) = 0
+Process 12887 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12888 attached
+Process 12889 attached (waiting for parent)
+Process 12889 resumed (parent 12759 ready)
+[pid 12889] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]) = 0
+Process 12888 detached
+Process 12889 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12890 attached
+Process 12891 attached
+[pid 12891] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+Process 12890 detached
+Process 12891 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12892 attached
+Process 12893 attached
+[pid 12893] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+Process 12893 detached
+[pid 12892] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12892 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12894 attached
+Process 12895 attached
+[pid 12895] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]) = 0
+Process 12894 detached
+Process 12895 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12896 attached
+Process 12897 attached
+[pid 12897] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]) = 0
+Process 12896 detached
+Process 12897 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12898 attached
+Process 12899 attached
+[pid 12899] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+Process 12899 detached
+[pid 12898] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12898 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12900 attached
+Process 12901 attached
+[pid 12901] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+Process 12901 detached
+[pid 12900] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12900 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12902 attached
+Process 12903 attached
+[pid 12903] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 12903 detached
+[pid 12902] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12902 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12904 attached
+[pid 12904] execve("/opt/openmpi/bin/ompi_info", ["ompi_info", "-a", "--parseable"], [/* 47 vars */]) = 0
+Process 12904 detached
+[pid 12759] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12759 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12907 attached
+Process 12908 attached (waiting for parent)
+Process 12908 resumed (parent 12292 ready)
+[pid 12907] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=3\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=5446a227-3ab9-4caa-a4b3-3761665aed1d\"; export \"PTP_DEBUGGER_ARGS=--port=54498 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_5446a227-3ab9-4caa-a4b3-3761665aed1d --port\\=54498 --host\\=localhost --debugger\\=gdb-mi'"], [/* 8 vars */]) = 0
+[pid 12908] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=4\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=5446a227-3ab9-4caa-a4b3-3761665aed1d\"; export \"PTP_DEBUGGER_ARGS=--port=54498 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 -nolocal --hostfile /public/krime/ma2.ma'"], [/* 8 vars */]) = 0
+Process 12909 attached (waiting for parent)
+Process 12909 resumed (parent 12907 ready)
+Process 12910 attached
+Process 12909 detached
+[pid 12910] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+Process 12911 attached
+Process 12912 attached
+[pid 12912] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]Process 12911 detached
+) = 0
+Process 12910 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12913 attached
+Process 12912 detached
+Process 12914 attached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12913 detached
+[pid 12914] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12915 attached
+) = 0
+Process 12916 attached
+[pid 12916] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 12915 detached
+) = 0
+Process 12914 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12917 attached (waiting for parent)
+Process 12917 resumed (parent 12907 ready)
+Process 12916 detached
+Process 12918 attached (waiting for parent)
+Process 12918 resumed (parent 12907 ready)
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12918] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12917 detached
+) = 0
+Process 12919 attached (waiting for parent)
+Process 12919 resumed (parent 12908 ready)
+Process 12920 attached
+[pid 12920] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 12919 detached
+) = 0
+Process 12918 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12920 detached
+Process 12921 attached (waiting for parent)
+Process 12921 resumed (parent 12907 ready)
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12922 attached
+Process 12923 attached
+Process 12921 detached
+[pid 12922] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+Process 12924 attached
+[pid 12924] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 12923 detached
+) = 0
+Process 12922 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12924 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12925 attached
+Process 12926 attached (waiting for parent)
+Process 12926 resumed (parent 12908 ready)
+Process 12927 attached (waiting for parent)
+Process 12927 resumed (parent 12907 ready)
+Process 12928 attached
+[pid 12927] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+Process 12926 detached
+Process 12925 detached
+[pid 12928] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+Process 12927 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12928 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12929 attached (waiting for parent)
+Process 12929 resumed (parent 12907 ready)
+Process 12930 attached
+Process 12931 attached
+Process 12932 attached (waiting for parent)
+Process 12932 resumed (parent 12908 ready)
+[pid 12930] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 12929 detached
+) = 0
+[pid 12932] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 12931 detached
+) = 0
+Process 12930 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12932 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12933 attached
+Process 12934 attached
+Process 12935 attached (waiting for parent)
+Process 12935 resumed (parent 12908 ready)
+Process 12936 attached
+[pid 12934] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]) = 0
+Process 12933 detached
+[pid 12936] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 12935 detached
+) = 0
+Process 12934 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12936 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12937 attached
+Process 12938 attached
+Process 12939 attached (waiting for parent)
+Process 12939 resumed (parent 12907 ready)
+Process 12940 attached
+[pid 12939] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]Process 12937 detached
+) = 0
+Process 12938 detached
+[pid 12940] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+Process 12939 detached
+Process 12940 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12941 attached
+Process 12942 attached (waiting for parent)
+Process 12942 resumed (parent 12907 ready)
+Process 12943 attached
+Process 12944 attached
+[pid 12944] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */] <unfinished ...>
+[pid 12943] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]Process 12942 detached
+ <unfinished ...>
+[pid 12944] <... execve resumed> )      = 0
+[pid 12943] <... execve resumed> )      = 0
+Process 12941 detached
+Process 12944 detached
+Process 12943 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12945 attached
+Process 12946 attached
+Process 12947 attached
+[pid 12946] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12945 detached
+Process 12948 attached
+) = 0
+[pid 12948] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 12947 detached
+) = 0
+Process 12946 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12948 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12949 attached (waiting for parent)
+Process 12949 resumed (parent 12907 ready)
+Process 12950 attached
+Process 12951 attached
+Process 12952 attached (waiting for parent)
+Process 12952 resumed (parent 12908 ready)
+[pid 12950] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 12949 detached
+) = 0
+[pid 12952] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 12951 detached
+) = 0
+Process 12950 detached
+Process 12952 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12953 attached
+Process 12954 attached (waiting for parent)
+Process 12954 resumed (parent 12908 ready)
+Process 12955 attached
+Process 12956 attached
+[pid 12955] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */] <unfinished ...>
+[pid 12956] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */] <unfinished ...>
+[pid 12955] <... execve resumed> )      = 0
+Process 12954 detached
+[pid 12956] <... execve resumed> )      = 0
+Process 12953 detached
+Process 12955 detached
+Process 12956 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12957 attached (waiting for parent)
+Process 12958 attached
+Process 12957 resumed (parent 12907 ready)
+Process 12959 attached
+Process 12960 attached (waiting for parent)
+Process 12960 resumed (parent 12907 ready)
+[pid 12959] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */] <unfinished ...>
+[pid 12960] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 12958 detached
+Process 12957 detached
+ <unfinished ...>
+[pid 12959] <... execve resumed> )      = 0
+[pid 12960] <... execve resumed> )      = 0
+Process 12960 detached
+Process 12959 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12961 attached
+Process 12962 attached (waiting for parent)
+Process 12962 resumed (parent 12908 ready)
+Process 12963 attached
+Process 12964 attached
+[pid 12963] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 12962 detached
+) = 0
+[pid 12964] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 12961 detached
+) = 0
+Process 12964 detached
+Process 12963 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12965 attached (waiting for parent)
+Process 12965 resumed (parent 12908 ready)
+Process 12966 attached (waiting for parent)
+Process 12967 attached
+Process 12966 resumed (parent 12907 ready)
+Process 12968 attached
+Process 12965 detached
+[pid 12967] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+Process 12966 detached
+[pid 12968] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+Process 12967 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12969 attached (waiting for parent)
+Process 12969 resumed (parent 12908 ready)
+Process 12968 detached
+Process 12970 attached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12970] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 12969 detached
+Process 12971 attached (waiting for parent)
+Process 12971 resumed (parent 12907 ready)
+) = 0
+Process 12972 attached
+[pid 12972] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]) = 0
+Process 12971 detached
+Process 12970 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12972 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12973 attached
+Process 12974 attached
+Process 12975 attached
+Process 12976 attached
+[pid 12975] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */] <unfinished ...>
+[pid 12976] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */] <unfinished ...>
+[pid 12975] <... execve resumed> )      = 0
+[pid 12976] <... execve resumed> )      = 0
+Process 12976 detached
+Process 12975 detached
+[pid 12974] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12973] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12974 detached
+Process 12973 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12977 attached
+Process 12978 attached
+[pid 12978] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]) = 0
+Process 12977 detached
+Process 12979 attached
+Process 12980 attached (waiting for parent)
+Process 12980 resumed (parent 12907 ready)
+[pid 12980] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 12979 detached
+) = 0
+Process 12978 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12980 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12981 attached
+Process 12982 attached
+[pid 12982] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+Process 12981 detached
+Process 12983 attached (waiting for parent)
+Process 12983 resumed (parent 12907 ready)
+Process 12984 attached
+[pid 12984] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]Process 12983 detached
+) = 0
+Process 12982 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12985 attached
+Process 12986 attached
+[pid 12986] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 12984 detached
+Process 12985 detached
+ <unfinished ...>
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12986] <... execve resumed> )      = 0
+Process 12987 attached (waiting for parent)
+Process 12987 resumed (parent 12907 ready)
+Process 12988 attached
+[pid 12988] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 12987 detached
+) = 0
+Process 12986 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12988 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12989 attached (waiting for parent)
+Process 12989 resumed (parent 12908 ready)
+Process 12990 attached
+Process 12989 detached
+[pid 12990] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+Process 12991 attached (waiting for parent)
+Process 12991 resumed (parent 12907 ready)
+Process 12992 attached
+[pid 12992] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+Process 12991 detached
+Process 12990 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12992 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12993 attached (waiting for parent)
+Process 12993 resumed (parent 12908 ready)
+Process 12994 attached
+[pid 12994] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12995 attached
+Process 12996 attached
+[pid 12996] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+Process 12994 detached
+[pid 12993] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12993 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12996 detached
+[pid 12995] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12995 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12997 attached
+Process 12998 attached (waiting for parent)
+Process 12998 resumed (parent 12908 ready)
+[pid 12998] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+Process 12997 detached
+Process 12999 attached (waiting for parent)
+Process 12999 resumed (parent 12907 ready)
+Process 13000 attached (waiting for parent)
+Process 13000 resumed (parent 12907 ready)
+[pid 13000] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 12999 detached
+) = 0
+Process 12998 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13001 attached
+Process 13000 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13002 attached
+Process 13003 attached
+[pid 13003] execve("/bin/ps", ["/bin/ps", "-p", "12908", "-ocomm="], [/* 26 vars */]Process 13004 attached (waiting for parent)
+Process 13004 resumed (parent 12907 ready)
+) = 0
+Process 13005 attached
+Process 13006 attached
+[pid 13006] execve("/bin/ps", ["/bin/ps", "-p", "12907", "-ocomm="], [/* 26 vars */]) = 0
+Process 13006 detached
+[pid 13005] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13005 detached
+[pid 13004] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13007 attached
+[pid 13007] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 13007 detached
+[pid 13004] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13004 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13003 detached
+[pid 13002] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13002 detached
+[pid 13001] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13008 attached
+Process 13009 attached
+[pid 13009] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+Process 13010 attached
+[pid 13010] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 13009 detached
+[pid 13001] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13001 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13011 attached
+Process 13010 detached
+[pid 13008] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13008 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13012 attached
+[pid 13012] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+Process 13012 detached
+[pid 13011] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13011 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13013 attached
+Process 13014 attached
+[pid 13014] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 13013 detached
+) = 0
+Process 13014 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13015 attached
+Process 13016 attached
+[pid 13016] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 13015 detached
+) = 0
+Process 13017 attached
+Process 13018 attached (waiting for parent)
+Process 13018 resumed (parent 13017 ready)
+[pid 13018] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 13016 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13018 detached
+[pid 13017] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13017 detached
+Process 13019 attached (waiting for parent)
+Process 13019 resumed (parent 12908 ready)
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13020 attached
+Process 13021 attached
+[pid 13021] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 13020 detached
+) = 0
+Process 13022 attached
+[pid 13022] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+Process 13022 detached
+[pid 13019] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13019 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13021 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13023 attached
+Process 13024 attached
+[pid 13024] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+Process 13023 detached
+Process 13024 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13025 attached (waiting for parent)
+Process 13025 resumed (parent 12907 ready)
+Process 13026 attached
+Process 13025 detached
+[pid 13026] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+Process 13026 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13027 attached
+Process 13028 attached (waiting for parent)
+Process 13028 resumed (parent 12908 ready)
+Process 13029 attached
+Process 13030 attached
+[pid 13029] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */] <unfinished ...>
+[pid 13030] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */] <unfinished ...>
+[pid 13029] <... execve resumed> )      = 0
+Process 13028 detached
+Process 13027 detached
+[pid 13030] <... execve resumed> )      = 0
+Process 13030 detached
+Process 13029 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13031 attached (waiting for parent)
+Process 13031 resumed (parent 12908 ready)
+Process 13032 attached (waiting for parent)
+Process 13032 resumed (parent 12908 ready)
+[pid 13032] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 13031 detached
+) = 0
+Process 13032 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13033 attached
+Process 13034 attached
+[pid 13034] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 13035 attached
+Process 13036 attached
+[pid 13036] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+Process 13034 detached
+[pid 13033] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13033 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13037 attached
+Process 13038 attached (waiting for parent)
+Process 13038 resumed (parent 12907 ready)
+[pid 13038] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 13037 detached
+Process 13036 detached
+[pid 13035] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13035 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13039 attached
+Process 13040 attached (waiting for parent)
+Process 13040 resumed (parent 12908 ready)
+Process 13038 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13040] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+Process 13039 detached
+Process 13041 attached
+Process 13042 attached
+[pid 13042] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 13041 detached
+) = 0
+Process 13040 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13042 detached
+Process 13043 attached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13044 attached
+[pid 13044] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+Process 13043 detached
+Process 13044 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13045 attached
+Process 13046 attached
+[pid 13046] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 13047 attached
+Process 13048 attached
+[pid 13048] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+Process 13046 detached
+[pid 13045] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13045 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13048 detached
+[pid 13047] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13047 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13049 attached
+Process 13050 attached
+Process 13051 attached (waiting for parent)
+Process 13051 resumed (parent 13049 ready)
+[pid 13051] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 13052 attached
+[pid 13052] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+Process 13051 detached
+[pid 13049] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13049 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13052 detached
+[pid 13050] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13050 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13053 attached
+Process 13054 attached
+Process 13055 attached
+[pid 13055] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 13056 attached
+[pid 13056] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+Process 13055 detached
+[pid 13053] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13056 detached
+Process 13053 detached
+[pid 13054] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13054 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=3\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=5446a227-3ab9-4caa-a4b3-3761665aed1d\"; export \"PTP_DEBUGGER_ARGS=--port=54498 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_5446a227-3ab9-4caa-a4b3-3761665aed1d --port\\=54498 --host\\=localhost --debugger\\=gdb-mi"], [/* 42 vars */] <unfinished ...>
+[pid 12908] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=4\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=5446a227-3ab9-4caa-a4b3-3761665aed1d\"; export \"PTP_DEBUGGER_ARGS=--port=54498 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 -nolocal --hostfile /public/krime/ma2.ma"], [/* 42 vars */] <unfinished ...>
+[pid 12907] <... execve resumed> )      = 0
+[pid 12908] <... execve resumed> )      = 0
+Process 13057 attached
+Process 13058 attached
+Process 13059 attached (waiting for parent)
+Process 13060 attached
+Process 13059 resumed (parent 13057 ready)
+[pid 13059] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+[pid 13060] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+Process 13060 detached
+[pid 13058] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13059 detached
+Process 13058 detached
+[pid 13057] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13057 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13061 attached (waiting for parent)
+Process 13061 resumed (parent 12907 ready)
+Process 13062 attached
+Process 13063 attached
+Process 13064 attached
+[pid 13064] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+[pid 13063] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+Process 13064 detached
+[pid 13062] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13062 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13063 detached
+[pid 13061] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13061 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13065 attached
+Process 13066 attached
+[pid 13066] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]Process 13065 detached
+) = 0
+Process 13067 attached
+Process 13068 attached (waiting for parent)
+Process 13068 resumed (parent 12907 ready)
+[pid 13068] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]) = 0
+Process 13067 detached
+Process 13066 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13069 attached
+Process 13070 attached (waiting for parent)
+Process 13070 resumed (parent 12908 ready)
+[pid 13070] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]) = 0
+Process 13069 detached
+Process 13068 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13071 attached
+Process 13072 attached (waiting for parent)
+Process 13072 resumed (parent 12907 ready)
+[pid 13072] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]Process 13071 detached
+) = 0
+Process 13070 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13073 attached
+Process 13074 attached
+[pid 13074] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]Process 13073 detached
+) = 0
+Process 13072 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13075 attached
+Process 13076 attached
+[pid 13076] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]Process 13075 detached
+) = 0
+Process 13074 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13077 attached (waiting for parent)
+Process 13077 resumed (parent 12908 ready)
+Process 13078 attached
+[pid 13078] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]Process 13077 detached
+) = 0
+Process 13076 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13079 attached
+Process 13080 attached
+[pid 13080] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]Process 13079 detached
+) = 0
+Process 13078 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13081 attached
+Process 13082 attached
+[pid 13082] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 13081 detached
+) = 0
+Process 13080 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13083 attached
+Process 13084 attached
+[pid 13084] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 13083 detached
+) = 0
+Process 13082 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13085 attached (waiting for parent)
+Process 13085 resumed (parent 12908 ready)
+Process 13086 attached
+Process 13084 detached
+[pid 13086] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */] <unfinished ...>
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13085 detached
+[pid 13086] <... execve resumed> )      = 0
+Process 13087 attached (waiting for parent)
+Process 13087 resumed (parent 12907 ready)
+Process 13088 attached
+[pid 13088] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]) = 0
+Process 13087 detached
+Process 13086 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13089 attached
+Process 13088 detached
+Process 13090 attached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13090] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]Process 13091 attached
+Process 13089 detached
+) = 0
+Process 13092 attached
+[pid 13092] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]) = 0
+Process 13091 detached
+Process 13092 detached
+Process 13090 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13093 attached (waiting for parent)
+Process 13093 resumed (parent 12907 ready)
+Process 13095 attached (waiting for parent)
+Process 13094 attached (waiting for parent)
+Process 13094 resumed (parent 12908 ready)
+Process 13095 resumed (parent 12907 ready)
+Process 13096 attached (waiting for parent)
+Process 13096 resumed (parent 12908 ready)
+[pid 13095] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]Process 13093 detached
+) = 0
+[pid 13096] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]Process 13094 detached
+) = 0
+Process 13095 detached
+Process 13096 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13098 attached (waiting for parent)
+Process 13097 attached (waiting for parent)
+Process 13098 resumed (parent 12908 ready)
+Process 13097 resumed (parent 12907 ready)
+Process 13099 attached (waiting for parent)
+Process 13099 resumed (parent 12908 ready)
+Process 13100 attached
+[pid 13099] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]Process 13098 detached
+ <unfinished ...>
+[pid 13100] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */] <unfinished ...>
+[pid 13099] <... execve resumed> )      = 0
+[pid 13100] <... execve resumed> )      = 0
+Process 13097 detached
+Process 13100 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13099 detached
+Process 13101 attached (waiting for parent)
+Process 13101 resumed (parent 12907 ready)
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13102 attached
+Process 13103 attached
+[pid 13102] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]Process 13101 detached
+) = 0
+Process 13104 attached (waiting for parent)
+Process 13104 resumed (parent 12908 ready)
+[pid 13104] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+Process 13103 detached
+Process 13102 detached
+Process 13104 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13105 attached
+Process 13106 attached (waiting for parent)
+Process 13106 resumed (parent 12908 ready)
+Process 13107 attached (waiting for parent)
+Process 13107 resumed (parent 12907 ready)
+Process 13108 attached (waiting for parent)
+Process 13108 resumed (parent 12908 ready)
+[pid 13107] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */] <unfinished ...>
+[pid 13108] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */] <unfinished ...>
+[pid 13107] <... execve resumed> )      = 0
+[pid 13108] <... execve resumed> )      = 0
+Process 13106 detached
+Process 13105 detached
+Process 13108 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13107 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13109 attached
+Process 13110 attached
+Process 13111 attached
+Process 13112 attached (waiting for parent)
+Process 13112 resumed (parent 12907 ready)
+[pid 13112] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]Process 13109 detached
+ <unfinished ...>
+[pid 13111] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 13112] <... execve resumed> )      = 0
+Process 13110 detached
+[pid 13111] <... execve resumed> )      = 0
+Process 13112 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13111 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13113 attached
+Process 13114 attached
+Process 13115 attached
+Process 13116 attached (waiting for parent)
+Process 13116 resumed (parent 12908 ready)
+Process 13113 detached
+[pid 13114] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */] <unfinished ...>
+[pid 13116] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */] <unfinished ...>
+[pid 13114] <... execve resumed> )      = 0
+[pid 13116] <... execve resumed> )      = 0
+Process 13115 detached
+Process 13116 detached
+Process 13114 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13117 attached
+Process 13119 attached (waiting for parent)
+Process 13118 attached (waiting for parent)
+Process 13119 resumed (parent 12908 ready)
+Process 13118 resumed (parent 12907 ready)
+Process 13120 attached
+[pid 13119] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+Process 13117 detached
+[pid 13120] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]Process 13118 detached
+) = 0
+Process 13120 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13119 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13121 attached
+Process 13123 attached (waiting for parent)
+Process 13123 resumed (parent 12908 ready)
+Process 13122 attached
+Process 13124 attached (waiting for parent)
+Process 13124 resumed (parent 12908 ready)
+[pid 13122] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+[pid 13124] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]Process 13123 detached
+) = 0
+Process 13121 detached
+Process 13122 detached
+Process 13124 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13125 attached
+Process 13126 attached
+Process 13128 attached (waiting for parent)
+Process 13127 attached (waiting for parent)
+Process 13128 resumed (parent 12908 ready)
+Process 13127 resumed (parent 12907 ready)
+[pid 13128] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 13127] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 13128] <... execve resumed> )      = 0
+[pid 13127] <... execve resumed> )      = 0
+Process 13126 detached
+Process 13125 detached
+Process 13128 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13127 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13129 attached
+Process 13130 attached (waiting for parent)
+Process 13130 resumed (parent 12907 ready)
+Process 13131 attached
+[pid 13131] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]Process 13132 attached
+) = 0
+[pid 13132] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 13132 detached
+[pid 13130] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13130 detached
+Process 13131 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13129] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13129 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13133 attached (waiting for parent)
+Process 13133 resumed (parent 12908 ready)
+Process 13134 attached
+Process 13135 attached
+[pid 13134] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]Process 13133 detached
+Process 13136 attached (waiting for parent)
+Process 13136 resumed (parent 12907 ready)
+) = 0
+[pid 13136] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+Process 13135 detached
+Process 13136 detached
+Process 13134 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13137 attached
+Process 13138 attached
+Process 13139 attached (waiting for parent)
+Process 13139 resumed (parent 12907 ready)
+Process 13140 attached (waiting for parent)
+Process 13140 resumed (parent 12907 ready)
+[pid 13138] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]) = 0
+[pid 13140] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 13137 detached
+Process 13139 detached
+) = 0
+Process 13140 detached
+Process 13138 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13141 attached
+Process 13142 attached
+Process 13143 attached
+Process 13144 attached
+[pid 13143] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */] <unfinished ...>
+[pid 13144] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]Process 13142 detached
+Process 13141 detached
+ <unfinished ...>
+[pid 13143] <... execve resumed> )      = 0
+[pid 13144] <... execve resumed> )      = 0
+Process 13144 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13143 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13145 attached
+Process 13146 attached
+[pid 13146] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]Process 13147 attached (waiting for parent)
+Process 13147 resumed (parent 12908 ready)
+) = 0
+Process 13145 detached
+Process 13148 attached
+[pid 13148] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]Process 13147 detached
+) = 0
+Process 13146 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13148 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13149 attached
+Process 13150 attached
+[pid 13150] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]Process 13149 detached
+) = 0
+Process 13151 attached
+Process 13152 attached
+[pid 13152] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]Process 13151 detached
+) = 0
+Process 13150 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13153 attached
+Process 13152 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13154 attached
+Process 13155 attached
+Process 13156 attached
+[pid 13155] execve("/bin/ps", ["/bin/ps", "-p", "12907", "-ocomm="], [/* 45 vars */]) = 0
+Process 13157 attached
+Process 13158 attached
+[pid 13158] execve("/bin/ps", ["/bin/ps", "-p", "12908", "-ocomm="], [/* 45 vars */]) = 0
+Process 13158 detached
+[pid 13157] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13157 detached
+[pid 13156] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13159 attached
+[pid 13159] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+Process 13159 detached
+[pid 13156] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13156 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13155 detached
+[pid 13154] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13154 detached
+[pid 13153] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13160 attached (waiting for parent)
+Process 13160 resumed (parent 13153 ready)
+[pid 13160] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+Process 13161 attached
+Process 13162 attached
+[pid 13162] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]) = 0
+Process 13161 detached
+Process 13160 detached
+[pid 13153] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13153 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13162 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13163 attached
+Process 13164 attached
+[pid 13164] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]) = 0
+Process 13163 detached
+Process 13165 attached
+Process 13166 attached
+Process 13164 detached
+[pid 13166] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */] <unfinished ...>
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13166] <... execve resumed> )      = 0
+Process 13165 detached
+Process 13166 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13167 attached
+Process 13168 attached (waiting for parent)
+Process 13168 resumed (parent 12908 ready)
+[pid 13168] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+Process 13167 detached
+Process 13169 attached
+Process 13168 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13170 attached
+Process 13169 detached
+[pid 13170] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]) = 0
+Process 13170 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13171 attached (waiting for parent)
+Process 13171 resumed (parent 12907 ready)
+Process 13172 attached (waiting for parent)
+Process 13172 resumed (parent 12908 ready)
+Process 13173 attached
+[pid 13173] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+Process 13171 detached
+Process 13174 attached
+[pid 13174] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+Process 13173 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13174 detached
+[pid 13172] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13172 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13175 attached
+Process 13176 attached
+[pid 13176] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]) = 0
+Process 13175 detached
+Process 13177 attached
+Process 13178 attached
+[pid 13178] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]Process 13176 detached
+) = 0
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13179 attached
+Process 13180 attached (waiting for parent)
+Process 13180 resumed (parent 12908 ready)
+[pid 13180] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 13179 detached
+) = 0
+Process 13180 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13178 detached
+[pid 13177] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13177 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13181 attached
+Process 13182 attached
+[pid 13182] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 13181 detached
+) = 0
+Process 13182 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13183 attached
+Process 13184 attached (waiting for parent)
+Process 13184 resumed (parent 12907 ready)
+[pid 13184] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 13185 attached (waiting for parent)
+Process 13185 resumed (parent 12908 ready)
+) = 0
+Process 13183 detached
+Process 13186 attached
+[pid 13186] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+Process 13184 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13187 attached
+Process 13188 attached
+[pid 13188] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+Process 13186 detached
+[pid 13185] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13185 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13188 detached
+[pid 13187] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13187 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13189 attached
+Process 13190 attached
+[pid 13190] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+Process 13190 detached
+[pid 13189] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13189 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13191 attached (waiting for parent)
+Process 13191 resumed (parent 12907 ready)
+Process 13192 attached
+[pid 13192] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]Process 13193 attached
+) = 0
+Process 13194 attached
+[pid 13194] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 13192 detached
+[pid 13191] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13191 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13194 detached
+[pid 13193] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13193 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13195 attached
+Process 13196 attached
+[pid 13196] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+Process 13197 attached
+Process 13196 detached
+[pid 13195] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13197] execve("/usr/bin/perl", ["perl", "/root/.eclipsesettings/rms/OPENMPI/start_job.pl", "mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma"], [/* 51 vars */]Process 13195 detached
+ <unfinished ...>
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 13197] <... execve resumed> )      = 0
+Process 13198 attached
+[pid 13198] execve("/public/bin/sdm700", ["/public/bin/sdm700", "--master", "--routing_file=routes_5446a227-3ab9-4caa-a4b3-3761665aed1d", "--port=54498", "--host=localhost", "--debugger=gdb-mi"], [/* 51 vars */]) = 0
+Process 13199 attached
+Process 13200 attached
+[pid 13200] execve("/opt/gridview//pbs//dispatcher-sched//bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=54498", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_5446a227-3ab9-4caa-a4b3-3761665aed1d"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 13200] execve("/opt/gridview//pbs//dispatcher-sched//sbin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=54498", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_5446a227-3ab9-4caa-a4b3-3761665aed1d"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 13200] execve("/opt/gridview//pbs//dispatcher//bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=54498", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_5446a227-3ab9-4caa-a4b3-3761665aed1d"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 13200] execve("/opt/gridview//pbs//dispatcher//sbin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=54498", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_5446a227-3ab9-4caa-a4b3-3761665aed1d"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 13200] execve("/opt/openmpi/bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=54498", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_5446a227-3ab9-4caa-a4b3-3761665aed1d"], [/* 51 vars */]) = 0
+Process 13201 attached
+[pid 13201] execve("//usr/bin/ssh", ["/usr/bin/ssh", "-x", "node2", " orted", "--daemonize", "-mca", "ess", "env", "-mca", "orte_ess_jobid", "2601189376", "-mca", "orte_ess_vpid", "1", "-mca", "orte_ess_num_procs", "2", "--hnp-uri", "\"2601189376.0;tcp://10.10.10.1:56083;tcp://192.168.0.5:56083\"", "-mca", "orte_show_resolved_nodenames", "1"], [/* 55 vars */]) = 0
+Process 13201 detached
+[pid 13200] --- SIGCHLD (Child exited) @ 0 (0) ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Process 13198 detached
+[pid 12907] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12907 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13200 detached
+[pid 13199] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13199 detached
+[pid 13197] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 13197 detached
+[pid 12908] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12908 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGHUP (Hangup) @ 0 (0) ---
+[pid 12307] --- SIGCONT (Continued) @ 0 (0) ---
+Process 12308 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12457 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12307] --- SIGHUP (Hangup) @ 0 (0) ---
+Process 12307 detached
+Process 12533 detached
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12292] --- SIGCHLD (Child exited) @ 0 (0) ---
+Process 12292 detached
+[pid  3145] --- SIGCHLD (Child exited) @ 0 (0) ---
+[pid 12302] --- SIGINT (Interrupt) @ 0 (0) ---
+Process 12302 detached
+[pid  3726] --- SIGCHLD (Child exited) @ 0 (0) ---
+
+
+
+
+
+
+
+
+
+
+
+

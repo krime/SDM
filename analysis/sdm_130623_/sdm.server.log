@@ -1,0 +1,40 @@
+#PTP job_id=17429
+
+found job map
+found node node2, procs 1
+found proc 0
+found end of node map
+found end of table
+SDM: [server] effsize: 2, size: 1, rv: 0
+SDM: [server] Found routing file, size=1
+SDM: [0] size 2
+SDM: [0] in sdm_create_sockd_map
+SDM: [0] sdm_route_get_route dest {0}, parent 1
+SDM: [0] adjacent nodes: {}
+SDM: [0] This node is a server!
+SDM: [server] effsize: 2, size: 1, rv: 0
+SDM: [0] nodeID: 0, hostname: node2, port: 51826
+SDM: [0] found entry for node 0
+SDM: [0] found my entry
+SDM: [0] [ACCEPT] sockfd: 4
+SDM: [0] port bound: 51826
+SDM: [0] bound to port 51826
+SDM: [0] peersockfd: 5
+SDM: [0] Parent 1 successfully connected
+SDM: [0] This node is a leaf
+SDM: [0] Initialization successful
+SDM: starting task 0
+SDM: starting server on 0, size=2
+SDM: [0] receiving header
+SDM: [0] Error retrieving message size!
+SDM: [0] server event_callback ''
+SDM: [0] sdm_aggregate_message: upstream message #0 from {0}
+SDM: [0] sdm_aggregate_message: message is unsolicited
+SDM: [0] Creating new request #0 expected replies {0}
+SDM: [0] reply updated: src={0} replies outstanding: {}
+SDM: [0] creating new reply #5de94dab for request 0
+SDM: [0] receiving header
+SDM: [0] Error retrieving message size!
+SDM: all finished
+SDM: [0] receiving header
+SDM: [0] Error retrieving message size!

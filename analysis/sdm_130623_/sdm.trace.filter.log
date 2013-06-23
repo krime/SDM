@@ -1,0 +1,463 @@
+[pid 14437] execve("/usr/sbin/sshd", ["/usr/sbin/sshd", "-ddd", "-p1025", "-R"], [/* 49 vars */]) = 0
+[pid 14446] execve("/bin/bash", ["bash", "-c", "/bin/sh"], [/* 10 vars */] <unfinished ...>
+[pid 14446] execve("/bin/sh", ["/bin/sh"], [/* 44 vars */] <unfinished ...>
+[pid 14447] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */] <unfinished ...>
+[pid 14447] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */]) = 0
+[pid 14450] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14451] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 15 vars */]Process 14448 detached
+[pid 14454] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14455] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 15 vars */]Process 14453 detached
+[pid 14458] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 15 vars */]Process 14456 detached
+[pid 14459] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]) = 0
+[pid 14462] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 15 vars */]Process 14460 detached
+[pid 14463] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14466] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+[pid 14467] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 15 vars */]Process 14465 detached
+[pid 14470] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+[pid 14471] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 15 vars */]Process 14469 detached
+[pid 14473] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 14472 detached
+[pid 14475] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 15 vars */]) = 0
+[pid 14477] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]Process 14476 detached
+[pid 14479] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 15 vars */]) = 0
+[pid 14481] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]Process 14483 attached (waiting for parent)
+[pid 14483] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 15 vars */]Process 14482 detached
+[pid 14485] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 14487 attached
+[pid 14487] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 15 vars */]) = 0
+[pid 14489] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 14488 detached
+[pid 14491] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 15 vars */]) = 0
+[pid 14494] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14495] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 15 vars */]Process 14493 detached
+[pid 14498] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14499] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 15 vars */]Process 14496 detached
+[pid 14502] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 15 vars */] <unfinished ...>
+[pid 14503] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14506] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */] <unfinished ...>
+[pid 14507] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 15 vars */] <unfinished ...>
+[pid 14510] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 14508 detached
+[pid 14511] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 15 vars */]) = 0
+[pid 14514] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 14515] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 18 vars */]) = 0
+[pid 14517] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 14516 detached
+[pid 14519] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 22 vars */]Process 14518 detached
+[pid 14521] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+[pid 14523] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 22 vars */]Process 14522 detached
+[pid 14525] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 14524 detached
+[pid 14527] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 22 vars */]Process 14526 detached
+[pid 14529] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 14531] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 25 vars */]) = 0
+[pid 14533] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 14535] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 26 vars */]) = 0
+[pid 14537] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+[pid 14539] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 28 vars */]Process 14538 detached
+[pid 14544] execve("/bin/ps", ["/bin/ps", "-p", "14447", "-ocomm="], [/* 26 vars */] <unfinished ...>
+[pid 14545] execve("/bin/ps", ["/bin/ps", "-p", "14446", "-ocomm="], [/* 28 vars */]) = 0
+[pid 14546] execve("/bin/basename", ["/bin/basename", "bash"], [/* 28 vars */]) = 0
+[pid 14548] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 31 vars */]) = 0
+[pid 14549] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 14551] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+[pid 14553] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 33 vars */]) = 0
+[pid 14555] execve("/bin/uname", ["uname", "-m"], [/* 33 vars */]) = 0
+[pid 14557] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 14556 detached
+[pid 14559] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 33 vars */]Process 14558 detached
+[pid 14561] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 14563] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 14562 detached
+[pid 14565] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 37 vars */]Process 14564 detached
+[pid 14567] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 37 vars */]Process 14566 detached
+[pid 14569] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+[pid 14571] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]) = 0
+[pid 14573] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 37 vars */]) = 0
+[pid 14576] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 40 vars */]Process 14575 detached
+[pid 14577] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */] <unfinished ...>
+[pid 14579] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 40 vars */]Process 14578 detached
+[pid 14581] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]Process 14580 detached
+[pid 14583] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 14582 detached
+[pid 14585] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 42 vars */]) = 0
+[pid 14587] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 14589] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 44 vars */]) = 0
+[pid 14591] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 14593] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 44 vars */]) = 0
+[pid 14595] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */] <unfinished ...>
+[pid 14596] execve("/bin/sh", ["/bin/sh", "-c", "echo \"SSH_TTY=$SSH_TTY\""], [/* 45 vars */]) = 0
+[pid 14597] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */]) = 0
+[pid 14597] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */]) = 0
+[pid 14599] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]Process 14598 detached
+[pid 14601] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+[pid 14603] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]) = 0
+[pid 14605] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+[pid 14607] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 14606 detached
+[pid 14609] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+[pid 14611] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 14610 detached
+[pid 14613] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+[pid 14615] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]Process 14614 detached
+[pid 14617] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]) = 0
+[pid 14619] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 14618 detached
+[pid 14621] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+[pid 14623] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 14622 detached
+[pid 14625] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+[pid 14627] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+[pid 14629] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 14628 detached
+[pid 14631] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 14633] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 14632 detached
+[pid 14635] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]Process 14634 detached
+[pid 14637] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 14636 detached
+[pid 14639] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 14641] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 14643] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+[pid 14646] execve("/bin/ps", ["/bin/ps", "-p", "14597", "-ocomm="], [/* 26 vars */]) = 0
+[pid 14647] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 14649] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+[pid 14651] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]) = 0
+[pid 14653] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 14655] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 14654 detached
+[pid 14657] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 14656 detached
+[pid 14659] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 14658 detached
+[pid 14661] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 14663] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+[pid 14665] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+[pid 14667] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 14669] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 14671] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 14672] execve("/bin/bash", ["bash", "-c", "/usr/libexec/openssh/sftp-server"], [/* 8 vars */]) = 0
+[pid 14672] execve("/usr/libexec/openssh/sftp-server", ["/usr/libexec/openssh/sftp-server"], [/* 42 vars */]) = 0
+[pid 14674] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+[pid 14676] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]Process 14675 detached
+[pid 14678] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]) = 0
+[pid 14680] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+[pid 14682] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 14681 detached
+[pid 14684] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+[pid 14686] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 14685 detached
+[pid 14688] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+[pid 14690] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+[pid 14692] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]Process 14691 detached
+[pid 14694] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+[pid 14696] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+[pid 14698] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 14697 detached
+[pid 14700] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+[pid 14702] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+[pid 14704] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]) = 0
+[pid 14706] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 14708] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 14707 detached
+[pid 14710] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+[pid 14712] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+[pid 14714] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 14716] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 14718] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+[pid 14721] execve("/bin/ps", ["/bin/ps", "-p", "14672", "-ocomm="], [/* 26 vars */]) = 0
+[pid 14722] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 14724] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+[pid 14726] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 14725 detached
+[pid 14728] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 14730] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 14729 detached
+[pid 14732] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]) = 0
+[pid 14734] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 14733 detached
+[pid 14736] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 14738] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+[pid 14740] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 14739 detached
+[pid 14742] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 14744] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 14746] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 14749] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=1\" > /dev/pts/3; pwd"], [/* 42 vars */]) = 0
+[pid 14749] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=1\" > /dev/pts/3; pwd'"], [/* 8 vars */]) = 0
+[pid 14751] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+[pid 14753] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+[pid 14755] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]) = 0
+[pid 14757] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 14756 detached
+[pid 14759] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]) = 0
+[pid 14761] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 14760 detached
+[pid 14763] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]) = 0
+[pid 14765] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+[pid 14767] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+[pid 14769] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]) = 0
+[pid 14771] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+[pid 14773] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]Process 14772 detached
+[pid 14775] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 14774 detached
+[pid 14777] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 14776 detached
+[pid 14779] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]Process 14778 detached
+[pid 14781] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]) = 0
+[pid 14783] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 14785] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]) = 0
+[pid 14787] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+[pid 14789] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+[pid 14791] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 14793] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 14795] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 14794 detached
+[pid 14798] execve("/bin/ps", ["/bin/ps", "-p", "14749", "-ocomm="], [/* 26 vars */]) = 0
+[pid 14801] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 14803] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+[pid 14805] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 14804 detached
+[pid 14807] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 14809] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 14808 detached
+[pid 14811] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 14810 detached
+[pid 14813] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]) = 0
+[pid 14815] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 14817] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]Process 14816 detached
+[pid 14819] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+[pid 14821] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 14823] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 14825] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 14827] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+[pid 14829] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+[pid 14831] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]) = 0
+[pid 14833] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]) = 0
+[pid 14835] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+[pid 14837] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]) = 0
+[pid 14839] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]) = 0
+[pid 14841] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]Process 14840 detached
+[pid 14843] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]) = 0
+[pid 14845] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]) = 0
+[pid 14847] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]) = 0
+[pid 14849] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+[pid 14851] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+[pid 14853] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]) = 0
+[pid 14855] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+[pid 14857] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+[pid 14859] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+[pid 14861] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]) = 0
+[pid 14863] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 14865] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+[pid 14867] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]) = 0
+[pid 14869] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]) = 0
+[pid 14871] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]) = 0
+[pid 14873] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]) = 0
+[pid 14876] execve("/bin/ps", ["/bin/ps", "-p", "14749", "-ocomm="], [/* 45 vars */]) = 0
+[pid 14877] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+[pid 14879] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]) = 0
+[pid 14881] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]) = 0
+[pid 14883] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+[pid 14885] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+[pid 14887] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]) = 0
+[pid 14889] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 14888 detached
+[pid 14891] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+[pid 14893] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+[pid 14895] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 14896] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=2\" > /dev/pts/3; cd /root && ompi_info -a --parseable"], [/* 42 vars */]) = 0
+[pid 14896] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=2\" > /dev/pts/3; cd /root && ompi_info -a --parseable'"], [/* 8 vars */]) = 0
+[pid 14898] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+[pid 14900] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+[pid 14902] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */]Process 14901 detached
+[pid 14904] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]) = 0
+[pid 14906] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */]Process 14905 detached
+[pid 14908] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]) = 0
+[pid 14910] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]) = 0
+[pid 14912] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+[pid 14914] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]Process 14913 detached
+[pid 14916] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */]) = 0
+[pid 14918] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]) = 0
+[pid 14920] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]Process 14919 detached
+[pid 14922] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]) = 0
+[pid 14924] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+[pid 14926] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]Process 14925 detached
+[pid 14928] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 14927 detached
+[pid 14930] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 14932] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 14931 detached
+[pid 14934] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+[pid 14936] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 14935 detached
+[pid 14938] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 14940] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 14942] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]Process 14941 detached
+[pid 14945] execve("/bin/ps", ["/bin/ps", "-p", "14896", "-ocomm="], [/* 26 vars */]) = 0
+[pid 14946] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 14948] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]) = 0
+[pid 14950] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 14949 detached
+[pid 14952] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 14954] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+[pid 14956] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 14955 detached
+[pid 14958] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 14957 detached
+[pid 14960] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 14962] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+[pid 14964] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]) = 0
+[pid 14966] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 14968] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 14970] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 14972] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+[pid 14974] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */]) = 0
+[pid 14976] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]Process 14975 detached
+[pid 14978] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */]Process 14977 detached
+[pid 14980] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+[pid 14982] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]) = 0
+[pid 14984] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]) = 0
+[pid 14986] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]) = 0
+[pid 14988] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]Process 14987 detached
+[pid 14990] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */]) = 0
+[pid 14992] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */]) = 0
+[pid 14994] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+[pid 14996] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+[pid 14998] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]) = 0
+[pid 15000] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+[pid 15002] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+[pid 15004] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+[pid 15006] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]) = 0
+[pid 15008] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 15010] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+[pid 15012] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]) = 0
+[pid 15014] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]) = 0
+[pid 15016] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]Process 15015 detached
+[pid 15018] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]) = 0
+[pid 15021] execve("/bin/ps", ["/bin/ps", "-p", "14896", "-ocomm="], [/* 45 vars */]) = 0
+[pid 15022] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+[pid 15024] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]) = 0
+[pid 15026] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]Process 15025 detached
+[pid 15028] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]Process 15027 detached
+[pid 15030] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+[pid 15032] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 15031 detached
+[pid 15034] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]) = 0
+[pid 15036] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+[pid 15038] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+[pid 15040] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 15041] execve("/opt/openmpi/bin/ompi_info", ["ompi_info", "-a", "--parseable"], [/* 47 vars */]) = 0
+[pid 15042] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=3\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=88dba5a5-ed44-4022-b489-f7f9bffa6f31\"; export \"PTP_DEBUGGER_ARGS=--port=55330 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31 --port\\=55330 --host\\=localhost --debugger\\=gdb-mi"], [/* 42 vars */] <unfinished ...>
+[pid 15042] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=3\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=88dba5a5-ed44-4022-b489-f7f9bffa6f31\"; export \"PTP_DEBUGGER_ARGS=--port=55330 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31 --port\\=55330 --host\\=localhost --debugger\\=gdb-mi'"], [/* 8 vars */]) = 0
+[pid 15043] execve("/bin/bash", ["/bin/bash", "-l", "-c", "echo \"PID=$$ PIID=4\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=88dba5a5-ed44-4022-b489-f7f9bffa6f31\"; export \"PTP_DEBUGGER_ARGS=--port=55330 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 -nolocal --hostfile /public/krime/ma2.ma"], [/* 42 vars */] <unfinished ...>
+[pid 15043] execve("/bin/bash", ["bash", "-c", "/bin/bash -l -c 'echo \"PID=$$ PIID=4\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=88dba5a5-ed44-4022-b489-f7f9bffa6f31\"; export \"PTP_DEBUGGER_ARGS=--port=55330 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 -nolocal --hostfile /public/krime/ma2.ma'"], [/* 8 vars */]) = 0
+[pid 15046] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+[pid 15047] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 13 vars */]) = 0
+[pid 15049] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+[pid 15051] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 13 vars */]) = 0
+[pid 15054] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15055] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15057] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 15056 detached
+[pid 15059] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 13 vars */]Process 15058 detached
+[pid 15062] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15063] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15066] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15067] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 13 vars */]Process 15065 detached
+[pid 15070] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]) = 0
+[pid 15071] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 13 vars */]Process 15069 detached
+[pid 15074] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]) = 0
+[pid 15075] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 13 vars */]Process 15073 detached
+[pid 15078] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]) = 0
+[pid 15079] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 13 vars */]Process 15076 detached
+[pid 15082] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15083] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 13 vars */] <unfinished ...>
+[pid 15085] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 15084 detached
+[pid 15087] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 13 vars */]Process 15086 detached
+[pid 15089] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]Process 15088 detached
+[pid 15091] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 13 vars */]) = 0
+[pid 15093] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 15094 attached (waiting for parent)
+[pid 15095] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 13 vars */]Process 15094 detached
+[pid 15097] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]Process 15099 attached (waiting for parent)
+[pid 15099] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 13 vars */]) = 0
+[pid 15101] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]Process 15102 attached (waiting for parent)
+[pid 15103] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 13 vars */]) = 0
+[pid 15105] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 15106 attached (waiting for parent)
+[pid 15107] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 13 vars */]Process 15106 detached
+[pid 15109] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 15111] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 16 vars */]) = 0
+[pid 15113] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 15112 detached
+[pid 15115] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 20 vars */]Process 15114 detached
+[pid 15117] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]) = 0
+[pid 15119] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 20 vars */]Process 15117 detached
+[pid 15121] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]Process 15120 detached
+[pid 15123] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 20 vars */]) = 0
+[pid 15125] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]Process 15124 detached
+[pid 15127] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 23 vars */]) = 0
+[pid 15129] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 15131] execve("/sbin/consoletype", ["/sbin/consoletype", "stdout"], [/* 24 vars */]) = 0
+[pid 15133] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */]) = 0
+[pid 15135] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 26 vars */] <unfinished ...>
+[pid 15138] execve("/bin/ps", ["/bin/ps", "-p", "15043", "-ocomm="], [/* 26 vars */] <unfinished ...>
+[pid 15141] execve("/bin/ps", ["/bin/ps", "-p", "15042", "-ocomm="], [/* 26 vars */]) = 0
+[pid 15142] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 15143] execve("/bin/basename", ["/bin/basename", "bash"], [/* 26 vars */]) = 0
+[pid 15145] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */] <unfinished ...>
+[pid 15147] execve("/bin/sed", ["sed", "-n", "s/[ \t#].*$//; /./H; $ { x; s/^\\n//; s/\\n/:/g; p; }", "/usr/share/Modules/init/.modulespath"], [/* 29 vars */]Process 15145 detached
+[pid 15149] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 15148 detached
+[pid 15151] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 31 vars */]Process 15150 detached
+[pid 15153] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]) = 0
+[pid 15155] execve("/bin/uname", ["uname", "-m"], [/* 31 vars */]Process 15157 attached
+[pid 15157] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]Process 15156 detached
+[pid 15159] execve("/bin/grep", ["/bin/grep", "-q", "/usr/lib64/qt-3.3/bin"], [/* 31 vars */]) = 0
+[pid 15161] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 15160 detached
+[pid 15163] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 35 vars */]Process 15161 detached
+[pid 15165] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */]Process 15164 detached
+[pid 15167] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 35 vars */] <unfinished ...>
+[pid 15169] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 15171] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 35 vars */]) = 0
+[pid 15173] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]Process 15172 detached
+[pid 15175] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 38 vars */]) = 0
+[pid 15177] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */] <unfinished ...>
+[pid 15179] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 38 vars */]Process 15178 detached
+[pid 15181] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 15183] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 40 vars */]) = 0
+[pid 15186] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 15187] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 42 vars */]) = 0
+[pid 15190] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 15191] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 42 vars */]) = 0
+[pid 15194] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]Process 15195 attached (waiting for parent)
+[pid 15195] execve("/usr/bin/id", ["id", "-un"], [/* 42 vars */]) = 0
+[pid 15198] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */] <unfinished ...>
+[pid 15199] execve("/bin/hostname", ["/bin/hostname"], [/* 42 vars */] <unfinished ...>
+[pid 15201] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]Process 15200 detached
+[pid 15203] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/ncbi/bin"], [/* 45 vars */]) = 0
+[pid 15205] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15207] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mpiblast/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15210] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+[pid 15211] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/EMBOSS/bin"], [/* 45 vars */]) = 0
+[pid 15213] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]Process 15215 attached (waiting for parent)
+[pid 15215] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/clustalw/bin"], [/* 45 vars */]Process 15214 detached
+[pid 15218] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15219] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tcoffee/bin"], [/* 45 vars */]Process 15217 detached
+[pid 15221] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]Process 15223 attached
+[pid 15223] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/hmmer/bin"], [/* 45 vars */]Process 15222 detached
+[pid 15226] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */]Process 15224 detached
+[pid 15227] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/phylip/exe"], [/* 45 vars */] <unfinished ...>
+[pid 15229] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */] <unfinished ...>
+[pid 15231] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/mrbayes"], [/* 45 vars */] <unfinished ...>
+[pid 15234] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */] <unfinished ...>
+[pid 15235] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/fasta"], [/* 45 vars */] <unfinished ...>
+[pid 15237] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]) = 0
+[pid 15239] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/bin"], [/* 45 vars */]Process 15238 detached
+[pid 15242] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]) = 0
+[pid 15243] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/glimmer/scripts"], [/* 45 vars */]Process 15241 detached
+[pid 15246] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15247] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gromacs/bin"], [/* 45 vars */]Process 15244 detached
+[pid 15249] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]Process 15248 detached
+[pid 15251] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/gmap/bin"], [/* 45 vars */]) = 0
+[pid 15254] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+[pid 15255] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/tigr/bin"], [/* 45 vars */]) = 0
+[pid 15257] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+[pid 15259] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/autodocksuite/bin"], [/* 45 vars */]) = 0
+[pid 15262] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */]Process 15260 detached
+[pid 15263] execve("/bin/grep", ["/bin/grep", "-q", "/opt/bio/wgs/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15266] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */] <unfinished ...>
+[pid 15267] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */] <unfinished ...>
+[pid 15269] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+[pid 15271] execve("/bin/grep", ["/bin/grep", "-q", "/opt/eclipse"], [/* 45 vars */]) = 0
+[pid 15273] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 15272 detached
+[pid 15275] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/bin"], [/* 45 vars */]Process 15274 detached
+[pid 15277] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]) = 0
+[pid 15279] execve("/bin/grep", ["/bin/grep", "-q", "/opt/ganglia/sbin"], [/* 45 vars */]Process 15278 detached
+[pid 15281] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]Process 15280 detached
+[pid 15283] execve("/bin/grep", ["/bin/grep", "-q", "/usr/java/latest/bin"], [/* 45 vars */]) = 0
+[pid 15286] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */]Process 15285 detached
+[pid 15287] execve("/bin/grep", ["/bin/grep", "-q", "/opt/maven/bin"], [/* 45 vars */] <unfinished ...>
+[pid 15292] execve("/bin/ps", ["/bin/ps", "-p", "15043", "-ocomm="], [/* 45 vars */] <unfinished ...>
+[pid 15293] execve("/bin/ps", ["/bin/ps", "-p", "15042", "-ocomm="], [/* 45 vars */] <unfinished ...>
+[pid 15294] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+[pid 15295] execve("/bin/basename", ["/bin/basename", "bash"], [/* 45 vars */]) = 0
+[pid 15297] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]Process 15296 detached
+[pid 15299] execve("/bin/grep", ["/bin/grep", "-q", "/opt/pdsh/bin"], [/* 45 vars */]Process 15298 detached
+[pid 15301] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]) = 0
+[pid 15303] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]Process 15305 attached (waiting for parent)
+[pid 15305] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/bin"], [/* 45 vars */]Process 15304 detached
+[pid 15307] execve("/bin/grep", ["/bin/grep", "-q", "/opt/rocks/sbin"], [/* 45 vars */]) = 0
+[pid 15309] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */]) = 0
+[pid 15311] execve("/usr/bin/id", ["id", "-u", "condor"], [/* 45 vars */] <unfinished ...>
+[pid 15313] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]Process 15312 detached
+[pid 15315] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]Process 15317 attached
+[pid 15317] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/bin"], [/* 45 vars */]) = 0
+[pid 15319] execve("/bin/grep", ["/bin/grep", "-q", "/opt/condor/sbin"], [/* 45 vars */]) = 0
+[pid 15321] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+[pid 15323] execve("/usr/bin/modulecmd", ["/usr/bin/modulecmd", "bash", "add", "rocks-openmpi"], [/* 45 vars */]) = 0
+[pid 15325] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]Process 15326 attached
+[pid 15327] execve("/usr/bin/stat", ["stat", "-c", "%h", "/etc/ssh/authorized_keys/id_rsa.pub"], [/* 45 vars */]) = 0
+[pid 15329] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 15331] execve("/usr/bin/id", ["/usr/bin/id", "-u"], [/* 45 vars */]) = 0
+[pid 15332] execve("/public/bin/sdm700", ["/public/bin/sdm700", "--master", "--routing_file=routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31", "--port=55330", "--host=localhost", "--debugger=gdb-mi"], [/* 51 vars */]) = 0
+[pid 15333] execve("/usr/bin/perl", ["perl", "/root/.eclipsesettings/rms/OPENMPI/start_job.pl", "mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma"], [/* 51 vars */]) = 0
+[pid 15335] execve("/opt/gridview//pbs//dispatcher//bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=55330", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15335] execve("/opt/gridview//pbs//dispatcher//sbin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=55330", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15335] execve("/opt/gridview//pbs//dispatcher-sched//bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=55330", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15335] execve("/opt/gridview//pbs//dispatcher-sched//sbin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=55330", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31"], [/* 51 vars */]) = -1 ENOENT (No such file or directory)
+[pid 15335] execve("/opt/openmpi/bin/mpirun", ["mpirun", "-np", "1", "-nolocal", "--hostfile", "/public/krime/ma2.ma", "-mca", "orte_show_resolved_nodenames", "1", "-display-map", "/public/bin/sdm700", "--port=55330", "--host=localhost", "--debugger=gdb-mi", "--debug=255", "--routing_file=/public/SynchronizedProjects_01/MPITestDawn/Debug/routes_88dba5a5-ed44-4022-b489-f7f9bffa6f31"], [/* 51 vars */]) = 0
+[pid 15336] execve("//usr/bin/ssh", ["/usr/bin/ssh", "-x", "node2", " orted", "--daemonize", "-mca", "ess", "env", "-mca", "orte_ess_jobid", "2474377216", "-mca", "orte_ess_vpid", "1", "-mca", "orte_ess_num_procs", "2", "--hnp-uri", "\"2474377216.0;tcp://10.10.10.1:52537;tcp://192.168.0.5:52537\"", "-mca", "orte_show_resolved_nodenames", "1"], [/* 55 vars */]) = 0
