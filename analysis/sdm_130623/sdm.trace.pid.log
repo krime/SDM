@@ -1,0 +1,26 @@
+4929
+/bin/bash -l -c 'echo \"PID=$$ PIID=1\" > /dev/pts/3; echo `id -un`:`id -u`:`id -G`'
+5080
+/bin/bash -l -c 'echo \"PID=$$ PIID=2\" > /dev/pts/3; pwd'
+5225
+/bin/bash -l -c 'echo \"PID=$$ PIID=3\" > /dev/pts/3; uname'
+5371
+/bin/bash -l -c 'echo \"PID=$$ PIID=4\" > /dev/pts/3; uname -m'
+5517
+/bin/bash -l -c 'echo \"PID=$$ PIID=5\" > /dev/pts/3; uname -r'
+5663
+/bin/bash -l -c 'echo \"PID=$$ PIID=6\" > /dev/pts/3; pwd'
+5808
+/bin/bash -l -c 'echo \"PID=$$ PIID=7\" > /dev/pts/3; printenv'
+5954
+/bin/bash -l -c 'echo \"PID=$$ PIID=8\" > /dev/pts/3; cd /root && ompi_info -a --parseable'
+
+
+
+
+6100
+/bin/bash -l -c 'echo \"PID=$$ PIID=9\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=3d703ed9-42be-4df3-9c07-9ec17305ff4e\"; export \"PTP_DEBUGGER_ARGS=--port=58887 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && perl /root/.eclipsesettings/rms/OPENMPI/start_job.pl mpirun -np 1 -nolocal --hostfile /public/krime/ma2.ma'
+6101
+/bin/bash -l -c 'echo \"PID=$$ PIID=10\" > /dev/pts/3; export \"PTP_DEBUGGER_EXECUTABLE_PATH=/public/bin/sdm700\"; export \"PTP_LAUNCH_MODE=debug\"; export \"PTP_JOBID=3d703ed9-42be-4df3-9c07-9ec17305ff4e\"; export \"PTP_DEBUGGER_ARGS=--port=58887 --host=localhost --debugger=gdb-mi\"; cd /public/SynchronizedProjects_01/MPITestDawn/Debug && /public/bin/sdm700 --master --routing_file\\=routes_3d703ed9-42be-4df3-9c07-9ec17305ff4e --port\\=58887 --host\\=localhost --debugger\\=gdb-mi'
+
+
